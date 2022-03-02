@@ -41,3 +41,5 @@ datasets/
 # ignore bert output files
 jnlpba_outputs/
 bctogm_outputs/
+outputs/
+saved_outputs/

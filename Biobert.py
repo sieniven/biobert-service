@@ -41,6 +41,11 @@ flags.DEFINE_integer("max_seq_length", config["max_seq_length"], "")
 flags.DEFINE_integer("iterations_per_loop", config["iterations_per_loop"], "")
 flags.DEFINE_integer("save_checkpoints_steps", config["save_checkpoints_steps"], "")
 
+# # remove token files
+# path = os.path.join(FLAGS.output_dir, "token_title.txt")
+# if os.path.exists(path):
+#     os.remove(path)
+
 """
 A single training/test example for simple sequence classification.
 1. guid: Unique id for the example.
@@ -67,16 +72,20 @@ class InputFeatures(object):
 BioBert class to predict named entities present in BioBertModel class. 
 """
 class Biobert(object):
-    def __init__(self, input = None):
-        self.input_title = []
-        self.input_abstract = []
-        self.output_title = []
-        self.output_abstract = []
+    def __init__(self):
+        self.index = 0
         self.logger = logging.getLogger(__name__)
+        self.ntokens_title = []
+        self.ntokens_abstract = []
 
-        self.max_seq_length = FLAGS.max_seq_length
+        self.input_title = None
+        self.input_abstract = None
+        self.output_title = None
+        self.output_abstract = None
+        
         self.use_tpu = FLAGS.use_tpu
         self.use_one_hot_embeddings = FLAGS.use_tpu
+        self.max_seq_length = FLAGS.max_seq_length
         self.init_checkpoint = FLAGS.init_checkpoint
 
         self.label_list = self.get_labels()
@@ -94,37 +103,32 @@ class Biobert(object):
             vocab_file=FLAGS.vocab_file, do_lower_case=FLAGS.do_lower_case)
         self.bert_config = biobert.modeling.BertConfig.from_json_file(FLAGS.bert_config_file)
 
-        if (input):
-            self.load_data(input)
+        # initialize model
+        self.initialize_model()
         
-        # run prediction for input data
-        self.predict()
-    """
-    method to get list of labels
-    """
     def get_labels(self):
         return ["[PAD]", "B", "I", "O", "X", "[CLS]", "[SEP]"]
 
-    """
-    method to create inputs for BioBert model
-    """
-    def load_data(self, input_data_list):
-        for index, data in enumerate(input_data_list):
-            text_title = biobert.tokenization.convert_to_unicode(data.article_data["title"])
-            text_abstract = biobert.tokenization.convert_to_unicode(data.article_data["abstract"])
-            label = biobert.tokenization.convert_to_unicode("O")
-            self.input_title.append(InputData(index, text_title, label))
-            self.input_abstract.append(InputData(index, text_abstract, label))
-    
-    """
-    method to write tokens to output file
-    """
+    def load_data(self, input_data):
+        self.index += 1
+        text_title = biobert.tokenization.convert_to_unicode(input_data.article_data["title"])
+        text_abstract = biobert.tokenization.convert_to_unicode(input_data.article_data["abstract"])
+        label = biobert.tokenization.convert_to_unicode("O")
+
+        # get input data's title and abstract as InputData
+        self.input_title = InputData(self.index, text_title, label)
+        self.input_abstract = InputData(self.index, text_abstract, label)
+        
+    def save_tokens(self, tokens, mode):
+        if (mode == "title"):
+            self.ntokens_title.append((self.index, tokens))
+        else:
+            self.ntokens_abstract.append((self.index, tokens))
+
     def write_tokens(self, tokens, mode):
         path = os.path.join(FLAGS.output_dir, "token_"+mode+".txt")
-        if os.path.exists(path):
-            os.remove(path)
-        
         with open(path, 'a', encoding="utf-8") as wf:
+            wf.write(str(self.index) + ": \n")
             for token in tokens:
                 if token!="[PAD]":
                     wf.write(token+'\n')
@@ -192,6 +196,7 @@ class Biobert(object):
             tf.logging.info("segment_ids: %s" % " ".join([str(x) for x in segment_ids]))
             tf.logging.info("label_ids: %s" % " ".join([str(x) for x in label_ids]))
 
+        self.save_tokens(ntokens, mode)
         self.write_tokens(ntokens, mode)
         features = InputFeatures(input_ids, input_mask, segment_ids, label_ids)
         return features
@@ -199,24 +204,21 @@ class Biobert(object):
     """
     method to convert input data to features
     """
-    def file_based_convert_data_entries_to_features(self, data_entries, output_file, mode):
+    def file_based_convert_data_entries_to_features(self, data, output_file, mode):
         writer = tf.python_io.TFRecordWriter(output_file)
-        for data in data_entries:
-            if (data.guid % 5000 == 0):
-                tf.logging.info(f"Writing example {data.guid} of {len(data_entries)}")
-            feature = self.convert_data_entry(data, mode)
-            
-            def create_int_feature(values):
-                f = tf.train.Feature(int64_list=tf.train.Int64List(value=list(values)))
-                return f
+        feature = self.convert_data_entry(data, mode)
+        
+        def create_int_feature(values):
+            f = tf.train.Feature(int64_list=tf.train.Int64List(value=list(values)))
+            return f
 
-            features = collections.OrderedDict()
-            features["input_ids"] = create_int_feature(feature.input_ids)
-            features["input_mask"] = create_int_feature(feature.input_mask)
-            features["segment_ids"] = create_int_feature(feature.segment_ids)
-            features["label_ids"] = create_int_feature(feature.label_ids)
-            tf_example = tf.train.Example(features=tf.train.Features(feature=features))
-            writer.write(tf_example.SerializeToString())
+        features = collections.OrderedDict()
+        features["input_ids"] = create_int_feature(feature.input_ids)
+        features["input_mask"] = create_int_feature(feature.input_mask)
+        features["segment_ids"] = create_int_feature(feature.segment_ids)
+        features["label_ids"] = create_int_feature(feature.label_ids)
+        tf_example = tf.train.Example(features=tf.train.Features(feature=features))
+        writer.write(tf_example.SerializeToString())
 
     def file_based_input_fn_builder(self, input_file, drop_remainder):
         name_to_features = {
@@ -317,7 +319,7 @@ class Biobert(object):
             return output_spec
         return model_fn
 
-    def predict(self):
+    def initialize_model(self):
         tf.logging.set_verbosity(tf.logging.INFO)
         tf.gfile.MakeDirs(FLAGS.output_dir)
 
@@ -337,8 +339,13 @@ class Biobert(object):
                 num_shards=FLAGS.num_tpu_cores, per_host_input_for_training=is_per_host))
 
         model_fn = self.model_fn_builder()
-        estimator = tf.contrib.tpu.TPUEstimator(use_tpu=self.use_tpu, model_fn=model_fn,
+        self.estimator = tf.contrib.tpu.TPUEstimator(use_tpu=self.use_tpu, model_fn=model_fn,
             config=run_config, predict_batch_size=FLAGS.predict_batch_size)
+
+
+    def predict(self):
+        if ((self.input_title is None) or (self.input_abstract is None)):
+            return
 
         # predict input titles
         modes = ["title", "abstract"]
@@ -348,23 +355,24 @@ class Biobert(object):
 
             if (mode == "title"):
                 self.file_based_convert_data_entries_to_features(self.input_title, predict_file, mode)
+                tf.logging.info("***** Running prediction for title *****")
+                tf.logging.info("  Batch size = %d", FLAGS.predict_batch_size)
+                tf.logging.info("  Example of predict_examples = %s", self.input_title.text)
             else:
                 self.file_based_convert_data_entries_to_features(self.input_abstract, predict_file, mode)
-
-            tf.logging.info("***** Running prediction for titles *****")
-            tf.logging.info("  Number of entries = %d", len(self.input_title))
-            tf.logging.info("  Batch size = %d", FLAGS.predict_batch_size)
-            tf.logging.info("  Example of predict_examples = %s", self.input_title[0].text)
+                tf.logging.info("***** Running prediction for abstract *****")
+                tf.logging.info("  Batch size = %d", FLAGS.predict_batch_size)
+                tf.logging.info("  Example of predict_examples = %s", self.input_abstract.text)
 
             if self.use_tpu:
                 raise ValueError("Prediction in TPU not supported")
 
             predict_drop_remainder = True if self.use_tpu else False
             predict_input_fn = self.file_based_input_fn_builder(predict_file, drop_remainder=predict_drop_remainder)
-            result = estimator.predict(input_fn=predict_input_fn)
+            result = self.estimator.predict(input_fn=predict_input_fn)
             
             output_predict_file = os.path.join(FLAGS.output_dir, "label_"+mode+".txt")
-            with open(output_predict_file,'w') as writer:
+            with open(output_predict_file, 'a') as writer:
                 for resultIdx, prediction in enumerate(result):
                     # Fix for "padding occurrence amid sentence" error
                     # (which occasionally cause mismatch between the number of predicted tokens and labels.)
@@ -379,9 +387,9 @@ class Biobert(object):
                                 predLabelSent.append(self.id_to_label_map[predLabel])
 
                     if (mode == "title"):
-                        self.output_title.append(predLabelSent)
+                        self.output_title = (self.index, predLabelSent)
                     else:
-                        self.output_abstract.append(predLabelSent)
+                        self.output_abstract = (self.index, predLabelSent)
 
-                    output_line = "\n".join(predLabelSent) + "\n"
+                    output_line = str(self.index) + ": " + "".join(predLabelSent) + "\n"
                     writer.write(output_line)

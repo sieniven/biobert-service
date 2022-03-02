@@ -23,7 +23,7 @@ class BiobertModel(Model):
     """
     def recognize(self, title_entities, abstract_entities):
         self.title_entities = title_entities
-        self.abstractEntities = abstract_entities
+        self.abstract_entities = abstract_entities
 
     """
     method to prioritize mentioned entites found in titles and abstracts with BioBert
