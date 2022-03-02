@@ -1,0 +1,76 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id" : "gtt-objectmodel",
+    "description": "The main GenesThatTweet object model for service usage and persistence",
+    "type" : ["object", "array"],
+    
+
+    "properties": {
+
+        "_id" : {"type": "string"},
+        "article_ids": {
+            "description": "Various ids that point to a specific article",
+            "type": "object",
+            "properties": {
+                "pubmed" : {"type": "string"},
+                "bioarxiv"  : {"type": "string"},
+                "doi"    : {"type": "string"},
+                "twitter": {
+                    "description": "Important Tweet-related IDs",
+                    "type": "object",
+                    "properties": {
+                        "tweet_id"  : {"type": "integer"},
+                        "user_id"   : {"type": "integer"},
+                        "username"  : {"type": "string"}
+                    }
+                }
+            }
+        },
+
+        "article_data": {
+            "description": "Contents of the article/tweet ingested",
+            "type": "object",
+            "properties": {
+                "title"   : {"type": "string"},
+                "abstract": {"type": "string"},
+                "body"    : {"type": "string"},
+                "journal" : {"type": "string"}
+            }
+        },
+
+        "source": {
+            "description": "Source from which payload came from",
+            "type": "string",
+            "enum": ["pubmed", "biorxiv", "twitter",""]
+        },
+
+        "date_ingested": {"type": "string"},
+        "history": {
+            "type" : "array",
+            "items" : { "type": "string"}
+        },
+        "tags": {
+            "description": "Labels which stages of the GTT pipeline have already been completed",
+            "type": "object",
+            "properties": {
+                "ingested": {"type": "boolean"},
+                "normalised" : {"type": "boolean"},
+                "published": {
+                    "type" : "array",
+                    "items": {"type":"string"}
+                }
+            }
+        },
+        "entities": {
+            "description": "identifiers for the bio entities in the article",
+            "type": "object",
+            "additionalProperties" : true,
+            "properties" : {
+                "text" :      {"type" : "string"},
+                "namespace" : {"type" : "string"},
+                "symbol" :    {"type" : "string"}
+            }
+        }
+    },
+    "required": ["_id", "article_ids", "source", "tags"]
+}
