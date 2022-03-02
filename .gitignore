@@ -1,0 +1,43 @@
+# Compiled Java class files
+*.class
+
+# Compiled Python bytecode
+*.py[cod]
+
+# Log files
+*.log
+
+# Package files
+*.jar
+
+# vscode and idea
+.vscode/
+.idea
+
+# JetBrains IDE
+.idea/
+
+# Large media files
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+*.MTS
+
+# ignore images and pdf files
+*.png
+*.jpg
+*.pdf
+
+# ignore csv and tsv data files
+*.csv
+*.tsv
+
+# ignore datasets
+datasets/
+
+# ignore bert output files
+jnlpba_outputs/
+bctogm_outputs/

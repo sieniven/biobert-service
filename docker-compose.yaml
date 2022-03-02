@@ -1,0 +1,14 @@
+version: '3.3'
+
+services:
+  biobert:
+    build: .
+    image: biobert:gtt
+    container_name: "biobert"
+    volumes:
+      - /home/niven/biobert/bc2gm_outputs:/biobert/bc2gm_outputs:rw
+      - /home/niven/biobert/jnlpba_outputs:/biobert/jnlpba_outputs:rw
+      - /home/niven/biobert/ner_outputs:/biobert/ner_outputs:rw
+    command: bash -c "python run_ner.py --do_train=true --do_eval=true --vocab_file=./biobert_large/vocab_cased_pubmed_pmc_30k.txt --bert_config_file=./biobert_large/bert_config_bio_58k_large.json --init_checkpoint=./biobert_large/bio_bert_large_1000k.ckpt --num_train_epochs=10.0 --data_dir=./datasets/JNLPBA --output_dir=./jnlpba_outputs"
+    # command: bash -c "python run_ner.py --do_train=true --do_eval=true --vocab_file=./biobert_v1.1_pubmed/vocab.txt --bert_config_file=./biobert_v1.1_pubmed/bert_config.json --init_checkpoint=./biobert_v1.1_pubmed/model.ckpt-1000000 --num_train_epochs=10.0 --data_dir=./datasets/BC2GM --output_dir=./bctogm_outputs"
+# python run_ner.py --do_train=false --do_predict=true --do_eval=true --vocab_file=./biobert_v1.1_pubmed/vocab.txt --bert_config_file=./biobert_v1.1_pubmed/bert_config.json --init_checkpoint=./jnlpba_outputs/model.ckpt-11591 --num_train_epochs=10.0 --data_dir=./datasets/JNLPBA --output_dir=./jnlpba_outputs
