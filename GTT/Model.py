@@ -9,8 +9,8 @@ from datetime import datetime
 import jsonschema
 from jsonschema.exceptions import ValidationError
 
-import GTT
-from GTT.Persist.Articles import coll as collection
+# import GTT
+# from GTT.Persist.Articles import coll as collection
 
 
 class Model:
@@ -21,9 +21,9 @@ class Model:
     """
 
     # This is the json schema for the interface
-    schema = json.loads(GTT.schema)
+    # schema = json.loads(GTT.schema)
     # This class variable is used to decide whether validation is meaningful
-    validation = False
+    # validation = False
 
     def __init__(self):
         """Initialise a Model instance.
@@ -85,13 +85,13 @@ class Model:
 
     def post_one(self, handlers=[]):
         postData = self.postData()
-        if (Model.validation):
-            try:
-                jsonschema.validate(postData, self.__class__.schema)
-                self.logger.debug("Validated data for posting")
-            except ValidationError as VE:
-                self.logger.warning(
-                    f"Failed to validate data {postData}: {VE}")
+        # if (Model.validation):
+        #     try:
+        #         jsonschema.validate(postData, self.__class__.schema)
+        #         self.logger.debug("Validated data for posting")
+        #     except ValidationError as VE:
+        #         self.logger.warning(
+        #             f"Failed to validate data {postData}: {VE}")
         for posthandler in filter(callable, (self.posthandlers + handlers)):
             try:
                 posthandler(postData)
@@ -109,8 +109,8 @@ class Model:
         postData form :-) """
 
         try:
-            if (self.__class__.validation is True):
-                jsonschema.validate(data, self.__class__.schema)
+            # if (self.__class__.validation is True):
+            #     jsonschema.validate(data, self.__class__.schema)
             self.id = data["_id"]
             self.article_ids = data["article_ids"]
             self.source = data['source']
@@ -121,8 +121,8 @@ class Model:
                 self.entities = data["entities"]
             else:
                 self.entities = {}
-            if (Model.validation is True):
-                self.validate()
+            # if (Model.validation is True):
+            #     self.validate()
         except KeyError as e:
             self.logger.error(f"failed to digest {data}: {e}")
             self.addError()
@@ -136,36 +136,36 @@ class Model:
     def validate(self):
         """validate the object against the main GTT model schema
         """
-        if Model.validation is True:
-            return jsonschema.validate(self.postData(), self.__class__.schema)
+        # if Model.validation is True:
+        #     return jsonschema.validate(self.postData(), self.__class__.schema)
 
-    def insert(self,overwrite_ok=False):
-        """Insert into collection """
-        if not collection:
-            self.logger.info("persistence not available")
-            return
-        else:
-            data = self.postData()
-            item = {"_id": data["_id"]}
-            if collection.find_one(item):
-                if overwrite_ok:
-                    collection.replace_one(data)
-            else:
-                collection.insert_one(data)
+    # def insert(self,overwrite_ok=False):
+    #     """Insert into collection """
+    #     if not collection:
+    #         self.logger.info("persistence not available")
+    #         return
+    #     else:
+    #         data = self.postData()
+    #         item = {"_id": data["_id"]}
+    #         if collection.find_one(item):
+    #             if overwrite_ok:
+    #                 collection.replace_one(data)
+    #         else:
+    #             collection.insert_one(data)
 
-    def update(self,new_values):
-        """update in collection"""
-        if not collection:
-            self.logger.info("persistence not available")
-            return
-        else:
-            item = {"_id": self.id}
-            if collection.find_one(item):
-                self.logger.info("attempting to modify one entry")
-                UpdateResult = collection.update_one(item,new_values)
-                self.logger.info(f"modified {UpdateResult.modified_count} entries")
-            else:
-                self.logger.info(f"unable to find {item}")
+    # def update(self,new_values):
+    #     """update in collection"""
+    #     if not collection:
+    #         self.logger.info("persistence not available")
+    #         return
+    #     else:
+    #         item = {"_id": self.id}
+    #         if collection.find_one(item):
+    #             self.logger.info("attempting to modify one entry")
+    #             UpdateResult = collection.update_one(item,new_values)
+    #             self.logger.info(f"modified {UpdateResult.modified_count} entries")
+    #         else:
+    #             self.logger.info(f"unable to find {item}")
 
 # filter functions
 

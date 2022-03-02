@@ -1,0 +1,21 @@
+pyarrow==5.0.0
+gilda==0.5.3
+objectpath==0.6.1
+numpy==1.19.5
+validators==0.18.2
+pymongo==3.12.0
+indra==1.20.0
+pygelf==0.4.0
+requests==2.22.0
+coloredlogs==15.0.1
+jsonschema==3.2.0
+apscheduler==3.7.0
+Bio
+python_dateutil==2.8.2
+PyYAML==5.4.1
+redis==3.5.3
+rq==1.9.0
+
+tensorflow-gpu==1.15   # GPU version of TensorFlow >= 1.11.0. (should be under 2.0.0)
+pandas
+sklearn
