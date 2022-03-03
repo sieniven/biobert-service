@@ -22,5 +22,5 @@ def processDataset():
 
 if (__name__ == "__main__"):
     # run biobert as a process
-    main()
-    # processDataset()
+    # main()
+    processDataset()

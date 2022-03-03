@@ -41,11 +41,6 @@ flags.DEFINE_integer("max_seq_length", config["max_seq_length"], "")
 flags.DEFINE_integer("iterations_per_loop", config["iterations_per_loop"], "")
 flags.DEFINE_integer("save_checkpoints_steps", config["save_checkpoints_steps"], "")
 
-# # remove token files
-# path = os.path.join(FLAGS.output_dir, "token_title.txt")
-# if os.path.exists(path):
-#     os.remove(path)
-
 """
 A single training/test example for simple sequence classification.
 1. guid: Unique id for the example.
@@ -75,15 +70,15 @@ class Biobert(object):
     def __init__(self):
         self.index = 0
         self.logger = logging.getLogger(__name__)
+        self.input_title = None
+        self.input_abstract = None
+        self.output_title = []
+        self.output_abstract = []
         self.ntokens_title = []
         self.ntokens_abstract = []
 
-        self.input_title = None
-        self.input_abstract = None
-        self.output_title = None
-        self.output_abstract = None
-        
         self.use_tpu = FLAGS.use_tpu
+        self.output_dir = FLAGS.output_dir
         self.use_one_hot_embeddings = FLAGS.use_tpu
         self.max_seq_length = FLAGS.max_seq_length
         self.init_checkpoint = FLAGS.init_checkpoint
@@ -96,7 +91,7 @@ class Biobert(object):
             self.label_map[label] = idx
             self.id_to_label_map[idx] = label
       
-        with open(os.path.join(FLAGS.output_dir, 'label2id.pkl'), 'wb') as w:
+        with open(os.path.join(self.output_dir, 'label2id.pkl'), 'wb') as w:
             pickle.dump(self.label_map, w)
 
         self.tokenizer = biobert.tokenization.FullTokenizer(
@@ -105,7 +100,7 @@ class Biobert(object):
 
         # initialize model
         self.initialize_model()
-        
+
     def get_labels(self):
         return ["[PAD]", "B", "I", "O", "X", "[CLS]", "[SEP]"]
 
@@ -126,12 +121,14 @@ class Biobert(object):
             self.ntokens_abstract.append((self.index, tokens))
 
     def write_tokens(self, tokens, mode):
-        path = os.path.join(FLAGS.output_dir, "token_"+mode+".txt")
+        path = os.path.join(self.output_dir, "token_"+mode+".txt")
         with open(path, 'a', encoding="utf-8") as wf:
-            wf.write(str(self.index) + ": \n")
+            line = str(self.index) + ": "
             for token in tokens:
                 if token!="[PAD]":
-                    wf.write(token+'\n')
+                    line += token + " "
+            
+            wf.write(line+'\n')
             wf.close()
 
     def convert_data_entry(self, input_data, mode):
@@ -321,7 +318,7 @@ class Biobert(object):
 
     def initialize_model(self):
         tf.logging.set_verbosity(tf.logging.INFO)
-        tf.gfile.MakeDirs(FLAGS.output_dir)
+        tf.gfile.MakeDirs(self.output_dir)
 
         if self.max_seq_length > self.bert_config.max_position_embeddings:
             raise ValueError(f"Cannot use sequence length {self.max_seq_length} because the BERT model "
@@ -334,7 +331,7 @@ class Biobert(object):
 
         is_per_host = tf.contrib.tpu.InputPipelineConfig.PER_HOST_V2
         run_config = tf.contrib.tpu.RunConfig(cluster=tpu_cluster_resolver, master=FLAGS.master,
-            model_dir=FLAGS.output_dir, save_checkpoints_steps=FLAGS.save_checkpoints_steps,
+            model_dir=self.output_dir, save_checkpoints_steps=FLAGS.save_checkpoints_steps,
             tpu_config=tf.contrib.tpu.TPUConfig(iterations_per_loop=FLAGS.iterations_per_loop,
                 num_shards=FLAGS.num_tpu_cores, per_host_input_for_training=is_per_host))
 
@@ -342,16 +339,14 @@ class Biobert(object):
         self.estimator = tf.contrib.tpu.TPUEstimator(use_tpu=self.use_tpu, model_fn=model_fn,
             config=run_config, predict_batch_size=FLAGS.predict_batch_size)
 
-
     def predict(self):
         if ((self.input_title is None) or (self.input_abstract is None)):
             return
 
         # predict input titles
         modes = ["title", "abstract"]
-
         for mode in modes:
-            predict_file = os.path.join(FLAGS.output_dir, "predict_"+mode+".tf_record")
+            predict_file = os.path.join(self.output_dir, "predict_"+mode+".tf_record")
 
             if (mode == "title"):
                 self.file_based_convert_data_entries_to_features(self.input_title, predict_file, mode)
@@ -371,7 +366,7 @@ class Biobert(object):
             predict_input_fn = self.file_based_input_fn_builder(predict_file, drop_remainder=predict_drop_remainder)
             result = self.estimator.predict(input_fn=predict_input_fn)
             
-            output_predict_file = os.path.join(FLAGS.output_dir, "label_"+mode+".txt")
+            output_predict_file = os.path.join(self.output_dir, "label_"+mode+".txt")
             with open(output_predict_file, 'a') as writer:
                 for resultIdx, prediction in enumerate(result):
                     # Fix for "padding occurrence amid sentence" error
@@ -387,9 +382,9 @@ class Biobert(object):
                                 predLabelSent.append(self.id_to_label_map[predLabel])
 
                     if (mode == "title"):
-                        self.output_title = (self.index, predLabelSent)
+                        self.output_title.append((self.index, predLabelSent))
                     else:
-                        self.output_abstract = (self.index, predLabelSent)
+                        self.output_abstract.append((self.index, predLabelSent))
 
-                    output_line = str(self.index) + ": " + "".join(predLabelSent) + "\n"
+                    output_line = str(self.index) + ": " + " ".join(predLabelSent) + "\n"
                     writer.write(output_line)
