@@ -12,24 +12,41 @@ class definition of a single article input representation, to be used for Named 
 """
 class BiobertModel(Model):
     def __init__(self, record=None):
+        Model.__init__(self)
         self.logger = logging.Logger(__name__)
+        
+        self.tokens_title = None
+        self.tokens_abstract = None
+        self.prediction_title = None
+        self.prediction_abstract = None
+
+        self.title_entities = None
+        self.abstract_entities = None
 
         if (record):
             self.digest(record)
             self.add_to_history("biobert")
+    
+    """
+    method to store biobert output to Document
+    """
+    def get_biobert_output(self, tokens_title, tokens_abstract, prediction_title, prediction_abstract):
+        self.tokens_title = tokens_title
+        self.tokens_abstract = tokens_abstract
+        self.prediction_title = prediction_title
+        self.prediction_abstract = prediction_abstract
 
     """
     method to assign NER results from BioBert to a single Document
     """
-    def recognize(self, title_entities, abstract_entities):
-        self.title_entities = title_entities
-        self.abstract_entities = abstract_entities
+    def recognize(self):
+        return
 
     """
     method to prioritize mentioned entites found in titles and abstracts with BioBert
     """
     def prioritize(self, title_weight = 5):
-        return None
+        return
 
     """
     method to prioritize mentioned entities. 
@@ -39,4 +56,4 @@ class BiobertModel(Model):
     same in title except weighted
     """
     def prioritize_entities(self, entity_name, title_weight = 5):
-        return None
+        return

@@ -10,7 +10,9 @@ from GTT.Service import Service
 
 class BiobertService(Service):
     def __init__(self, RedisHost='localhost'):
+        Service.__init__(self)
         self.logger = logging.getLogger("GTT.Biobert.Service")
+        
         self.biobert = Biobert()
         self.jobs = []
         self.q = Queue(connection=Redis(RedisHost))
@@ -47,3 +49,24 @@ class BiobertService(Service):
 
     def report_failure(self, job, connection, type, value, traceback):
         self.logger.error(traceback)
+
+    def process_ingest_dataset(self):
+        models = []
+        with open('../gtt_docker/ingest/ingestDataset.json') as f:
+            input_data_list = json.loads("[" + f.read().replace("}{", "},{") +  "]")
+        
+        for data in input_data_list:
+            model = BiobertModel(data)
+            models.append(model)
+
+        for input in models:
+            self.biobert.load_data(input)
+
+            # run prediction for input data
+            self.biobert.predict()
+
+            # log predictions
+            print("Output predictions from titles: ")
+            print(self.biobert.output_title)
+            print("Output predictions from abstract: ")
+            print(self.biobert.output_abstract)

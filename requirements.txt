@@ -19,3 +19,5 @@ rq==1.9.0
 tensorflow-gpu==1.15   # GPU version of TensorFlow >= 1.11.0. (should be under 2.0.0)
 pandas
 sklearn
+falcon
+waitress

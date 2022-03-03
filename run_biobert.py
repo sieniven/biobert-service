@@ -1,9 +1,9 @@
+import sys
 import falcon
 import logging
 import waitress
 
 from BiobertService import BiobertService
-from BiobertProcessDataset import process_ingest_dataset
 
 def main():
     app = BiobertService()
@@ -16,9 +16,11 @@ def main():
     api.add_route('/', app)
     waitress.serve(api,host='0.0.0.0',port=10000)
 
+def processDataset():
+    app = BiobertService()
+    app.process_ingest_dataset()
+
 if (__name__ == "__main__"):
     # run biobert as a process
     main()
-
-    # run biobert to process ingest dataset
-    # process_ingest_dataset()
+    # processDataset()
