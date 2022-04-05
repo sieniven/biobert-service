@@ -10,8 +10,3 @@ predict_batch_size: 8
 max_seq_length: 256
 iterations_per_loop: 1000
 save_checkpoints_steps: 1000
-consumer_api_key: SjLsv5rBMmYG8bhFkyppjzDL9
-consumer_api_key_secret: hPPxheUx7WXKx7n4b17dYhZ4ymNUC5cUCgs5oQfrzBLtMAEyWC
-bearer_token: AAAAAAAAAAAAAAAAAAAAADOebAEAAAAAlTQf7ufiTKIOpp3Opcc%2B47A3M%2BY%3D8UHTI8IGin4qkJYMsBPYQdnxTpivIXdv4MdL8mw8j4ogDQC4ca
-access_token: 1511304292807811076-NWBsnYGyAfUISapCRFVBNjhcr9eS1i
-access_token_secret: 9Ea414zzsQAIlrMn1ruuVjXYj3ZDcVrUpblaKrPsVhVAv

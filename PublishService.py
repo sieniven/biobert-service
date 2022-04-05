@@ -31,4 +31,7 @@ class PublishService(Service):
         input = Model()
         input.digest(data)
         input.add_to_history("publish")
-        self.api.update_status()
+
+        # get post results
+        text = input.postData()
+        self.api.update_status(text)

@@ -10,7 +10,7 @@ def main():
     app = BiobertService()
     logger = logging.getLogger(__name__)
 
-    publishHandler = Service.makeRequestHandler(get_config('RECOGNISE_URL'))
+    publishHandler = Service.makeRequestHandler("http://localhost:8010")
     app.addPostHandler(publishHandler)
 
     for h in app.posthandlers:
@@ -18,7 +18,7 @@ def main():
 
     api = falcon.App()
     api.add_route('/', app)
-    waitress.serve(api,host='0.0.0.0',port=10000)
+    waitress.serve(api, host='0.0.0.0', port=10000)
 
 def processDataset():
     app = BiobertService()
@@ -26,5 +26,5 @@ def processDataset():
 
 if (__name__ == "__main__"):
     # run biobert as a process
-    # main()
-    processDataset()
+    main()
+    # processDataset()
