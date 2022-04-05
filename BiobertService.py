@@ -22,7 +22,7 @@ class BiobertService(Service):
 
     def on_post(self, req, resp):
         data = json.loads(req.stream.read(req.content_length or 0))
-        self.logger.debug(f"attempting to post use handlers {str(self.posthandlers)}")
+        self.logger.debug(f"Attempting to post use handlers {str(self.posthandlers)}")
         
         self.jobs.append(self.q.enqueue(self.processDoc,
                                         on_success = self.report_success,

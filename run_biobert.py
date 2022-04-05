@@ -3,11 +3,15 @@ import falcon
 import logging
 import waitress
 
+from GTT.Service import Service
 from BiobertService import BiobertService
 
 def main():
     app = BiobertService()
     logger = logging.getLogger(__name__)
+
+    publishHandler = Service.makeRequestHandler(get_config('RECOGNISE_URL'))
+    app.addPostHandler(publishHandler)
 
     for h in app.posthandlers:
         logger.info(f"Attached handler: {h}")
