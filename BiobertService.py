@@ -2,35 +2,24 @@ import os
 import json
 import logging
 
-from rq import Queue
-from redis import Redis
-
 from Biobert import Biobert
 from BiobertModel import BiobertModel
 from GTT.Service import Service
 
 class BiobertService(Service):
-    def __init__(self, RedisHost='localhost'):
+    def __init__(self, pubHandler):
         Service.__init__(self)
         self.logger = logging.getLogger("GTT.Biobert.Service")
-        self.jobs = []
-        self.q = Queue(connection=Redis(RedisHost))
-
         self.biobert = Biobert()
         self.title_predictions = []
         self.abstract_predictions = []
+        self.pubHandler = pubHandler
 
     def on_post(self, req, resp):
         data = json.loads(req.stream.read(req.content_length or 0))
-        self.logger.debug(f"Attempting to post use handlers {str(self.posthandlers)}")
+        self.processDoc(data)
         
-        self.jobs.append(self.q.enqueue(self.processDoc,
-                                        on_success = self.report_success,
-                                        on_failure = self.report_failure,
-                                        kwargs={"data": data,
-                                                "handlers": self.posthandlers}))
-
-    def processDoc(self, data, handlers=[]):
+    def processDoc(self, data):
         input = BiobertModel(data)
         self.biobert.load_data(input)
 
@@ -46,15 +35,9 @@ class BiobertService(Service):
         id = input.id
         n = len(input.entities)
         self.logger.info(f"NER finished for {id} with {n} entities recognized with Biobert")       
-        input.post_one(handlers)
+        self.pubHandler(input)
         
         return input
-
-    def report_success(self, job, connection, result, *args, **kwargs):
-        pass
-
-    def report_failure(self, job, connection, type, value, traceback):
-        self.logger.error(traceback)
 
     def write_predictions(self, input):
         modes = ["title", "abstract"]
@@ -93,3 +76,15 @@ class BiobertService(Service):
 
             # log predictions
             self.write_predictions(input)
+            self.pubHandler(input)
+
+    def post_biobert(self, handlers=[]):
+        for posthandler in filter(callable, (self.posthandlers + handlers)):
+            n_posted = 0
+            for article in self.articles:
+                try:
+                    posthandler(article)
+                    n_posted = n_posted + 1
+                except Exception as E:
+                    self.logger.error(f"Failed to post {str(article)} using {str(posthandler)}: {E}")
+            self.logger.info(f"posted {n_posted} {type(self).__name__} records using {str(posthandler)}")
