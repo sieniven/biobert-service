@@ -1,0 +1,8 @@
+1: p300 
+1: p300 
+2: Gi/o G{beta},{gamma} SNAREcomplexes synaptotagmin SNARE 5-HT1B GABABreceptors GABABreceptors 5-HT1Breceptors SNAREcomplexes GABABreceptorsreceptors 5-HT1Breceptors AMPAandNMDAreceptor iGluSnFR glutamatereceptor 
+3: 5-HT2Areceptor 5-HT2AR 5-HT2AR 
+1: p300 
+2: Gi/o G{beta},{gamma} SNAREcomplexes synaptotagmin SNARE 5-HT1B GABABreceptors GABABreceptors 5-HT1Breceptors SNAREcomplexes GABABreceptorsreceptors 5-HT1Breceptors AMPAandNMDAreceptor iGluSnFR glutamatereceptor 
+3: 5-HT2Areceptor 5-HT2AR 5-HT2AR 
+4: opsinmolecules 

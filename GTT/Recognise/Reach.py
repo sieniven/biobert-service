@@ -4,13 +4,9 @@ import json
 import objectpath
 from indra.databases import uniprot_client
 import gilda
-from GTT.config import get_config
 from .abbrevs import abbrevs
 
-baseurl = get_config("reach_url")
-if (not baseurl):
-    baseurl = 'http://agathon.sista.arizona.edu:8080/odinweb/api/text'
-
+baseurl = 'http://agathon.sista.arizona.edu:8080/odinweb/api/text'
 
 class Reach():
 

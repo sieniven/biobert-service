@@ -41,8 +41,6 @@ datasets/
 # ignore bert output files
 jnlpba_outputs/
 bctogm_outputs/
-outputs/
-saved_outputs/
 biobert_large
 biobert_v1.1_pubmed
 biocodes
