@@ -4,6 +4,8 @@ import logging
 import operator
 import collections
 from datetime import datetime, timedelta
+import gilda
+from indra.databases import uniprot_client
 
 from GTT.Model import Model
 
@@ -75,6 +77,113 @@ class BiobertModel(Model):
                 named_entity_found = False
             elif named_entity_found:
                 continue
+
+    def get_proteins(self):
+        uids = {}
+        for entry in self.abstract_entities:
+            scored_matches = gilda.ground(entry)
+            if scored_matches:
+                _data = scored_matches[0].to_json()
+                key = _data['term']['id']
+                ## see if uniprot db exists
+                if (scored_matches[0].term.db == 'UniProt') and (scored_matches[0].term.organism == '9606'): #human
+                    hgnc_id = uniprot_client.get_hgnc_id(key)
+                    entrez_id = uniprot_client.get_entrez_id(key)
+                    symbol = uniprot_client.get_gene_name(key)
+                    namespace = "uniprot"
+                elif (scored_matches[0].term.db == 'HGNC'):
+                    hgnc_id = _data['term']['id']
+                    symbol = _data['term']['entry_name']
+                    namespace = 'HGNC'
+            else:
+                hgnc_id = ""
+                symbol = ""
+                entrez_id = ""
+            if key in uids:
+                uids[key]['count'] = uids[key]['count'] + 1
+            else:
+                uids[key] = {"count": 1,
+                            #"text": entry["text"],
+                            #"type": entry["type"],
+                            "namespace": namespace,
+                            "hgnc_id": hgnc_id,
+                            "entrez_id": entrez_id,
+                            "symbol": symbol
+                            }
+        self.abstract.proteins = uids
+
+        uids = {}
+        for entry in self.title_entities:
+            scored_matches = gilda.ground(entry)
+            if scored_matches:
+                _data = scored_matches[0].to_json()
+                key = _data['term']['id']
+                ## see if uniprot db exists
+                if (scored_matches[0].term.db == 'UniProt') and (scored_matches[0].term.organism == '9606'): #human
+                    hgnc_id = uniprot_client.get_hgnc_id(key)
+                    entrez_id = uniprot_client.get_entrez_id(key)
+                    symbol = uniprot_client.get_gene_name(key)
+                    namespace = "uniprot"
+                elif (scored_matches[0].term.db == 'HGNC'):
+                    hgnc_id = _data['term']['id']
+                    symbol = _data['term']['entry_name']
+                    namespace = 'HGNC'
+            else:
+                hgnc_id = ""
+                symbol = ""
+                entrez_id = ""
+            if key in uids:
+                uids[key]['count'] = uids[key]['count'] + 1
+            else:
+                uids[key] = {"count": 1,
+                            #"text": entry["text"],
+                            #"type": entry["type"],
+                            "namespace": namespace,
+                            "hgnc_id": hgnc_id,
+                            "entrez_id": entrez_id,
+                            "symbol": symbol
+                            }
+        self.title.proteins = uids
+        return 
+
+
+    def get_families(self):
+        uids = {}
+        for entry in self.abstract_entities:
+            scored_matches = gilda.ground(entry)
+            if scored_matches and (scored_matches[0].term.db == 'FPLX'): #FAMPLEX
+                _data = scored_matches[0].to_json()
+                key = _data['term']['id']
+                namespace = "FamPlex"
+            if key in uids:
+                uids[key]['count'] = uids[key]['count'] + 1
+            else:
+                uids[key] = {"count": 1,
+                             #"start_pos": entry['start-pos']['offset'],
+                             "namespace": namespace,
+                             "symbol" : "",
+                             #"text": entry["text"],
+                             }
+        self.abstract.families = uids
+
+        uids = {}
+        for entry in self.title_entities:
+            scored_matches = gilda.ground(entry)
+            if scored_matches and (scored_matches[0].term.db == 'FPLX'): #FAMPLEX
+                _data = scored_matches[0].to_json()
+                key = _data['term']['id']
+                namespace = "FamPlex"
+            if key in uids:
+                uids[key]['count'] = uids[key]['count'] + 1
+            else:
+                uids[key] = {"count": 1,
+                             #"start_pos": entry['start-pos']['offset'],
+                             "namespace": namespace,
+                             "symbol" : "",
+                             #"text": entry["text"],
+                             }
+        self.title.families = uids
+        return 
 
     """
     method to prioritize mentioned entites found in titles and abstracts with BioBert
