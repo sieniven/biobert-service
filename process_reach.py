@@ -172,7 +172,7 @@ class Document(Model):
         self.family_scores = families
 
 def process_ingest_dataset():
-    path = os.path.join("C:/Users/sieni/biobert-service/outputs/predict_reach.txt")
+    path = os.path.join("C:/Users/sieni/biobert-service/outputs/reach_predictions.txt")
     with open('../gtt_docker/ingest/ingestDataset.json') as f:
         input_data_list = json.loads("[" + f.read().replace("}{", "},{") +  "]")
 
@@ -180,9 +180,12 @@ def process_ingest_dataset():
         doc = Document(data)
         n = len(doc.entities)
         print(f"NER finished for {id} with {n} entities recognised")
+        
         with open(path, 'a', encoding="utf-8") as wf:
-            line = str(idx) + ": " + str(n)
-            wf.write(line+'\n')
+            entry = str(idx + 1) + ":\n" + "abstract protein:\n" + str(doc.abstractEntities.proteins) + "\ntitle protein:\n" + \
+                str(doc.titleEntities.proteins) + "\ntitle families:\n" + str(doc.titleEntities.families) + "\nabstract families:\n" + \
+                str(doc.abstractEntities.families)
+            wf.write(entry+'\n\n')
             wf.close()
 
 process_ingest_dataset()

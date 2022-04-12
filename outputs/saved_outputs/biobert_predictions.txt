@@ -1,0 +1,1150 @@
+1:
+abstract protein:
+{'3373': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '3373', 'entrez_id': '', 'symbol': 'EP300'}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+2:
+abstract protein:
+{'D050857': {'count': 1, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}, '34325': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '34325', 'entrez_id': '', 'symbol': 'SNAR-E'}, '5287': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '5287', 'entrez_id': '', 'symbol': 'HTR1B'}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+3:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+4:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+5:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+6:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+7:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+8:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+9:
+abstract protein:
+{'7419': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '7419', 'entrez_id': '', 'symbol': 'MT-CO1'}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+10:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+11:
+abstract protein:
+{'UBE2': {'count': 4, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}, '10115': {'count': 4, 'namespace': 'HGNC', 'hgnc_id': '10115', 'entrez_id': '', 'symbol': 'SNORA73A'}}
+title protein:
+{'UBE2': {'count': 1, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}, '10115': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '10115', 'entrez_id': '', 'symbol': 'SNORA73A'}}
+title families:
+{'UBE2': {'count': 1, 'namespace': 'FamPlex', 'symbol': ''}}
+abstract families:
+{'UBE2': {'count': 4, 'namespace': 'FamPlex', 'symbol': ''}}
+
+12:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+13:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+14:
+abstract protein:
+{'RAS': {'count': 2, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}, '1097': {'count': 3, 'namespace': 'HGNC', 'hgnc_id': '1097', 'entrez_id': '', 'symbol': 'BRAF'}, 'MEK': {'count': 2, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}, '18615': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '18615', 'entrez_id': '', 'symbol': 'BRAFP1'}, 'RAF': {'count': 1, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}, 'p14_3_3': {'count': 1, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+title protein:
+{'1097': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '1097', 'entrez_id': '', 'symbol': 'BRAF'}, 'RAS': {'count': 1, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+title families:
+{'RAS': {'count': 1, 'namespace': 'FamPlex', 'symbol': ''}}
+abstract families:
+{'RAS': {'count': 2, 'namespace': 'FamPlex', 'symbol': ''}, 'MEK': {'count': 2, 'namespace': 'FamPlex', 'symbol': ''}, 'RAF': {'count': 1, 'namespace': 'FamPlex', 'symbol': ''}, 'p14_3_3': {'count': 1, 'namespace': 'FamPlex', 'symbol': ''}}
+
+15:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+16:
+abstract protein:
+{'Interferon': {'count': 1, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{'Interferon': {'count': 1, 'namespace': 'FamPlex', 'symbol': ''}}
+
+17:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+18:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+19:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+20:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+21:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+22:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+23:
+abstract protein:
+{'13557': {'count': 4, 'namespace': 'HGNC', 'hgnc_id': '13557', 'entrez_id': '', 'symbol': 'ACE2'}}
+title protein:
+{'13557': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '13557', 'entrez_id': '', 'symbol': 'ACE2'}}
+title families:
+{}
+abstract families:
+{}
+
+24:
+abstract protein:
+{'11760': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '11760', 'entrez_id': '', 'symbol': 'TFPI'}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+25:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+26:
+abstract protein:
+{'3126': {'count': 2, 'namespace': 'HGNC', 'hgnc_id': '3126', 'entrez_id': '', 'symbol': 'EBF1'}, '7553': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '7553', 'entrez_id': '', 'symbol': 'MYC'}}
+title protein:
+{'3126': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '3126', 'entrez_id': '', 'symbol': 'EBF1'}}
+title families:
+{}
+abstract families:
+{}
+
+27:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+28:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+29:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+30:
+abstract protein:
+{'24323': {'count': 4, 'namespace': 'HGNC', 'hgnc_id': '24323', 'entrez_id': '', 'symbol': 'CARTPT'}, '11237': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '11237', 'entrez_id': '', 'symbol': 'SPG7'}, '5438': {'count': 2, 'namespace': 'HGNC', 'hgnc_id': '5438', 'entrez_id': '', 'symbol': 'IFNG'}, '6001': {'count': 2, 'namespace': 'HGNC', 'hgnc_id': '6001', 'entrez_id': '', 'symbol': 'IL2'}}
+title protein:
+{'24323': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '24323', 'entrez_id': '', 'symbol': 'CARTPT'}}
+title families:
+{}
+abstract families:
+{}
+
+31:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+32:
+abstract protein:
+{'CHEBI:17115': {'count': 1, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+33:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+34:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+35:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+36:
+abstract protein:
+{'7861': {'count': 2, 'namespace': 'HGNC', 'hgnc_id': '7861', 'entrez_id': '', 'symbol': 'NNMT'}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+37:
+abstract protein:
+{'32023': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '32023', 'entrez_id': '', 'symbol': 'MIR363'}, '13784': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '13784', 'entrez_id': '', 'symbol': 'MIR429'}, '31528': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '31528', 'entrez_id': '', 'symbol': 'MIR141'}, '31645': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '31645', 'entrez_id': '', 'symbol': 'MIR93'}, '31548': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '31548', 'entrez_id': '', 'symbol': 'MIR18A'}, '9588': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '9588', 'entrez_id': '', 'symbol': 'PTEN'}, '7553': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '7553', 'entrez_id': '', 'symbol': 'MYC'}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+38:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+39:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+40:
+abstract protein:
+{'4847': {'count': 5, 'namespace': 'HGNC', 'hgnc_id': '4847', 'entrez_id': '', 'symbol': 'HCRT'}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+41:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+42:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+43:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+44:
+abstract protein:
+{'24342': {'count': 5, 'namespace': 'HGNC', 'hgnc_id': '24342', 'entrez_id': '', 'symbol': 'CCP110'}, '26244': {'count': 2, 'namespace': 'HGNC', 'hgnc_id': '26244', 'entrez_id': '', 'symbol': 'CEP97'}, '17120': {'count': 2, 'namespace': 'HGNC', 'hgnc_id': '17120', 'entrez_id': '', 'symbol': 'CENPJ'}, '17272': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '17272', 'entrez_id': '', 'symbol': 'CENPJ'}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+45:
+abstract protein:
+{'10483': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '10483', 'entrez_id': '', 'symbol': 'RYR1'}}
+title protein:
+{'ESR': {'count': 2, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}, '0002352': {'count': 2, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+title families:
+{'ESR': {'count': 2, 'namespace': 'FamPlex', 'symbol': ''}}
+abstract families:
+{}
+
+46:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+47:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+48:
+abstract protein:
+{'10452': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '10452', 'entrez_id': '', 'symbol': 'RRM2'}, '1744': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '1744', 'entrez_id': '', 'symbol': 'CDC6'}, '1739': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '1739', 'entrez_id': '', 'symbol': 'CDC45'}, '12556': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '12556', 'entrez_id': '', 'symbol': 'UHRF1'}, '20996': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '20996', 'entrez_id': '', 'symbol': 'ASF1B'}, '13195': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '13195', 'entrez_id': '', 'symbol': 'ZWINT'}, '8729': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '8729', 'entrez_id': '', 'symbol': 'PCNA'}, '19048': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '19048', 'entrez_id': '', 'symbol': 'ASPM'}, '7553': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '7553', 'entrez_id': '', 'symbol': 'MYC'}, '11830': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '11830', 'entrez_id': '', 'symbol': 'TK1'}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+49:
+abstract protein:
+{'CHEBI:17115': {'count': 2, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+50:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+51:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+52:
+abstract protein:
+{'D064112': {'count': 1, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}, '12718': {'count': 5, 'namespace': 'HGNC', 'hgnc_id': '12718', 'entrez_id': '', 'symbol': 'VRK1'}, '12719': {'count': 4, 'namespace': 'HGNC', 'hgnc_id': '12719', 'entrez_id': '', 'symbol': 'VRK2'}, '17397': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '17397', 'entrez_id': '', 'symbol': 'BANF1'}}
+title protein:
+{'12718': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '12718', 'entrez_id': '', 'symbol': 'VRK1'}, '12719': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '12719', 'entrez_id': '', 'symbol': 'VRK2'}}
+title families:
+{}
+abstract families:
+{}
+
+53:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+54:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+55:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+56:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+57:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+58:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+59:
+abstract protein:
+{'7983': {'count': 2, 'namespace': 'HGNC', 'hgnc_id': '7983', 'entrez_id': '', 'symbol': 'NR5A1'}}
+title protein:
+{'7983': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '7983', 'entrez_id': '', 'symbol': 'NR5A1'}}
+title families:
+{}
+abstract families:
+{}
+
+60:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+61:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+62:
+abstract protein:
+{'9445': {'count': 3, 'namespace': 'HGNC', 'hgnc_id': '9445', 'entrez_id': '', 'symbol': 'PRL'}, '3796': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '3796', 'entrez_id': '', 'symbol': 'FOS'}, '9446': {'count': 3, 'namespace': 'HGNC', 'hgnc_id': '9446', 'entrez_id': '', 'symbol': 'PRLR'}, 'CAMK2_complex': {'count': 2, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+title protein:
+{'CHEBI:81580': {'count': 1, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+title families:
+{}
+abstract families:
+{'CAMK2_complex': {'count': 2, 'namespace': 'FamPlex', 'symbol': ''}}
+
+63:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+64:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+65:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+66:
+abstract protein:
+{'D012260': {'count': 1, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}, '12801': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '12801', 'entrez_id': '', 'symbol': 'XBP1'}, '3449': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '3449', 'entrez_id': '', 'symbol': 'ERN1'}}
+title protein:
+{'12801': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '12801', 'entrez_id': '', 'symbol': 'XBP1'}}
+title families:
+{}
+abstract families:
+{}
+
+67:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+68:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+69:
+abstract protein:
+{'Kinesin': {'count': 1, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}, 'Actin': {'count': 1, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{'Kinesin': {'count': 1, 'namespace': 'FamPlex', 'symbol': ''}, 'Actin': {'count': 1, 'namespace': 'FamPlex', 'symbol': ''}}
+
+70:
+abstract protein:
+{'11788': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '11788', 'entrez_id': '', 'symbol': 'THBS4'}, 'Troponin_C': {'count': 1, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}, '8033': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '8033', 'entrez_id': '', 'symbol': 'NTRK3'}, '11220': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '11220', 'entrez_id': '', 'symbol': 'SPARCL1'}, '6833': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '6833', 'entrez_id': '', 'symbol': 'MAOA'}, '108': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '108', 'entrez_id': '', 'symbol': 'ACHE'}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{'Troponin_C': {'count': 1, 'namespace': 'FamPlex', 'symbol': ''}}
+
+71:
+abstract protein:
+{'3942': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '3942', 'entrez_id': '', 'symbol': 'MTOR'}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+72:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+73:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+74:
+abstract protein:
+{'29430': {'count': 5, 'namespace': 'HGNC', 'hgnc_id': '29430', 'entrez_id': '', 'symbol': 'RTL5'}, '13343': {'count': 5, 'namespace': 'HGNC', 'hgnc_id': '13343', 'entrez_id': '', 'symbol': 'RTL6'}, 'D018536': {'count': 2, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+title protein:
+{'29430': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '29430', 'entrez_id': '', 'symbol': 'RTL5'}, '13343': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '13343', 'entrez_id': '', 'symbol': 'RTL6'}}
+title families:
+{}
+abstract families:
+{}
+
+75:
+abstract protein:
+{'6526': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '6526', 'entrez_id': '', 'symbol': 'LCN2'}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+76:
+abstract protein:
+{'2188': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '2188', 'entrez_id': '', 'symbol': 'COL12A1'}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+77:
+abstract protein:
+{'D012772': {'count': 1, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+78:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+79:
+abstract protein:
+{'GO:0042641': {'count': 2, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+80:
+abstract protein:
+{'CD8': {'count': 1, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}, '6106': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '6106', 'entrez_id': '', 'symbol': 'FOXP3'}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{'CD8': {'count': 1, 'namespace': 'FamPlex', 'symbol': ''}}
+
+81:
+abstract protein:
+{'PRDX': {'count': 1, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}, 'C013195': {'count': 1, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{'PRDX': {'count': 1, 'namespace': 'FamPlex', 'symbol': ''}}
+
+82:
+abstract protein:
+{'1033': {'count': 9, 'namespace': 'HGNC', 'hgnc_id': '1033', 'entrez_id': '', 'symbol': 'BDNF'}, '8032': {'count': 3, 'namespace': 'HGNC', 'hgnc_id': '8032', 'entrez_id': '', 'symbol': 'NTRK2'}}
+title protein:
+{'1033': {'count': 2, 'namespace': 'HGNC', 'hgnc_id': '1033', 'entrez_id': '', 'symbol': 'BDNF'}}
+title families:
+{}
+abstract families:
+{}
+
+83:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+84:
+abstract protein:
+{'Interferon': {'count': 4, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{'Interferon': {'count': 4, 'namespace': 'FamPlex', 'symbol': ''}}
+
+85:
+abstract protein:
+{'358': {'count': 4, 'namespace': 'HGNC', 'hgnc_id': '358', 'entrez_id': '', 'symbol': 'AIP'}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+86:
+abstract protein:
+{'9221': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '9221', 'entrez_id': '', 'symbol': 'POU5F1'}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+87:
+abstract protein:
+{'RTK': {'count': 1, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}, 'GPCR': {'count': 1, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}, 'Integrins': {'count': 1, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}, 'D016608': {'count': 1, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}, '17379': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '17379', 'entrez_id': '', 'symbol': 'APBB1IP'}, '12652': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '12652', 'entrez_id': '', 'symbol': 'VASP'}, '13200': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '13200', 'entrez_id': '', 'symbol': 'ZYX'}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{'RTK': {'count': 1, 'namespace': 'FamPlex', 'symbol': ''}, 'GPCR': {'count': 1, 'namespace': 'FamPlex', 'symbol': ''}, 'Integrins': {'count': 1, 'namespace': 'FamPlex', 'symbol': ''}}
+
+88:
+abstract protein:
+{'Histone': {'count': 3, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+title protein:
+{'Histone': {'count': 1, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+title families:
+{'Histone': {'count': 1, 'namespace': 'FamPlex', 'symbol': ''}}
+abstract families:
+{'Histone': {'count': 3, 'namespace': 'FamPlex', 'symbol': ''}}
+
+89:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+90:
+abstract protein:
+{'20493': {'count': 3, 'namespace': 'HGNC', 'hgnc_id': '20493', 'entrez_id': '', 'symbol': 'SETD3'}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+91:
+abstract protein:
+{'7694': {'count': 2, 'namespace': 'HGNC', 'hgnc_id': '7694', 'entrez_id': '', 'symbol': 'NDUFAB1'}, '16': {'count': 2, 'namespace': 'HGNC', 'hgnc_id': '16', 'entrez_id': '', 'symbol': 'SERPINA3'}, '125': {'count': 2, 'namespace': 'HGNC', 'hgnc_id': '125', 'entrez_id': '', 'symbol': 'ACP3'}, 'GO:0033817': {'count': 1, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+92:
+abstract protein:
+{'6915': {'count': 2, 'namespace': 'HGNC', 'hgnc_id': '6915', 'entrez_id': '', 'symbol': 'MB'}, '6740': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '6740', 'entrez_id': '', 'symbol': 'LYZ'}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+93:
+abstract protein:
+{'20667': {'count': 8, 'namespace': 'HGNC', 'hgnc_id': '20667', 'entrez_id': '', 'symbol': 'TXNRD3'}, 'TXN': {'count': 1, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+title protein:
+{'20667': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '20667', 'entrez_id': '', 'symbol': 'TXNRD3'}}
+title families:
+{}
+abstract families:
+{'TXN': {'count': 1, 'namespace': 'FamPlex', 'symbol': ''}}
+
+94:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+95:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+96:
+abstract protein:
+{'7007': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '7007', 'entrez_id': '', 'symbol': 'RAB8A'}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+97:
+abstract protein:
+{'17563': {'count': 3, 'namespace': 'HGNC', 'hgnc_id': '17563', 'entrez_id': '', 'symbol': 'METTL3'}, '21904': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '21904', 'entrez_id': '', 'symbol': 'NCAPG2'}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+98:
+abstract protein:
+{'TCR': {'count': 2, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{'TCR': {'count': 2, 'namespace': 'FamPlex', 'symbol': ''}}
+
+99:
+abstract protein:
+{'6740': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '6740', 'entrez_id': '', 'symbol': 'LYZ'}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+100:
+abstract protein:
+{'19429': {'count': 4, 'namespace': 'HGNC', 'hgnc_id': '19429', 'entrez_id': '', 'symbol': 'SLC41A1'}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+101:
+abstract protein:
+{'Kinesin': {'count': 3, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}, 'Dynein': {'count': 3, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{'Kinesin': {'count': 3, 'namespace': 'FamPlex', 'symbol': ''}, 'Dynein': {'count': 3, 'namespace': 'FamPlex', 'symbol': ''}}
+
+102:
+abstract protein:
+{'13816': {'count': 5, 'namespace': 'HGNC', 'hgnc_id': '13816', 'entrez_id': '', 'symbol': 'ATP12A'}, 'DOID:0060764': {'count': 2, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+103:
+abstract protein:
+{'30236': {'count': 5, 'namespace': 'HGNC', 'hgnc_id': '30236', 'entrez_id': '', 'symbol': 'TAAR5'}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+104:
+abstract protein:
+{'30672': {'count': 6, 'namespace': 'HGNC', 'hgnc_id': '30672', 'entrez_id': '', 'symbol': 'SYNPO'}, 'Actin': {'count': 1, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}, '22958': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '22958', 'entrez_id': '', 'symbol': 'PDLIM7'}}
+title protein:
+{'30672': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '30672', 'entrez_id': '', 'symbol': 'SYNPO'}}
+title families:
+{}
+abstract families:
+{'Actin': {'count': 1, 'namespace': 'FamPlex', 'symbol': ''}}
+
+105:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+106:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+107:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+108:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+109:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+110:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+111:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+112:
+abstract protein:
+{'4623': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '4623', 'entrez_id': '', 'symbol': 'GSR'}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+113:
+abstract protein:
+{}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+114:
+abstract protein:
+{'GO:0004345': {'count': 1, 'namespace': '', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+title protein:
+{}
+title families:
+{}
+abstract families:
+{}
+
+115:
+abstract protein:
+{'620': {'count': 4, 'namespace': 'HGNC', 'hgnc_id': '620', 'entrez_id': '', 'symbol': 'APP'}}
+title protein:
+{'620': {'count': 1, 'namespace': 'HGNC', 'hgnc_id': '620', 'entrez_id': '', 'symbol': 'APP'}}
+title families:
+{}
+abstract families:
+{}
+
