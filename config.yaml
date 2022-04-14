@@ -1,8 +1,8 @@
-output_dir: "./outputs/"
-bert_config_file: "./biobert/biobert_v1.1_pubmed/bert_config.json"
-vocab_file: "./biobert/biobert_v1.1_pubmed/vocab.txt"
-init_checkpoint: "./biobert/bctogm_outputs/model.ckpt-9433"
-# init_checkpoint: "./biobert/jnlpba_outputs/model.ckpt-11591"
+output_dir: "../outputs/"
+bert_config_file: "../biobert/biobert_v1.1_pubmed/bert_config.json"
+vocab_file: "../biobert/biobert_v1.1_pubmed/vocab.txt"
+init_checkpoint: "../biobert/bctogm_outputs/model.ckpt-9433"
+# init_checkpoint: "../biobert/jnlpba_outputs/model.ckpt-11591"
 use_tpu: False
 do_predict: True
 do_lower_case: False

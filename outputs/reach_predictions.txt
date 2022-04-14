@@ -1,0 +1,11 @@
+1:
+
+title protein:
+
+abstract protein:
+Q9P2X3 impact IMPACT O43557 light TNFSF14 Q09472 p300 EP300 
+title families:
+
+abstract families:
+
+

@@ -1,4 +1,5 @@
 import os
+import sys
 import pickle
 import logging
 import operator
@@ -7,6 +8,7 @@ from datetime import datetime, timedelta
 import gilda
 from indra.databases import uniprot_client
 
+sys.path.append("../")
 from GTT.Model import Model
 
 """
@@ -56,8 +58,13 @@ class BiobertModel(Model):
                 named_entity_found = True
             elif predicted_label == "O" and named_entity_found:
                 end_index = idx
-                text = ''.join(x for x in self.tokens_title[1][start_index:end_index])
-                entity = text.replace('#', '')
+                entity = ""
+                for tok in self.tokens_title[1][start_index:end_index]:
+                    if tok.startswith("##"):
+                        entity += tok[2:]
+                    else:
+                        entity += " " + tok
+                entity = entity[1:]
                 self.title_entities.append(entity)
                 named_entity_found = False
 
@@ -71,8 +78,13 @@ class BiobertModel(Model):
                 named_entity_found = True
             elif predicted_label == "O" and named_entity_found:
                 end_index = idx
-                text = ''.join(x for x in self.tokens_abstract[1][start_index:end_index])
-                entity = text.replace('#', '')
+                entity = ""
+                for tok in self.tokens_abstract[1][start_index:end_index]:
+                    if tok.startswith("##"):
+                        entity += tok[2:]
+                    else:
+                        entity += " " + tok
+                entity = entity[1:]
                 self.abstract_entities.append(entity)
                 named_entity_found = False
             elif named_entity_found:

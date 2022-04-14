@@ -1,1150 +1,1265 @@
 1:
-abstract protein:
-{'Q9P2X3': {'count': 1, 'text': 'impact', 'type': 'protein', 'start_pos': 1054, 'namespace': 'uniprot', 'hgnc_id': '20387', 'entrez_id': '55364', 'symbol': 'IMPACT', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'O43557': {'count': 1, 'text': 'light', 'type': 'protein', 'start_pos': 1335, 'namespace': 'uniprot', 'hgnc_id': '11930', 'entrez_id': '8740', 'symbol': 'TNFSF14', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}, 'Q09472': {'count': 1, 'text': 'p300', 'type': 'protein', 'start_pos': 1227, 'namespace': 'uniprot', 'hgnc_id': '3373', 'entrez_id': '2033', 'symbol': 'EP300', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}}
+
 title protein:
-{}
+
+abstract protein:
+Q9P2X3 impact IMPACT O43557 light TNFSF14 Q09472 p300 EP300 
 title families:
-{}
+
 abstract families:
-{}
+
 
 2:
-abstract protein:
-{'P00918': {'count': 2, 'text': 'Ca2', 'type': 'protein', 'start_pos': 194, 'namespace': 'uniprot', 'hgnc_id': '1373', 'entrez_id': '760', 'symbol': 'CA2', 'score': 11, 'abstract_count': 2, 'abstract_position_score': 9}, 'UAZ10304': {'count': 1, 'text': 'Gi/o', 'type': 'protein', 'start_pos': 45, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 11, 'abstract_count': 1, 'abstract_position_score': 10}, 'P28222': {'count': 6, 'text': '5-HT1B', 'type': 'protein', 'start_pos': 290, 'namespace': 'uniprot', 'hgnc_id': '5287', 'entrez_id': '3351', 'symbol': 'HTR1B', 'score': 14, 'abstract_count': 6, 'abstract_position_score': 8}, 'UAZ10299': {'count': 3, 'text': 'GABAB receptors', 'type': 'protein', 'start_pos': 301, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 10, 'abstract_count': 3, 'abstract_position_score': 7}, 'UAZ10303': {'count': 2, 'text': '5-HT1B receptors', 'type': 'protein', 'start_pos': 373, 'namespace': 'HGNC', 'hgnc_id': '5287', 'entrez_id': '', 'symbol': 'HTR1B', 'score': 8, 'abstract_count': 2, 'abstract_position_score': 6}, 'UAZ10301': {'count': 1, 'text': 'SNARE complexes', 'type': 'protein', 'start_pos': 397, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 6, 'abstract_count': 1, 'abstract_position_score': 5}, 'UAZ00122': {'count': 1, 'text': 'NMDA receptor', 'type': 'protein', 'start_pos': 609, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'P06401': {'count': 2, 'text': 'Pr', 'type': 'protein', 'start_pos': 490, 'namespace': 'uniprot', 'hgnc_id': '8910', 'entrez_id': '5241', 'symbol': 'PGR', 'score': 5, 'abstract_count': 2, 'abstract_position_score': 3}, 'UAZ10300': {'count': 1, 'text': 'GABAB receptors receptors', 'type': 'protein', 'start_pos': 458, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'abstract_count': 1, 'abstract_position_score': 4}, 'UAZ10297': {'count': 1, 'text': 'GABAB receptor', 'type': 'protein', 'start_pos': 1105, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10298': {'count': 3, 'text': '5-HT1B receptor', 'type': 'protein', 'start_pos': 1214, 'namespace': 'HGNC', 'hgnc_id': '5287', 'entrez_id': '', 'symbol': 'HTR1B', 'score': 3, 'abstract_count': 3, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+P00918 Ca2 CA2 UAZ10304 Gi/o  P28222 5-HT1B HTR1B UAZ10299 GABAB receptors  UAZ10303 5-HT1B receptors HTR1B UAZ10301 SNARE complexes  UAZ00122 NMDA receptor  P06401 Pr PGR UAZ10300 GABAB receptors receptors  UAZ10297 GABAB receptor  UAZ10298 5-HT1B receptor HTR1B 
 title families:
-{'G_protein': {'count': 1, 'start_pos': 69, 'namespace': 'be', 'symbol': '', 'text': 'G protein', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+G_protein G protein  
 abstract families:
-{'PF05739': {'count': 2, 'start_pos': 167, 'namespace': 'pfam', 'symbol': '', 'text': 'SNARE', 'score': 3, 'abstract_count': 2, 'abstract_position_score': 1}, 'PF13796': {'count': 1, 'start_pos': 737, 'namespace': 'pfam', 'symbol': '', 'text': 'sensor', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}, 'G_protein': {'count': 1, 'start_pos': 69, 'namespace': 'be', 'symbol': '', 'text': 'G protein', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+PF05739 SNARE  PF13796 sensor  G_protein G protein  
 
 3:
-abstract protein:
-{'UAZ10306': {'count': 4, 'text': 'SUDEP', 'type': 'protein', 'start_pos': 37, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 13, 'abstract_count': 4, 'abstract_position_score': 9}, 'P21912': {'count': 3, 'text': 'IP', 'type': 'protein', 'start_pos': 319, 'namespace': 'uniprot', 'hgnc_id': '10681', 'entrez_id': '6390', 'symbol': 'SDHB', 'score': 11, 'abstract_count': 3, 'abstract_position_score': 8}, 'UAZ10307': {'count': 2, 'text': '5-HT2A receptor', 'type': 'protein', 'start_pos': 485, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 9, 'abstract_count': 2, 'abstract_position_score': 7}, 'UAZ10305': {'count': 7, 'text': '5-HT2AR', 'type': 'protein', 'start_pos': 502, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 13, 'abstract_count': 7, 'abstract_position_score': 6}, 'Q9H3D4': {'count': 4, 'text': 'KET', 'type': 'protein', 'start_pos': 929, 'namespace': 'uniprot', 'hgnc_id': '15979', 'entrez_id': '8626', 'symbol': 'TP63', 'score': 8, 'abstract_count': 4, 'abstract_position_score': 4}, 'UAZ10310': {'count': 2, 'text': '5-HTP', 'type': 'protein', 'start_pos': 872, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 7, 'abstract_count': 2, 'abstract_position_score': 5}, 'P10515': {'count': 1, 'text': 'PBC', 'type': 'protein', 'start_pos': 1391, 'namespace': 'uniprot', 'hgnc_id': '2896', 'entrez_id': '1737', 'symbol': 'DLAT', 'score': 4, 'abstract_count': 1, 'abstract_position_score': 3}, 'UAZ10308': {'count': 1, 'text': 'channelrhodopsin-2', 'type': 'protein', 'start_pos': 1905, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10309': {'count': 1, 'text': 'TPH2-ChETA', 'type': 'protein', 'start_pos': 1880, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'Q01459': {'count': 1, 'text': 'CTB', 'type': 'protein', 'start_pos': 2218, 'namespace': 'uniprot', 'hgnc_id': '2496', 'entrez_id': '1486', 'symbol': 'CTBS', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+UAZ10306 SUDEP  P21912 IP SDHB UAZ10307 5-HT2A receptor  UAZ10305 5-HT2AR  Q9H3D4 KET TP63 UAZ10310 5-HTP  P10515 PBC DLAT UAZ10308 channelrhodopsin-2  UAZ10309 TPH2-ChETA  Q01459 CTB CTBS 
 title families:
-{}
+
 abstract families:
-{'PF00531': {'count': 3, 'start_pos': 18, 'namespace': 'pfam', 'symbol': '', 'text': 'death', 'score': 3, 'abstract_count': 3, 'abstract_position_score': 0}}
+PF00531 death  
 
 4:
-abstract protein:
-{'O43557': {'count': 1, 'text': 'light', 'type': 'protein', 'start_pos': 380, 'namespace': 'uniprot', 'hgnc_id': '11930', 'entrez_id': '8740', 'symbol': 'TNFSF14', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+O43557 light TNFSF14 
 title families:
-{'PF01842': {'count': 1, 'start_pos': 18, 'namespace': 'pfam', 'symbol': '', 'text': 'act', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+PF01842 act  
 abstract families:
-{'IPR001760': {'count': 1, 'start_pos': 396, 'namespace': 'interpro', 'symbol': '', 'text': 'opsin', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}, 'PF01842': {'count': 1, 'start_pos': 18, 'namespace': 'pfam', 'symbol': '', 'text': 'act', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+IPR001760 opsin  PF01842 act  
 
 5:
-abstract protein:
-{'P06744': {'count': 1, 'text': 'GPi', 'type': 'protein', 'start_pos': 444, 'namespace': 'uniprot', 'hgnc_id': '4458', 'entrez_id': '2821', 'symbol': 'GPI', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+P06744 GPi GPI 
 title families:
-{}
+
 abstract families:
-{}
+
 
 6:
-abstract protein:
-{'Q96CJ1': {'count': 4, 'text': 'traits', 'type': 'protein', 'start_pos': 449, 'namespace': 'uniprot', 'hgnc_id': '23115', 'entrez_id': '55840', 'symbol': 'EAF2', 'score': 4, 'abstract_count': 4, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+Q96CJ1 traits EAF2 
 title families:
-{}
+
 abstract families:
-{'PF05384': {'count': 3, 'start_pos': 687, 'namespace': 'pfam', 'symbol': '', 'text': 'DEGs', 'score': 3, 'abstract_count': 3, 'abstract_position_score': 0}}
+PF05384 DEGs  
 
 7:
-abstract protein:
-{'UAZ10312': {'count': 1, 'text': 'Time-course gene', 'type': 'protein', 'start_pos': 0, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 4, 'abstract_count': 1, 'abstract_position_score': 3}, 'O14649': {'count': 1, 'text': 'task', 'type': 'protein', 'start_pos': 294, 'namespace': 'uniprot', 'hgnc_id': '6278', 'entrez_id': '3777', 'symbol': 'KCNK3', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'UAZ10313': {'count': 2, 'text': 'LLR2', 'type': 'protein', 'start_pos': 666, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 2, 'abstract_position_score': 1}, 'UAZ10311': {'count': 1, 'text': 'real gene', 'type': 'protein', 'start_pos': 1233, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+UAZ10312 Time-course gene  O14649 task KCNK3 UAZ10313 LLR2  UAZ10311 real gene  
 title families:
-{}
+
 abstract families:
-{}
+
 
 8:
-abstract protein:
-{'O14649': {'count': 2, 'text': 'task', 'type': 'protein', 'start_pos': 179, 'namespace': 'uniprot', 'hgnc_id': '6278', 'entrez_id': '3777', 'symbol': 'KCNK3', 'score': 4, 'abstract_count': 2, 'abstract_position_score': 2}, 'O14656': {'count': 1, 'text': 'TA', 'type': 'protein', 'start_pos': 723, 'namespace': 'uniprot', 'hgnc_id': '3098', 'entrez_id': '1861', 'symbol': 'TOR1A', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'Q5EG05': {'count': 2, 'text': 'COP', 'type': 'protein', 'start_pos': 871, 'namespace': 'uniprot', 'hgnc_id': '33701', 'entrez_id': '114769', 'symbol': 'CARD16', 'score': 2, 'abstract_count': 2, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+O14649 task KCNK3 O14656 TA TOR1A Q5EG05 COP CARD16 
 title families:
-{}
+
 abstract families:
-{}
+
 
 9:
-abstract protein:
-{'P00395': {'count': 2, 'text': 'COI', 'type': 'protein', 'start_pos': 360, 'namespace': 'uniprot', 'hgnc_id': '7419', 'entrez_id': '4512', 'symbol': 'MT-CO1', 'score': 4, 'abstract_count': 2, 'abstract_position_score': 2}, 'Q96S52': {'count': 3, 'text': 'pigs', 'type': 'protein', 'start_pos': 570, 'namespace': 'uniprot', 'hgnc_id': '14937', 'entrez_id': '94005', 'symbol': 'PIGS', 'score': 4, 'abstract_count': 3, 'abstract_position_score': 1}, 'P13686': {'count': 1, 'text': 'trap', 'type': 'protein', 'start_pos': 723, 'namespace': 'uniprot', 'hgnc_id': '124', 'entrez_id': '54', 'symbol': 'ACP5', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+P00395 COI MT-CO1 Q96S52 pigs PIGS P13686 trap ACP5 
 title families:
-{}
+
 abstract families:
-{}
+
 
 10:
-abstract protein:
-{'P38432': {'count': 2, 'text': 'coil', 'type': 'protein', 'start_pos': 798, 'namespace': 'uniprot', 'hgnc_id': '2184', 'entrez_id': '8161', 'symbol': 'COIL', 'score': 2, 'abstract_count': 2, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+P38432 coil COIL 
 title families:
-{}
+
 abstract families:
-{}
+
 
 11:
-abstract protein:
-{'UAZ10314': {'count': 7, 'text': 'E2-E1', 'type': 'protein', 'start_pos': 287, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 11, 'abstract_count': 2, 'abstract_position_score': 4, 'title_count': 1, 'title_position_score': 0}, 'P15086': {'count': 4, 'text': 'CPB', 'type': 'protein', 'start_pos': 711, 'namespace': 'uniprot', 'hgnc_id': '2299', 'entrez_id': '1360', 'symbol': 'CPB1', 'score': 7, 'abstract_count': 4, 'abstract_position_score': 3}, 'UAZ10315': {'count': 1, 'text': 'cryo-EM', 'type': 'protein', 'start_pos': 1257, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'UAZ10316': {'count': 1, 'text': 'E2-H333N', 'type': 'protein', 'start_pos': 1382, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10317': {'count': 1, 'text': 'E1-S247L', 'type': 'protein', 'start_pos': 1395, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{'UAZ10314': {'count': 1, 'text': 'E2/E1', 'type': 'protein', 'start_pos': 28, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+UAZ10314 E2/E1  
+abstract protein:
+UAZ10314 E2-E1  P15086 CPB CPB1 UAZ10315 cryo-EM  UAZ10316 E2-H333N  UAZ10317 E1-S247L  
 title families:
-{}
+
 abstract families:
-{'PF03409': {'count': 1, 'start_pos': 127, 'namespace': 'pfam', 'symbol': '', 'text': 'glycoprotein', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+PF03409 glycoprotein  
 
 12:
-abstract protein:
-{}
+
 title protein:
-{}
+
+abstract protein:
+
 title families:
-{}
+
 abstract families:
-{}
+
 
 13:
-abstract protein:
-{}
+
 title protein:
-{}
+
+abstract protein:
+
 title families:
-{}
+
 abstract families:
-{}
+
 
 14:
-abstract protein:
-{'P15056': {'count': 10, 'text': 'BRAF', 'type': 'protein', 'start_pos': 247, 'namespace': 'uniprot', 'hgnc_id': '1097', 'entrez_id': '673', 'symbol': 'BRAF', 'score': 12, 'abstract_count': 5, 'abstract_position_score': 2, 'title_count': 1, 'title_position_score': 0}, 'UAZ10319': {'count': 1, 'text': 'BRAF2:14-3-32', 'type': 'protein', 'start_pos': 392, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10318': {'count': 1, 'text': 'RAS-RAF', 'type': 'protein', 'start_pos': 840, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{'P15056': {'count': 1, 'text': 'BRAF', 'type': 'protein', 'start_pos': 29, 'namespace': 'uniprot', 'hgnc_id': '1097', 'entrez_id': '673', 'symbol': 'BRAF'}}
+P15056 BRAF BRAF 
+abstract protein:
+P15056 BRAF BRAF UAZ10319 BRAF2:14-3-32  UAZ10318 RAS-RAF  
 title families:
-{'PF00071': {'count': 1, 'start_pos': 74, 'namespace': 'pfam', 'symbol': '', 'text': 'RAS'}}
+PF00071 RAS  
 abstract families:
-{'RAF': {'count': 3, 'start_pos': 23, 'namespace': 'be', 'symbol': '', 'text': 'RAF', 'score': 5, 'abstract_count': 3, 'abstract_position_score': 2}, 'PF00071': {'count': 8, 'start_pos': 102, 'namespace': 'pfam', 'symbol': '', 'text': 'RAS', 'score': 9, 'abstract_count': 3, 'abstract_position_score': 1, 'title_count': 1, 'title_position_score': 0}, 'MEK': {'count': 2, 'start_pos': 329, 'namespace': 'be', 'symbol': '', 'text': 'MEK', 'score': 2, 'abstract_count': 2, 'abstract_position_score': 0}}
+RAF RAF  PF00071 RAS  MEK MEK  
 
 15:
-abstract protein:
-{}
+
 title protein:
-{}
+
+abstract protein:
+
 title families:
-{}
+
 abstract families:
-{}
+
 
 16:
-abstract protein:
-{'UAZ02513': {'count': 1, 'text': 'COVID-19', 'type': 'protein', 'start_pos': 45, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 4, 'abstract_count': 1, 'abstract_position_score': 3}, 'P11150': {'count': 5, 'text': 'HL', 'type': 'protein', 'start_pos': 180, 'namespace': 'uniprot', 'hgnc_id': '6619', 'entrez_id': '3990', 'symbol': 'LIPC', 'score': 7, 'abstract_count': 5, 'abstract_position_score': 2}, 'UAZ02535': {'count': 6, 'text': 'SARS-CoV-2', 'type': 'protein', 'start_pos': 237, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 7, 'abstract_count': 1, 'abstract_position_score': 1, 'title_count': 1, 'title_position_score': 0}, 'UAZ10320': {'count': 1, 'text': 'NSG-L', 'type': 'protein', 'start_pos': 1104, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{'UAZ02535': {'count': 1, 'text': 'SARS-CoV-2', 'type': 'protein', 'start_pos': 36, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+UAZ02535 SARS-CoV-2  
+abstract protein:
+UAZ02513 COVID-19  P11150 HL LIPC UAZ02535 SARS-CoV-2  UAZ10320 NSG-L  
 title families:
-{}
+
 abstract families:
-{'Interferon': {'count': 1, 'start_pos': 508, 'namespace': 'be', 'symbol': '', 'text': 'interferon', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+Interferon interferon  
 
 17:
-abstract protein:
-{'UAZ10323': {'count': 2, 'text': 'CWAAPs', 'type': 'protein', 'start_pos': 234, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 7, 'abstract_count': 2, 'abstract_position_score': 5}, 'UAZ10321': {'count': 4, 'text': 'CWAAP-B', 'type': 'protein', 'start_pos': 367, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 7, 'abstract_count': 4, 'abstract_position_score': 3}, 'UAZ10322': {'count': 10, 'text': 'CWAAP-A', 'type': 'protein', 'start_pos': 355, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 14, 'abstract_count': 10, 'abstract_position_score': 4}, 'Q01105': {'count': 1, 'text': 'set', 'type': 'protein', 'start_pos': 745, 'namespace': 'uniprot', 'hgnc_id': '10760', 'entrez_id': '6418', 'symbol': 'SET', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'UAZ10324': {'count': 1, 'text': 'TGF{beta}', 'type': 'protein', 'start_pos': 1230, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}, 'UAZ10325': {'count': 1, 'text': 'CWAAP', 'type': 'protein', 'start_pos': 1098, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}}
+
 title protein:
-{}
+
+abstract protein:
+UAZ10323 CWAAPs  UAZ10321 CWAAP-B  UAZ10322 CWAAP-A  Q01105 set SET UAZ10324 TGF{beta}  UAZ10325 CWAAP  
 title families:
-{}
+
 abstract families:
-{}
+
 
 18:
-abstract protein:
-{'Q9H5J4': {'count': 1, 'text': 'face', 'type': 'protein', 'start_pos': 817, 'namespace': 'uniprot', 'hgnc_id': '15829', 'entrez_id': '79071', 'symbol': 'ELOVL6', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+Q9H5J4 face ELOVL6 
 title families:
-{}
+
 abstract families:
-{}
+
 
 19:
-abstract protein:
-{'UAZ10326': {'count': 10, 'text': 'DsrAB', 'type': 'protein', 'start_pos': 226, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 13, 'abstract_count': 10, 'abstract_position_score': 3}, 'UAZ10327': {'count': 1, 'text': 'DsrAB subunits', 'type': 'protein', 'start_pos': 1333, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'Q01105': {'count': 1, 'text': 'set', 'type': 'protein', 'start_pos': 1555, 'namespace': 'uniprot', 'hgnc_id': '10760', 'entrez_id': '6418', 'symbol': 'SET', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10328': {'count': 1, 'text': 'FPECs', 'type': 'protein', 'start_pos': 1562, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+UAZ10326 DsrAB  UAZ10327 DsrAB subunits  Q01105 set SET UAZ10328 FPECs  
 title families:
-{}
+
 abstract families:
-{}
+
 
 20:
-abstract protein:
-{'UAZ09562': {'count': 1, 'text': 'pneumothorax', 'type': 'protein', 'start_pos': 207, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'abstract_count': 1, 'abstract_position_score': 4}, 'UAZ10322': {'count': 7, 'text': 'CWAAP-A', 'type': 'protein', 'start_pos': 265, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 10, 'abstract_count': 7, 'abstract_position_score': 3}, 'UAZ10325': {'count': 1, 'text': 'CWAAP', 'type': 'protein', 'start_pos': 286, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'UAZ10323': {'count': 1, 'text': 'CWAAPs', 'type': 'protein', 'start_pos': 522, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10329': {'count': 3, 'text': 'mg/m3 CWAAP-A', 'type': 'protein', 'start_pos': 615, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 3, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+UAZ09562 pneumothorax  UAZ10322 CWAAP-A  UAZ10325 CWAAP  UAZ10323 CWAAPs  UAZ10329 mg/m3 CWAAP-A  
 title families:
-{}
+
 abstract families:
-{}
+
 
 21:
-abstract protein:
-{'UAZ02513': {'count': 1, 'text': 'COVID-19', 'type': 'protein', 'start_pos': 0, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 4, 'abstract_count': 1, 'abstract_position_score': 3}, 'UAZ02535': {'count': 3, 'text': 'SARS-CoV-2', 'type': 'protein', 'start_pos': 79, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'abstract_count': 3, 'abstract_position_score': 2}, 'UAZ10331': {'count': 1, 'text': 'B.1.1.529 Omicron variant', 'type': 'protein', 'start_pos': 95, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10332': {'count': 1, 'text': 'epitopes', 'type': 'protein', 'start_pos': 1080, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}, 'UAZ10330': {'count': 1, 'text': 'SARS-CoV-2 Omicron-B.1.1.529 Variant leads', 'type': 'protein', 'start_pos': 0, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+
 title protein:
-{'UAZ10330': {'count': 1, 'text': 'SARS-CoV-2 Omicron-B.1.1.529 Variant leads', 'type': 'protein', 'start_pos': 0, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+UAZ10330 SARS-CoV-2 Omicron-B.1.1.529 Variant leads  
+abstract protein:
+UAZ02513 COVID-19  UAZ02535 SARS-CoV-2  UAZ10331 B.1.1.529 Omicron variant  UAZ10332 epitopes  UAZ10330 SARS-CoV-2 Omicron-B.1.1.529 Variant leads  
 title families:
-{}
+
 abstract families:
-{'PF03409': {'count': 1, 'start_pos': 348, 'namespace': 'pfam', 'symbol': '', 'text': 'glycoprotein', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+PF03409 glycoprotein  
 
 22:
-abstract protein:
-{'P48059': {'count': 3, 'text': 'pinch', 'type': 'protein', 'start_pos': 759, 'namespace': 'uniprot', 'hgnc_id': '6616', 'entrez_id': '3987', 'symbol': 'LIMS1', 'score': 3, 'abstract_count': 3, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+P48059 pinch LIMS1 
 title families:
-{}
+
 abstract families:
-{'PF01465': {'count': 4, 'start_pos': 443, 'namespace': 'pfam', 'symbol': '', 'text': 'grip', 'score': 4, 'abstract_count': 4, 'abstract_position_score': 0}}
+PF01465 grip  
 
 23:
-abstract protein:
-{'UAZ02535': {'count': 1, 'text': 'SARS-CoV-2', 'type': 'protein', 'start_pos': 23, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'Q9BYF1': {'count': 10, 'text': 'ACE2', 'type': 'protein', 'start_pos': 248, 'namespace': 'uniprot', 'hgnc_id': '13557', 'entrez_id': '59272', 'symbol': 'ACE2', 'score': 10, 'abstract_count': 5, 'abstract_position_score': 0, 'title_count': 1, 'title_position_score': 0}, 'Q01105': {'count': 1, 'text': 'set', 'type': 'protein', 'start_pos': 172, 'namespace': 'uniprot', 'hgnc_id': '10760', 'entrez_id': '6418', 'symbol': 'SET', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}}
+
 title protein:
-{'Q9BYF1': {'count': 1, 'text': 'ACE2', 'type': 'protein', 'start_pos': 44, 'namespace': 'uniprot', 'hgnc_id': '13557', 'entrez_id': '59272', 'symbol': 'ACE2'}}
+Q9BYF1 ACE2 ACE2 
+abstract protein:
+UAZ02535 SARS-CoV-2  Q9BYF1 ACE2 ACE2 Q01105 set SET 
 title families:
-{}
+
 abstract families:
-{}
+
 
 24:
-abstract protein:
-{'Q9GZY6': {'count': 1, 'text': 'lab', 'type': 'protein', 'start_pos': 177, 'namespace': 'uniprot', 'hgnc_id': '12749', 'entrez_id': '7462', 'symbol': 'LAT2', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'P10646': {'count': 2, 'text': 'LacI', 'type': 'protein', 'start_pos': 695, 'namespace': 'uniprot', 'hgnc_id': '11760', 'entrez_id': '7035', 'symbol': 'TFPI', 'score': 3, 'abstract_count': 2, 'abstract_position_score': 1}, 'UAZ10333': {'count': 1, 'text': 'METIS', 'type': 'protein', 'start_pos': 797, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+Q9GZY6 lab LAT2 P10646 LacI TFPI UAZ10333 METIS  
 title families:
-{}
+
 abstract families:
-{}
+
 
 25:
-abstract protein:
-{'O75791': {'count': 1, 'text': 'grid', 'type': 'protein', 'start_pos': 384, 'namespace': 'uniprot', 'hgnc_id': '4563', 'entrez_id': '9402', 'symbol': 'GRAP2', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'UAZ10335': {'count': 1, 'text': 'Pup-gCaL', 'type': 'protein', 'start_pos': 829, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10334': {'count': 2, 'text': 'gCaL', 'type': 'protein', 'start_pos': 1087, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 2, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+O75791 grid GRAP2 UAZ10335 Pup-gCaL  UAZ10334 gCaL  
 title families:
-{}
+
 abstract families:
-{'PF05639': {'count': 4, 'start_pos': 779, 'namespace': 'pfam', 'symbol': '', 'text': 'Pup', 'score': 4, 'abstract_count': 4, 'abstract_position_score': 0}}
+PF05639 Pup  
 
 26:
-abstract protein:
-{'UA-BP-GGP-00007': {'count': 1, 'text': 'antigen', 'type': 'protein', 'start_pos': 207, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'abstract_count': 1, 'abstract_position_score': 4}, 'Q06330': {'count': 1, 'text': 'CBF1', 'type': 'protein', 'start_pos': 361, 'namespace': 'uniprot', 'hgnc_id': '5724', 'entrez_id': '3516', 'symbol': 'RBPJ', 'score': 4, 'abstract_count': 1, 'abstract_position_score': 3}, 'Q9UH73': {'count': 10, 'text': 'EBF', 'type': 'protein', 'start_pos': 525, 'namespace': 'uniprot', 'hgnc_id': '3126', 'entrez_id': '1879', 'symbol': 'EBF1', 'score': 17, 'abstract_count': 5, 'abstract_position_score': 2, 'title_count': 1, 'title_position_score': 1}, 'UAZ00554': {'count': 1, 'text': 'early S', 'type': 'protein', 'start_pos': 964, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'P01106': {'count': 7, 'text': 'MYC', 'type': 'protein', 'start_pos': 1021, 'namespace': 'uniprot', 'hgnc_id': '7553', 'entrez_id': '4609', 'symbol': 'MYC', 'score': 7, 'abstract_count': 2, 'abstract_position_score': 0, 'title_count': 1, 'title_position_score': 0}}
+
 title protein:
-{'Q9UH73': {'count': 1, 'text': 'EBF1', 'type': 'protein', 'start_pos': 10, 'namespace': 'uniprot', 'hgnc_id': '3126', 'entrez_id': '1879', 'symbol': 'EBF1'}, 'P01106': {'count': 1, 'text': 'MYC', 'type': 'protein', 'start_pos': 42, 'namespace': 'uniprot', 'hgnc_id': '7553', 'entrez_id': '4609', 'symbol': 'MYC'}}
+Q9UH73 EBF1 EBF1 P01106 MYC MYC 
+abstract protein:
+UA-BP-GGP-00007 antigen  Q06330 CBF1 RBPJ Q9UH73 EBF EBF1 UAZ00554 early S  P01106 MYC MYC 
 title families:
-{}
+
 abstract families:
-{}
+
 
 27:
-abstract protein:
-{'Q99707': {'count': 3, 'text': 'MS', 'type': 'protein', 'start_pos': 103, 'namespace': 'uniprot', 'hgnc_id': '7468', 'entrez_id': '4548', 'symbol': 'MTR', 'score': 6, 'abstract_count': 3, 'abstract_position_score': 3}, 'P51606': {'count': 2, 'text': 'age', 'type': 'protein', 'start_pos': 203, 'namespace': 'uniprot', 'hgnc_id': '9959', 'entrez_id': '5973', 'symbol': 'RENBP', 'score': 4, 'abstract_count': 2, 'abstract_position_score': 2}, 'UAZ00231': {'count': 1, 'text': 'CD4+', 'type': 'protein', 'start_pos': 384, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UA-BP-GGP-00007': {'count': 1, 'text': 'antigen', 'type': 'protein', 'start_pos': 1117, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+Q99707 MS MTR P51606 age RENBP UAZ00231 CD4+  UA-BP-GGP-00007 antigen  
 title families:
-{}
+
 abstract families:
-{'Chemokine': {'count': 1, 'start_pos': 1093, 'namespace': 'be', 'symbol': '', 'text': 'chemokine', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+Chemokine chemokine  
 
 28:
-abstract protein:
-{'P09958': {'count': 1, 'text': 'pace', 'type': 'protein', 'start_pos': 851, 'namespace': 'uniprot', 'hgnc_id': '8568', 'entrez_id': '5045', 'symbol': 'FURIN', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+P09958 pace FURIN 
 title families:
-{}
+
 abstract families:
-{}
+
 
 29:
-abstract protein:
-{'UAZ02535': {'count': 1, 'text': 'SARS-CoV-2', 'type': 'protein', 'start_pos': 38, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'abstract_count': 1, 'abstract_position_score': 4}, 'Q2M3R5': {'count': 1, 'text': 'post', 'type': 'protein', 'start_pos': 779, 'namespace': 'uniprot', 'hgnc_id': '26607', 'entrez_id': '159371', 'symbol': 'SLC35G1', 'score': 4, 'abstract_count': 1, 'abstract_position_score': 3}, 'UAZ10339': {'count': 1, 'text': 'SARS-CoV-2 monoclonal antibodies', 'type': 'protein', 'start_pos': 1080, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'UAZ10340': {'count': 1, 'text': 'mAbs', 'type': 'protein', 'start_pos': 1114, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10341': {'count': 1, 'text': 'SARS-CoV-2 variants', 'type': 'protein', 'start_pos': 1359, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}, 'UAZ10338': {'count': 1, 'text': 'SARS-CoV-2 Omicron Variant Escape', 'type': 'protein', 'start_pos': 66, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+
 title protein:
-{'UAZ10338': {'count': 1, 'text': 'SARS-CoV-2 Omicron Variant Escape', 'type': 'protein', 'start_pos': 66, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+UAZ10338 SARS-CoV-2 Omicron Variant Escape  
+abstract protein:
+UAZ02535 SARS-CoV-2  Q2M3R5 post SLC35G1 UAZ10339 SARS-CoV-2 monoclonal antibodies  UAZ10340 mAbs  UAZ10341 SARS-CoV-2 variants  UAZ10338 SARS-CoV-2 Omicron Variant Escape  
 title families:
-{}
+
 abstract families:
-{}
+
 
 30:
-abstract protein:
-{'UA-BP-GGP-00007': {'count': 6, 'text': 'antigen', 'type': 'protein', 'start_pos': 9, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 20, 'abstract_count': 1, 'abstract_position_score': 4, 'title_count': 1, 'title_position_score': 2}, 'Q16568': {'count': 8, 'text': 'CAR-T', 'type': 'protein', 'start_pos': 29, 'namespace': 'uniprot', 'hgnc_id': '24323', 'entrez_id': '9607', 'symbol': 'CARTPT', 'score': 11, 'abstract_count': 3, 'abstract_position_score': 3, 'title_count': 1, 'title_position_score': 0}, 'UAZ10342': {'count': 6, 'text': 'antigen receptor', 'type': 'protein', 'start_pos': 9, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 16, 'abstract_count': 1, 'abstract_position_score': 5, 'title_count': 1, 'title_position_score': 1}, 'P60568': {'count': 2, 'text': 'IL-2', 'type': 'protein', 'start_pos': 282, 'namespace': 'uniprot', 'hgnc_id': '6001', 'entrez_id': '3558', 'symbol': 'IL2', 'score': 2, 'abstract_count': 2, 'abstract_position_score': 0}, 'P01579': {'count': 2, 'text': 'interferon-gamma', 'type': 'protein', 'start_pos': 250, 'namespace': 'uniprot', 'hgnc_id': '5438', 'entrez_id': '3458', 'symbol': 'IFNG', 'score': 3, 'abstract_count': 2, 'abstract_position_score': 1}, 'P36575': {'count': 1, 'text': 'CAR', 'type': 'protein', 'start_pos': 184, 'namespace': 'uniprot', 'hgnc_id': '710', 'entrez_id': '407', 'symbol': 'ARR3', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}}
+
 title protein:
-{'Q16568': {'count': 1, 'text': 'CAR-T', 'type': 'protein', 'start_pos': 43, 'namespace': 'uniprot', 'hgnc_id': '24323', 'entrez_id': '9607', 'symbol': 'CARTPT'}, 'UAZ10342': {'count': 1, 'text': 'antigen receptor', 'type': 'protein', 'start_pos': 23, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}, 'UA-BP-GGP-00007': {'count': 1, 'text': 'antigen', 'type': 'protein', 'start_pos': 23, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+Q16568 CAR-T CARTPT UAZ10342 antigen receptor  UA-BP-GGP-00007 antigen  
+abstract protein:
+UA-BP-GGP-00007 antigen  Q16568 CAR-T CARTPT UAZ10342 antigen receptor  P60568 IL-2 IL2 P01579 interferon-gamma IFNG P36575 CAR ARR3 
 title families:
-{}
+
 abstract families:
-{}
+
 
 31:
-abstract protein:
-{'P00915': {'count': 6, 'text': 'CA1', 'type': 'protein', 'start_pos': 532, 'namespace': 'uniprot', 'hgnc_id': '1368', 'entrez_id': '759', 'symbol': 'CA1', 'score': 7, 'abstract_count': 1, 'abstract_position_score': 1, 'title_count': 1, 'title_position_score': 0}, 'UAZ10343': {'count': 1, 'text': 'rheobase', 'type': 'protein', 'start_pos': 840, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{'P00915': {'count': 1, 'text': 'CA1', 'type': 'protein', 'start_pos': 55, 'namespace': 'uniprot', 'hgnc_id': '1368', 'entrez_id': '759', 'symbol': 'CA1'}}
+P00915 CA1 CA1 
+abstract protein:
+P00915 CA1 CA1 UAZ10343 rheobase  
 title families:
-{}
+
 abstract families:
-{}
+
 
 32:
-abstract protein:
-{'UAZ10345': {'count': 1, 'text': 'B.1.1.529', 'type': 'protein', 'start_pos': 43, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'UAZ10346': {'count': 1, 'text': 'SARS-CoV-2 variant Omicron', 'type': 'protein', 'start_pos': 15, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 4, 'abstract_count': 1, 'abstract_position_score': 3}, 'UAZ10347': {'count': 1, 'text': 'S mutations', 'type': 'protein', 'start_pos': 257, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ02535': {'count': 1, 'text': 'SARS-CoV-2', 'type': 'protein', 'start_pos': 725, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}, 'UAZ10344': {'count': 1, 'text': 'SARS-CoV-2 variant', 'type': 'protein', 'start_pos': 59, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+
 title protein:
-{'UAZ10344': {'count': 1, 'text': 'SARS-CoV-2 variant', 'type': 'protein', 'start_pos': 59, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+UAZ10344 SARS-CoV-2 variant  
+abstract protein:
+UAZ10345 B.1.1.529  UAZ10346 SARS-CoV-2 variant Omicron  UAZ10347 S mutations  UAZ02535 SARS-CoV-2  UAZ10344 SARS-CoV-2 variant  
 title families:
-{}
+
 abstract families:
-{'PF07507': {'count': 1, 'start_pos': 125, 'namespace': 'pfam', 'symbol': '', 'text': 'wave', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+PF07507 wave  
 
 33:
-abstract protein:
-{}
+
 title protein:
-{}
+
+abstract protein:
+
 title families:
-{}
+
 abstract families:
-{'PF00575': {'count': 3, 'start_pos': 720, 'namespace': 'pfam', 'symbol': '', 'text': 'S1', 'score': 3, 'abstract_count': 3, 'abstract_position_score': 0}}
+PF00575 S1  
 
 34:
-abstract protein:
-{'UAZ10350': {'count': 1, 'text': 'CNSGB', 'type': 'protein', 'start_pos': 517, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'UAZ10348': {'count': 9, 'text': 'SoyFGB v2.0', 'type': 'protein', 'start_pos': 389, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 12, 'abstract_count': 4, 'abstract_position_score': 3, 'title_count': 1, 'title_position_score': 0}, 'UAZ10349': {'count': 1, 'text': '2K-SG', 'type': 'protein', 'start_pos': 878, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'Q96CJ1': {'count': 2, 'text': 'traits', 'type': 'protein', 'start_pos': 1158, 'namespace': 'uniprot', 'hgnc_id': '23115', 'entrez_id': '55840', 'symbol': 'EAF2', 'score': 2, 'abstract_count': 2, 'abstract_position_score': 0}}
+
 title protein:
-{'UAZ10348': {'count': 1, 'text': 'SoyFGB v2.0', 'type': 'protein', 'start_pos': 0, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+UAZ10348 SoyFGB v2.0  
+abstract protein:
+UAZ10350 CNSGB  UAZ10348 SoyFGB v2.0  UAZ10349 2K-SG  Q96CJ1 traits EAF2 
 title families:
-{}
+
 abstract families:
-{}
+
 
 35:
-abstract protein:
-{'Q13127': {'count': 1, 'text': 'rest', 'type': 'protein', 'start_pos': 851, 'namespace': 'uniprot', 'hgnc_id': '9966', 'entrez_id': '5978', 'symbol': 'REST', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+Q13127 rest REST 
 title families:
-{}
+
 abstract families:
-{}
+
 
 36:
-abstract protein:
-{'UAZ10351': {'count': 1, 'text': 'N-nicotinamide methyltransferase', 'type': 'protein', 'start_pos': 367, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'P40261': {'count': 5, 'text': 'NNMT', 'type': 'protein', 'start_pos': 401, 'namespace': 'uniprot', 'hgnc_id': '7861', 'entrez_id': '4837', 'symbol': 'NNMT', 'score': 5, 'abstract_count': 5, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+UAZ10351 N-nicotinamide methyltransferase  P40261 NNMT NNMT 
 title families:
-{}
+
 abstract families:
-{}
+
 
 37:
-abstract protein:
-{'UAZ00297': {'count': 2, 'text': 'hsa-mir-429', 'type': 'protein', 'start_pos': 667, 'namespace': 'HGNC', 'hgnc_id': '13784', 'entrez_id': '', 'symbol': 'MIR429', 'score': 9, 'abstract_count': 2, 'abstract_position_score': 7}, 'UAZ10352': {'count': 2, 'text': 'hsa-mir-18a', 'type': 'protein', 'start_pos': 722, 'namespace': 'HGNC', 'hgnc_id': '31548', 'entrez_id': '', 'symbol': 'MIR18A', 'score': 5, 'abstract_count': 2, 'abstract_position_score': 3}, 'UAZ10355': {'count': 2, 'text': 'hsa-mir-363', 'type': 'protein', 'start_pos': 654, 'namespace': 'HGNC', 'hgnc_id': '32023', 'entrez_id': '', 'symbol': 'MIR363', 'score': 10, 'abstract_count': 2, 'abstract_position_score': 8}, 'UAZ10354': {'count': 2, 'text': 'hsa-mir-141', 'type': 'protein', 'start_pos': 680, 'namespace': 'HGNC', 'hgnc_id': '31528', 'entrez_id': '', 'symbol': 'MIR141', 'score': 8, 'abstract_count': 2, 'abstract_position_score': 6}, 'UAZ10353': {'count': 2, 'text': 'hsa-mir-203b', 'type': 'protein', 'start_pos': 705, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 6, 'abstract_count': 2, 'abstract_position_score': 4}, 'UAZ00296': {'count': 2, 'text': 'hsa-mir-93', 'type': 'protein', 'start_pos': 693, 'namespace': 'HGNC', 'hgnc_id': '31645', 'entrez_id': '', 'symbol': 'MIR93', 'score': 7, 'abstract_count': 2, 'abstract_position_score': 5}, 'P01106': {'count': 1, 'text': 'MYC', 'type': 'protein', 'start_pos': 926, 'namespace': 'uniprot', 'hgnc_id': '7553', 'entrez_id': '4609', 'symbol': 'MYC', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}, 'P60484': {'count': 1, 'text': 'PTEN', 'type': 'protein', 'start_pos': 917, 'namespace': 'uniprot', 'hgnc_id': '9588', 'entrez_id': '5728', 'symbol': 'PTEN', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'Q12926': {'count': 1, 'text': 'hub', 'type': 'protein', 'start_pos': 903, 'namespace': 'uniprot', 'hgnc_id': '3313', 'entrez_id': '1993', 'symbol': 'ELAVL2', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}}
+
 title protein:
-{}
+
+abstract protein:
+UAZ00297 hsa-mir-429 MIR429 UAZ10352 hsa-mir-18a MIR18A UAZ10355 hsa-mir-363 MIR363 UAZ10354 hsa-mir-141 MIR141 UAZ10353 hsa-mir-203b  UAZ00296 hsa-mir-93 MIR93 P01106 MYC MYC P60484 PTEN PTEN Q12926 hub ELAVL2 
 title families:
-{}
+
 abstract families:
-{'PF04942': {'count': 1, 'start_pos': 17, 'namespace': 'pfam', 'symbol': '', 'text': 'CC', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+PF04942 CC  
 
 38:
-abstract protein:
-{}
+
 title protein:
-{}
+
+abstract protein:
+
 title families:
-{}
+
 abstract families:
-{'PF16474': {'count': 1, 'start_pos': 845, 'namespace': 'pfam', 'symbol': '', 'text': 'kind', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+PF16474 kind  
 
 39:
-abstract protein:
-{'UAZ10358': {'count': 1, 'text': 'MHC II.', 'type': 'protein', 'start_pos': 822, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10357': {'count': 1, 'text': 'MHC I epitopes', 'type': 'protein', 'start_pos': 767, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'UAZ10356': {'count': 1, 'text': 'MHC II alleles', 'type': 'protein', 'start_pos': 930, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+UAZ10358 MHC II.  UAZ10357 MHC I epitopes  UAZ10356 MHC II alleles  
 title families:
-{'PF03922': {'count': 1, 'start_pos': 65, 'namespace': 'pfam', 'symbol': '', 'text': 'OmpW Family'}}
+PF03922 OmpW Family  
 abstract families:
-{'PF03922': {'count': 7, 'start_pos': 293, 'namespace': 'pfam', 'symbol': '', 'text': 'OmpW family', 'score': 7, 'abstract_count': 2, 'abstract_position_score': 0, 'title_count': 1, 'title_position_score': 0}}
+PF03922 OmpW family  
 
 40:
-abstract protein:
-{'O75628': {'count': 18, 'text': 'REM', 'type': 'protein', 'start_pos': 41, 'namespace': 'uniprot', 'hgnc_id': '15922', 'entrez_id': '28954', 'symbol': 'REM1', 'score': 23, 'abstract_count': 13, 'abstract_position_score': 5, 'title_count': 1, 'title_position_score': 0}, 'UAZ10359': {'count': 1, 'text': 'narcolepsy', 'type': 'protein', 'start_pos': 86, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'abstract_count': 1, 'abstract_position_score': 4}, 'O43612': {'count': 3, 'text': 'hypocretin', 'type': 'protein', 'start_pos': 147, 'namespace': 'uniprot', 'hgnc_id': '4847', 'entrez_id': '3060', 'symbol': 'HCRT', 'score': 6, 'abstract_count': 3, 'abstract_position_score': 3}, 'O14656': {'count': 13, 'text': 'Ta', 'type': 'protein', 'start_pos': 422, 'namespace': 'uniprot', 'hgnc_id': '3098', 'entrez_id': '1861', 'symbol': 'TOR1A', 'score': 15, 'abstract_count': 13, 'abstract_position_score': 2}, 'UAZ10360': {'count': 1, 'text': 'Hcrt-KO', 'type': 'protein', 'start_pos': 1203, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}, 'O43557': {'count': 1, 'text': 'light', 'type': 'protein', 'start_pos': 1181, 'namespace': 'uniprot', 'hgnc_id': '11930', 'entrez_id': '8740', 'symbol': 'TNFSF14', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}}
+
 title protein:
-{'O75628': {'count': 1, 'text': 'REM', 'type': 'protein', 'start_pos': 35, 'namespace': 'uniprot', 'hgnc_id': '15922', 'entrez_id': '28954', 'symbol': 'REM1'}}
+O75628 REM REM1 
+abstract protein:
+O75628 REM REM1 UAZ10359 narcolepsy  O43612 hypocretin HCRT O14656 Ta TOR1A UAZ10360 Hcrt-KO  O43557 light TNFSF14 
 title families:
-{}
+
 abstract families:
-{}
+
 
 41:
-abstract protein:
-{'O14649': {'count': 7, 'text': 'task', 'type': 'protein', 'start_pos': 470, 'namespace': 'uniprot', 'hgnc_id': '6278', 'entrez_id': '3777', 'symbol': 'KCNK3', 'score': 9, 'abstract_count': 2, 'abstract_position_score': 2, 'title_count': 1, 'title_position_score': 0}, 'P51606': {'count': 1, 'text': 'age', 'type': 'protein', 'start_pos': 737, 'namespace': 'uniprot', 'hgnc_id': '9959', 'entrez_id': '5973', 'symbol': 'RENBP', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10361': {'count': 1, 'text': 'fMRI', 'type': 'protein', 'start_pos': 1010, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{'O14649': {'count': 1, 'text': 'task', 'type': 'protein', 'start_pos': 19, 'namespace': 'uniprot', 'hgnc_id': '6278', 'entrez_id': '3777', 'symbol': 'KCNK3'}}
+O14649 task KCNK3 
+abstract protein:
+O14649 task KCNK3 P51606 age RENBP UAZ10361 fMRI  
 title families:
-{}
+
 abstract families:
-{}
+
 
 42:
-abstract protein:
-{}
+
 title protein:
-{}
+
+abstract protein:
+
 title families:
-{}
+
 abstract families:
-{'PF09070': {'count': 2, 'start_pos': 654, 'namespace': 'pfam', 'symbol': '', 'text': 'PFU', 'score': 3, 'abstract_count': 2, 'abstract_position_score': 1}, 'PF00531': {'count': 1, 'start_pos': 826, 'namespace': 'pfam', 'symbol': '', 'text': 'death', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+PF09070 PFU  PF00531 death  
 
 43:
-abstract protein:
-{'Q01105': {'count': 1, 'text': 'set', 'type': 'protein', 'start_pos': 430, 'namespace': 'uniprot', 'hgnc_id': '10760', 'entrez_id': '6418', 'symbol': 'SET', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+Q01105 set SET 
 title families:
-{'PF03374': {'count': 1, 'start_pos': 74, 'namespace': 'pfam', 'symbol': '', 'text': 'ant'}}
+PF03374 ant  
 abstract families:
-{'PF03374': {'count': 7, 'start_pos': 770, 'namespace': 'pfam', 'symbol': '', 'text': 'ant', 'score': 7, 'abstract_count': 2, 'abstract_position_score': 0, 'title_count': 1, 'title_position_score': 0}}
+PF03374 ant  
 
 44:
-abstract protein:
-{'B0YJ81': {'count': 6, 'text': 'cap', 'type': 'protein', 'start_pos': 256, 'namespace': 'uniprot', 'hgnc_id': '9639', 'entrez_id': '9200', 'symbol': 'HACD1', 'score': 8, 'abstract_count': 1, 'abstract_position_score': 2, 'title_count': 1, 'title_position_score': 0}, 'Q8IW35': {'count': 2, 'text': 'CEP97', 'type': 'protein', 'start_pos': 242, 'namespace': 'uniprot', 'hgnc_id': '26244', 'entrez_id': '79598', 'symbol': 'CEP97', 'score': 5, 'abstract_count': 2, 'abstract_position_score': 3}, 'O43303': {'count': 5, 'text': 'CP110', 'type': 'protein', 'start_pos': 232, 'namespace': 'uniprot', 'hgnc_id': '24342', 'entrez_id': '9738', 'symbol': 'CCP110', 'score': 9, 'abstract_count': 5, 'abstract_position_score': 4}, 'P17813': {'count': 1, 'text': 'end', 'type': 'protein', 'start_pos': 297, 'namespace': 'uniprot', 'hgnc_id': '3349', 'entrez_id': '2022', 'symbol': 'ENG', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'Q9HC77': {'count': 2, 'text': 'CPAP', 'type': 'protein', 'start_pos': 775, 'namespace': 'uniprot', 'hgnc_id': '17272', 'entrez_id': '55835', 'symbol': 'CENPJ', 'score': 2, 'abstract_count': 2, 'abstract_position_score': 0}}
+
 title protein:
-{'B0YJ81': {'count': 1, 'text': 'cap', 'type': 'protein', 'start_pos': 46, 'namespace': 'uniprot', 'hgnc_id': '9639', 'entrez_id': '9200', 'symbol': 'HACD1'}}
+B0YJ81 cap HACD1 
+abstract protein:
+B0YJ81 cap HACD1 Q8IW35 CEP97 CEP97 O43303 CP110 CCP110 P17813 end ENG Q9HC77 CPAP CENPJ 
 title families:
-{}
+
 abstract families:
-{'PF12252': {'count': 1, 'start_pos': 630, 'namespace': 'pfam', 'symbol': '', 'text': 'side', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+PF12252 side  
 
 45:
-abstract protein:
-{'UAZ10366': {'count': 1, 'text': 'ER/SR proteome', 'type': 'protein', 'start_pos': 186, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 11, 'abstract_count': 1, 'abstract_position_score': 10}, 'UAZ10362': {'count': 12, 'text': 'ER/SR', 'type': 'protein', 'start_pos': 357, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 21, 'abstract_count': 2, 'abstract_position_score': 9, 'title_count': 2, 'title_position_score': 0}, 'P03372': {'count': 1, 'text': 'ER', 'type': 'protein', 'start_pos': 370, 'namespace': 'uniprot', 'hgnc_id': '3467', 'entrez_id': '2099', 'symbol': 'ESR1', 'score': 9, 'abstract_count': 1, 'abstract_position_score': 8}, 'O76070': {'count': 1, 'text': 'SR', 'type': 'protein', 'start_pos': 906, 'namespace': 'uniprot', 'hgnc_id': '11141', 'entrez_id': '6623', 'symbol': 'SNCG', 'score': 7, 'abstract_count': 1, 'abstract_position_score': 6}, 'P21817': {'count': 3, 'text': 'RYR1', 'type': 'protein', 'start_pos': 856, 'namespace': 'uniprot', 'hgnc_id': '10483', 'entrez_id': '6261', 'symbol': 'RYR1', 'score': 10, 'abstract_count': 3, 'abstract_position_score': 7}, 'UAZ10363': {'count': 1, 'text': 'RYR1-RM', 'type': 'protein', 'start_pos': 1213, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 6, 'abstract_count': 1, 'abstract_position_score': 5}, 'UAZ10365': {'count': 2, 'text': 'ERS proteins', 'type': 'protein', 'start_pos': 1520, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 6, 'abstract_count': 2, 'abstract_position_score': 4}, 'P55145': {'count': 4, 'text': 'MANF', 'type': 'protein', 'start_pos': 1619, 'namespace': 'uniprot', 'hgnc_id': '15461', 'entrez_id': '7873', 'symbol': 'MANF', 'score': 7, 'abstract_count': 4, 'abstract_position_score': 3}, 'P51606': {'count': 1, 'text': 'age', 'type': 'protein', 'start_pos': 1936, 'namespace': 'uniprot', 'hgnc_id': '9959', 'entrez_id': '5973', 'symbol': 'RENBP', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'Q9NZV5': {'count': 4, 'text': 'Selenoprotein N', 'type': 'protein', 'start_pos': 2021, 'namespace': 'uniprot', 'hgnc_id': '15999', 'entrez_id': '57190', 'symbol': 'SELENON', 'score': 5, 'abstract_count': 4, 'abstract_position_score': 1}, 'UAZ10364': {'count': 1, 'text': 'SEPN1-RM', 'type': 'protein', 'start_pos': 2240, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{'UAZ10362': {'count': 2, 'text': 'ER/SR', 'type': 'protein', 'start_pos': 18, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+UAZ10362 ER/SR  
+abstract protein:
+UAZ10366 ER/SR proteome  UAZ10362 ER/SR  P03372 ER ESR1 O76070 SR SNCG P21817 RYR1 RYR1 UAZ10363 RYR1-RM  UAZ10365 ERS proteins  P55145 MANF MANF P51606 age RENBP Q9NZV5 Selenoprotein N SELENON UAZ10364 SEPN1-RM  
 title families:
-{}
+
 abstract families:
-{'IPR013333': {'count': 1, 'start_pos': 829, 'namespace': 'interpro', 'symbol': '', 'text': 'Ryanodine receptor', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+IPR013333 Ryanodine receptor  
 
 46:
-abstract protein:
-{}
+
 title protein:
-{}
+
+abstract protein:
+
 title families:
-{}
+
 abstract families:
-{}
+
 
 47:
-abstract protein:
-{'UAZ10367': {'count': 2, 'text': 'NCFH', 'type': 'protein', 'start_pos': 242, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 2, 'abstract_position_score': 1}, 'UAZ10368': {'count': 1, 'text': 'MATLAB script', 'type': 'protein', 'start_pos': 676, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+UAZ10367 NCFH  UAZ10368 MATLAB script  
 title families:
-{}
+
 abstract families:
-{'PF01342': {'count': 3, 'start_pos': 546, 'namespace': 'pfam', 'symbol': '', 'text': 'sand', 'score': 3, 'abstract_count': 3, 'abstract_position_score': 0}}
+PF01342 sand  
 
 48:
-abstract protein:
-{'P26358': {'count': 1, 'text': 'aim', 'type': 'protein', 'start_pos': 279, 'namespace': 'uniprot', 'hgnc_id': '2976', 'entrez_id': '1786', 'symbol': 'DNMT1', 'score': 13, 'abstract_count': 1, 'abstract_position_score': 12}, 'UAZ10369': {'count': 1, 'text': 'Illumina NovaSeq 6000', 'type': 'protein', 'start_pos': 482, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 11, 'abstract_count': 1, 'abstract_position_score': 10}, 'UAZ10370': {'count': 1, 'text': 'GSE190076', 'type': 'protein', 'start_pos': 434, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 12, 'abstract_count': 1, 'abstract_position_score': 11}, 'O75419': {'count': 1, 'text': 'CDC45', 'type': 'protein', 'start_pos': 708, 'namespace': 'uniprot', 'hgnc_id': '1739', 'entrez_id': '8318', 'symbol': 'CDC45', 'score': 8, 'abstract_count': 1, 'abstract_position_score': 7}, 'P12004': {'count': 1, 'text': 'PCNA', 'type': 'protein', 'start_pos': 736, 'namespace': 'uniprot', 'hgnc_id': '8729', 'entrez_id': '5111', 'symbol': 'PCNA', 'score': 4, 'abstract_count': 1, 'abstract_position_score': 3}, 'Q96T88': {'count': 1, 'text': 'UHRF1', 'type': 'protein', 'start_pos': 715, 'namespace': 'uniprot', 'hgnc_id': '12556', 'entrez_id': '29128', 'symbol': 'UHRF1', 'score': 7, 'abstract_count': 1, 'abstract_position_score': 6}, 'P31350': {'count': 1, 'text': 'RRM2', 'type': 'protein', 'start_pos': 696, 'namespace': 'uniprot', 'hgnc_id': '10452', 'entrez_id': '6241', 'symbol': 'RRM2', 'score': 10, 'abstract_count': 1, 'abstract_position_score': 9}, 'P01106': {'count': 1, 'text': 'MYC', 'type': 'protein', 'start_pos': 748, 'namespace': 'uniprot', 'hgnc_id': '7553', 'entrez_id': '4609', 'symbol': 'MYC', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'Q99741': {'count': 1, 'text': 'CDC6', 'type': 'protein', 'start_pos': 702, 'namespace': 'uniprot', 'hgnc_id': '1744', 'entrez_id': '990', 'symbol': 'CDC6', 'score': 9, 'abstract_count': 1, 'abstract_position_score': 8}, 'O95229': {'count': 1, 'text': 'ZWINT', 'type': 'protein', 'start_pos': 729, 'namespace': 'uniprot', 'hgnc_id': '13195', 'entrez_id': '11130', 'symbol': 'ZWINT', 'score': 5, 'abstract_count': 1, 'abstract_position_score': 4}, 'Q8IZT6': {'count': 1, 'text': 'ASPM', 'type': 'protein', 'start_pos': 742, 'namespace': 'uniprot', 'hgnc_id': '19048', 'entrez_id': '259266', 'symbol': 'ASPM', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'P04183': {'count': 1, 'text': 'TK1', 'type': 'protein', 'start_pos': 757, 'namespace': 'uniprot', 'hgnc_id': '11830', 'entrez_id': '7083', 'symbol': 'TK1', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}, 'Q9NVP2': {'count': 1, 'text': 'ASF1B', 'type': 'protein', 'start_pos': 722, 'namespace': 'uniprot', 'hgnc_id': '20996', 'entrez_id': '55723', 'symbol': 'ASF1B', 'score': 6, 'abstract_count': 1, 'abstract_position_score': 5}}
+
 title protein:
-{}
+
+abstract protein:
+P26358 aim DNMT1 UAZ10369 Illumina NovaSeq 6000  UAZ10370 GSE190076  O75419 CDC45 CDC45 P12004 PCNA PCNA Q96T88 UHRF1 UHRF1 P31350 RRM2 RRM2 P01106 MYC MYC Q99741 CDC6 CDC6 O95229 ZWINT ZWINT Q8IZT6 ASPM ASPM P04183 TK1 TK1 Q9NVP2 ASF1B ASF1B 
 title families:
-{}
+
 abstract families:
-{}
+
 
 49:
-abstract protein:
-{'UAZ10372': {'count': 1, 'text': 'SARS-CoV-2 Omicron', 'type': 'protein', 'start_pos': 4, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'abstract_count': 1, 'abstract_position_score': 4}, 'P54829': {'count': 1, 'text': 'step', 'type': 'protein', 'start_pos': 413, 'namespace': 'uniprot', 'hgnc_id': '9657', 'entrez_id': '84867', 'symbol': 'PTPN5', 'score': 4, 'abstract_count': 1, 'abstract_position_score': 3}, 'Q9BYF1': {'count': 2, 'text': 'ACE2', 'type': 'protein', 'start_pos': 891, 'namespace': 'uniprot', 'hgnc_id': '13557', 'entrez_id': '59272', 'symbol': 'ACE2', 'score': 3, 'abstract_count': 2, 'abstract_position_score': 1}, 'O43557': {'count': 1, 'text': 'light', 'type': 'protein', 'start_pos': 1093, 'namespace': 'uniprot', 'hgnc_id': '11930', 'entrez_id': '8740', 'symbol': 'TNFSF14', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}, 'UAZ10373': {'count': 1, 'text': 'Omicron S', 'type': 'protein', 'start_pos': 864, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'UAZ10371': {'count': 1, 'text': 'SARS-CoV-2 Omicron variant', 'type': 'protein', 'start_pos': 89, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+
 title protein:
-{'UAZ10371': {'count': 1, 'text': 'SARS-CoV-2 Omicron variant', 'type': 'protein', 'start_pos': 89, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+UAZ10371 SARS-CoV-2 Omicron variant  
+abstract protein:
+UAZ10372 SARS-CoV-2 Omicron  P54829 step PTPN5 Q9BYF1 ACE2 ACE2 O43557 light TNFSF14 UAZ10373 Omicron S  UAZ10371 SARS-CoV-2 Omicron variant  
 title families:
-{}
+
 abstract families:
-{}
+
 
 50:
-abstract protein:
-{'Q969F0': {'count': 6, 'text': 'fate', 'type': 'protein', 'start_pos': 887, 'namespace': 'uniprot', 'hgnc_id': '24683', 'entrez_id': '89885', 'symbol': 'FATE1', 'score': 6, 'abstract_count': 1, 'abstract_position_score': 0, 'title_count': 1, 'title_position_score': 0}}
+
 title protein:
-{'Q969F0': {'count': 1, 'text': 'fate', 'type': 'protein', 'start_pos': 37, 'namespace': 'uniprot', 'hgnc_id': '24683', 'entrez_id': '89885', 'symbol': 'FATE1'}}
+Q969F0 fate FATE1 
+abstract protein:
+Q969F0 fate FATE1 
 title families:
-{}
+
 abstract families:
-{}
+
 
 51:
-abstract protein:
-{'UAZ10374': {'count': 2, 'text': 'MW-AUC', 'type': 'protein', 'start_pos': 146, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 2, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+UAZ10374 MW-AUC  
 title families:
-{}
+
 abstract families:
-{}
+
 
 52:
-abstract protein:
-{'UAZ10375': {'count': 1, 'text': 'Cas9 screens', 'type': 'protein', 'start_pos': 140, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 4, 'abstract_count': 1, 'abstract_position_score': 3}, 'Q99986': {'count': 12, 'text': 'VRK1', 'type': 'protein', 'start_pos': 347, 'namespace': 'uniprot', 'hgnc_id': '12718', 'entrez_id': '7443', 'symbol': 'VRK1', 'score': 19, 'abstract_count': 7, 'abstract_position_score': 2, 'title_count': 1, 'title_position_score': 1}, 'UAZ00202': {'count': 1, 'text': 'CRISPR', 'type': 'protein', 'start_pos': 133, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'abstract_count': 1, 'abstract_position_score': 4}, 'Q86Y07': {'count': 11, 'text': 'VRK2', 'type': 'protein', 'start_pos': 472, 'namespace': 'uniprot', 'hgnc_id': '12719', 'entrez_id': '7444', 'symbol': 'VRK2', 'score': 12, 'abstract_count': 6, 'abstract_position_score': 1, 'title_count': 1, 'title_position_score': 0}, 'O75531': {'count': 2, 'text': 'BAF', 'type': 'protein', 'start_pos': 808, 'namespace': 'uniprot', 'hgnc_id': '17397', 'entrez_id': '8815', 'symbol': 'BANF1', 'score': 2, 'abstract_count': 2, 'abstract_position_score': 0}}
+
 title protein:
-{'Q99986': {'count': 1, 'text': 'VRK1', 'type': 'protein', 'start_pos': 0, 'namespace': 'uniprot', 'hgnc_id': '12718', 'entrez_id': '7443', 'symbol': 'VRK1'}, 'Q86Y07': {'count': 1, 'text': 'VRK2', 'type': 'protein', 'start_pos': 20, 'namespace': 'uniprot', 'hgnc_id': '12719', 'entrez_id': '7444', 'symbol': 'VRK2'}}
+Q99986 VRK1 VRK1 Q86Y07 VRK2 VRK2 
+abstract protein:
+UAZ10375 Cas9 screens  Q99986 VRK1 VRK1 UAZ00202 CRISPR  Q86Y07 VRK2 VRK2 O75531 BAF BANF1 
 title families:
-{}
+
 abstract families:
-{}
+
 
 53:
-abstract protein:
-{'UAZ02535': {'count': 2, 'text': 'SARS-CoV-2', 'type': 'protein', 'start_pos': 21, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 2, 'abstract_position_score': 0}, 'UAZ10341': {'count': 1, 'text': 'SARS-CoV-2 variants', 'type': 'protein', 'start_pos': 24, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+
 title protein:
-{'UAZ10341': {'count': 1, 'text': 'SARS-CoV-2 variants', 'type': 'protein', 'start_pos': 24, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+UAZ10341 SARS-CoV-2 variants  
+abstract protein:
+UAZ02535 SARS-CoV-2  UAZ10341 SARS-CoV-2 variants  
 title families:
-{}
+
 abstract families:
-{}
+
 
 54:
-abstract protein:
-{'P09958': {'count': 1, 'text': 'pace', 'type': 'protein', 'start_pos': 28, 'namespace': 'uniprot', 'hgnc_id': '8568', 'entrez_id': '5045', 'symbol': 'FURIN', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10376': {'count': 1, 'text': 'e.g., gene', 'type': 'protein', 'start_pos': 1366, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}, 'UAZ02513': {'count': 1, 'text': 'COVID-19', 'type': 'protein', 'start_pos': 26, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+
 title protein:
-{'UAZ02513': {'count': 1, 'text': 'COVID-19', 'type': 'protein', 'start_pos': 26, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+UAZ02513 COVID-19  
+abstract protein:
+P09958 pace FURIN UAZ10376 e.g., gene  UAZ02513 COVID-19  
 title families:
-{}
+
 abstract families:
-{}
+
 
 55:
-abstract protein:
-{'UAZ02535': {'count': 7, 'text': 'SARS-CoV-2', 'type': 'protein', 'start_pos': 34, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 13, 'abstract_count': 2, 'abstract_position_score': 6, 'title_count': 1, 'title_position_score': 0}, 'UAZ10341': {'count': 1, 'text': 'SARS-CoV-2 Variants', 'type': 'protein', 'start_pos': 173, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 6, 'abstract_count': 1, 'abstract_position_score': 5}, 'UAZ10380': {'count': 1, 'text': 'REGN10987', 'type': 'protein', 'start_pos': 858, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 4, 'abstract_count': 1, 'abstract_position_score': 3}, 'UAZ10381': {'count': 1, 'text': 'Sotrovimab', 'type': 'protein', 'start_pos': 965, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}, 'UAZ10377': {'count': 1, 'text': 'REGN10933', 'type': 'protein', 'start_pos': 844, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'abstract_count': 1, 'abstract_position_score': 4}, 'UAZ10378': {'count': 1, 'text': 'LY-CoV016 monoclonal antibodies', 'type': 'protein', 'start_pos': 893, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10379': {'count': 1, 'text': 'Lilly LY-CoV555', 'type': 'protein', 'start_pos': 873, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}}
+
 title protein:
-{'UAZ02535': {'count': 1, 'text': 'SARS-CoV-2', 'type': 'protein', 'start_pos': 24, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+UAZ02535 SARS-CoV-2  
+abstract protein:
+UAZ02535 SARS-CoV-2  UAZ10341 SARS-CoV-2 Variants  UAZ10380 REGN10987  UAZ10381 Sotrovimab  UAZ10377 REGN10933  UAZ10378 LY-CoV016 monoclonal antibodies  UAZ10379 Lilly LY-CoV555  
 title families:
-{}
+
 abstract families:
-{}
+
 
 56:
-abstract protein:
-{'UAZ02535': {'count': 7, 'text': 'SARS-CoV-2', 'type': 'protein', 'start_pos': 190, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 11, 'abstract_count': 2, 'abstract_position_score': 4, 'title_count': 1, 'title_position_score': 0}, 'Q9P2X3': {'count': 6, 'text': 'impact', 'type': 'protein', 'start_pos': 456, 'namespace': 'uniprot', 'hgnc_id': '20387', 'entrez_id': '55364', 'symbol': 'IMPACT', 'score': 14, 'abstract_count': 1, 'abstract_position_score': 3, 'title_count': 1, 'title_position_score': 1}, 'UAZ10382': {'count': 1, 'text': 'epitope sequences', 'type': 'protein', 'start_pos': 1076, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10332': {'count': 1, 'text': 'epitopes', 'type': 'protein', 'start_pos': 1020, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'P12872': {'count': 1, 'text': 'map', 'type': 'protein', 'start_pos': 1317, 'namespace': 'uniprot', 'hgnc_id': '7141', 'entrez_id': '4295', 'symbol': 'MLN', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{'UAZ02535': {'count': 1, 'text': 'SARS-CoV-2', 'type': 'protein', 'start_pos': 65, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}, 'Q9P2X3': {'count': 1, 'text': 'impact', 'type': 'protein', 'start_pos': 55, 'namespace': 'uniprot', 'hgnc_id': '20387', 'entrez_id': '55364', 'symbol': 'IMPACT'}}
+UAZ02535 SARS-CoV-2  Q9P2X3 impact IMPACT 
+abstract protein:
+UAZ02535 SARS-CoV-2  Q9P2X3 impact IMPACT UAZ10382 epitope sequences  UAZ10332 epitopes  P12872 map MLN 
 title families:
-{}
+
 abstract families:
-{}
+
 
 57:
-abstract protein:
-{'UAZ10371': {'count': 1, 'text': 'SARS-CoV-2 omicron variant', 'type': 'protein', 'start_pos': 114, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ02535': {'count': 7, 'text': 'SARS-CoV-2', 'type': 'protein', 'start_pos': 154, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 7, 'abstract_count': 2, 'abstract_position_score': 0, 'title_count': 1, 'title_position_score': 0}}
+
 title protein:
-{'UAZ02535': {'count': 1, 'text': 'SARS-CoV-2', 'type': 'protein', 'start_pos': 90, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+UAZ02535 SARS-CoV-2  
+abstract protein:
+UAZ10371 SARS-CoV-2 omicron variant  UAZ02535 SARS-CoV-2  
 title families:
-{}
+
 abstract families:
-{}
+
 
 58:
-abstract protein:
-{'O75791': {'count': 1, 'text': 'grid', 'type': 'protein', 'start_pos': 582, 'namespace': 'uniprot', 'hgnc_id': '4563', 'entrez_id': '9402', 'symbol': 'GRAP2', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'P21462': {'count': 2, 'text': 'FPR', 'type': 'protein', 'start_pos': 726, 'namespace': 'uniprot', 'hgnc_id': '3826', 'entrez_id': '2357', 'symbol': 'FPR1', 'score': 2, 'abstract_count': 2, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+O75791 grid GRAP2 P21462 FPR FPR1 
 title families:
-{'PF00661': {'count': 1, 'start_pos': 47, 'namespace': 'pfam', 'symbol': '', 'text': 'Matrix'}}
+PF00661 Matrix  
 abstract families:
-{'PF00661': {'count': 9, 'start_pos': 108, 'namespace': 'pfam', 'symbol': '', 'text': 'matrix', 'score': 9, 'abstract_count': 4, 'abstract_position_score': 0, 'title_count': 1, 'title_position_score': 0}}
+PF00661 matrix  
 
 59:
-abstract protein:
-{'P15502': {'count': 1, 'text': 'Elastin', 'type': 'protein', 'start_pos': 56, 'namespace': 'uniprot', 'hgnc_id': '3327', 'entrez_id': '2006', 'symbol': 'ELN', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'Q9H2C0': {'count': 1, 'text': 'GAN', 'type': 'protein', 'start_pos': 1106, 'namespace': 'uniprot', 'hgnc_id': '4137', 'entrez_id': '8139', 'symbol': 'GAN', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}, 'UAZ10383': {'count': 1, 'text': 'elastin-like polypeptide', 'type': 'protein', 'start_pos': 77, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+
 title protein:
-{'UAZ10383': {'count': 1, 'text': 'elastin-like polypeptide', 'type': 'protein', 'start_pos': 77, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+UAZ10383 elastin-like polypeptide  
+abstract protein:
+P15502 Elastin ELN Q9H2C0 GAN GAN UAZ10383 elastin-like polypeptide  
 title families:
-{}
+
 abstract families:
-{}
+
 
 60:
-abstract protein:
-{'UAZ10385': {'count': 2, 'text': 'Clair3', 'type': 'protein', 'start_pos': 157, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 2, 'abstract_position_score': 0}, 'UAZ10384': {'count': 1, 'text': 'pileup', 'type': 'protein', 'start_pos': 13, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+
 title protein:
-{'UAZ10384': {'count': 1, 'text': 'pileup', 'type': 'protein', 'start_pos': 13, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+UAZ10384 pileup  
+abstract protein:
+UAZ10385 Clair3  UAZ10384 pileup  
 title families:
-{}
+
 abstract families:
-{}
+
 
 61:
-abstract protein:
-{'Q15063': {'count': 2, 'text': 'PN', 'type': 'protein', 'start_pos': 216, 'namespace': 'uniprot', 'hgnc_id': '16953', 'entrez_id': '10631', 'symbol': 'POSTN', 'score': 5, 'abstract_count': 2, 'abstract_position_score': 3}, 'UAZ10387': {'count': 3, 'text': 'PTFezf2', 'type': 'protein', 'start_pos': 376, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'abstract_count': 3, 'abstract_position_score': 2}, 'UAZ10386': {'count': 4, 'text': 'ITPlxnD1', 'type': 'protein', 'start_pos': 420, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'abstract_count': 4, 'abstract_position_score': 1}, 'UAZ10388': {'count': 1, 'text': 'PTFezf2 subnetworks', 'type': 'protein', 'start_pos': 665, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+Q15063 PN POSTN UAZ10387 PTFezf2  UAZ10386 ITPlxnD1  UAZ10388 PTFezf2 subnetworks  
 title families:
-{}
+
 abstract families:
-{}
+
 
 62:
-abstract protein:
-{'P01236': {'count': 12, 'text': 'prolactin', 'type': 'protein', 'start_pos': 367, 'namespace': 'uniprot', 'hgnc_id': '9445', 'entrez_id': '5617', 'symbol': 'PRL', 'score': 16, 'abstract_count': 7, 'abstract_position_score': 4, 'title_count': 1, 'title_position_score': 0}, 'UAZ00595': {'count': 1, 'text': 'c-fos', 'type': 'protein', 'start_pos': 459, 'namespace': 'HGNC', 'hgnc_id': '3796', 'entrez_id': '', 'symbol': 'FOS', 'score': 4, 'abstract_count': 1, 'abstract_position_score': 3}, 'O75365': {'count': 3, 'text': 'Prlr', 'type': 'protein', 'start_pos': 883, 'namespace': 'uniprot', 'hgnc_id': '9636', 'entrez_id': '11156', 'symbol': 'PTP4A3', 'score': 4, 'abstract_count': 3, 'abstract_position_score': 1}, 'P16471': {'count': 1, 'text': 'prolactin receptor', 'type': 'protein', 'start_pos': 863, 'namespace': 'uniprot', 'hgnc_id': '9446', 'entrez_id': '5618', 'symbol': 'PRLR', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'O14649': {'count': 1, 'text': 'task', 'type': 'protein', 'start_pos': 1190, 'namespace': 'uniprot', 'hgnc_id': '6278', 'entrez_id': '3777', 'symbol': 'KCNK3', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{'P01236': {'count': 1, 'text': 'Prolactin', 'type': 'protein', 'start_pos': 0, 'namespace': 'uniprot', 'hgnc_id': '9445', 'entrez_id': '5617', 'symbol': 'PRL'}}
+P01236 Prolactin PRL 
+abstract protein:
+P01236 prolactin PRL UAZ00595 c-fos FOS O75365 Prlr PTP4A3 P16471 prolactin receptor PRLR O14649 task KCNK3 
 title families:
-{}
+
 abstract families:
-{'PF05639': {'count': 2, 'start_pos': 1176, 'namespace': 'pfam', 'symbol': '', 'text': 'pup', 'score': 2, 'abstract_count': 2, 'abstract_position_score': 0}}
+PF05639 pup  
 
 63:
-abstract protein:
-{'UAZ02535': {'count': 2, 'text': 'SARS-CoV-2', 'type': 'protein', 'start_pos': 70, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 7, 'abstract_count': 2, 'abstract_position_score': 5}, 'P51606': {'count': 1, 'text': 'age', 'type': 'protein', 'start_pos': 480, 'namespace': 'uniprot', 'hgnc_id': '9959', 'entrez_id': '5973', 'symbol': 'RENBP', 'score': 5, 'abstract_count': 1, 'abstract_position_score': 4}, 'P40225': {'count': 1, 'text': 'ml', 'type': 'protein', 'start_pos': 588, 'namespace': 'uniprot', 'hgnc_id': '11795', 'entrez_id': '7066', 'symbol': 'THPO', 'score': 4, 'abstract_count': 1, 'abstract_position_score': 3}, 'UAZ10390': {'count': 1, 'text': 'Main Outcome(s)', 'type': 'protein', 'start_pos': 763, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'UAZ10389': {'count': 1, 'text': 'Omicron SARS-CoV-2 variant', 'type': 'protein', 'start_pos': 901, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10371': {'count': 6, 'text': 'SARS-CoV-2 Omicron variant', 'type': 'protein', 'start_pos': 1711, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 6, 'abstract_count': 1, 'abstract_position_score': 0, 'title_count': 1, 'title_position_score': 0}}
+
 title protein:
-{'UAZ10371': {'count': 1, 'text': 'SARS-CoV-2 Omicron variant', 'type': 'protein', 'start_pos': 35, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+UAZ10371 SARS-CoV-2 Omicron variant  
+abstract protein:
+UAZ02535 SARS-CoV-2  P51606 age RENBP P40225 ml THPO UAZ10390 Main Outcome(s)  UAZ10389 Omicron SARS-CoV-2 variant  UAZ10371 SARS-CoV-2 Omicron variant  
 title families:
-{}
+
 abstract families:
-{'PF09133': {'count': 1, 'start_pos': 416, 'namespace': 'pfam', 'symbol': '', 'text': 'Santa', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+PF09133 Santa  
 
 64:
-abstract protein:
-{'UAZ02535': {'count': 2, 'text': 'SARS-CoV-2', 'type': 'protein', 'start_pos': 80, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 9, 'abstract_count': 2, 'abstract_position_score': 7}, 'P10265': {'count': 1, 'text': 'protease', 'type': 'protein', 'start_pos': 708, 'namespace': 'uniprot', 'hgnc_id': '39004', 'entrez_id': '100616101', 'symbol': 'ERVK-10', 'score': 7, 'abstract_count': 1, 'abstract_position_score': 6}, 'P54829': {'count': 1, 'text': 'step', 'type': 'protein', 'start_pos': 867, 'namespace': 'uniprot', 'hgnc_id': '9657', 'entrez_id': '84867', 'symbol': 'PTPN5', 'score': 6, 'abstract_count': 1, 'abstract_position_score': 5}, 'UAZ10391': {'count': 1, 'text': 'Kappa', 'type': 'protein', 'start_pos': 1279, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10341': {'count': 6, 'text': 'SARS-CoV-2 variants', 'type': 'protein', 'start_pos': 1178, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 9, 'abstract_count': 1, 'abstract_position_score': 3, 'title_count': 1, 'title_position_score': 0}, 'UAZ10394': {'count': 1, 'text': 'Iota', 'type': 'protein', 'start_pos': 1273, 'namespace': 'HGNC', 'hgnc_id': '9535', 'entrez_id': '', 'symbol': 'PSMA6', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'UAZ10393': {'count': 1, 'text': 'Lambda', 'type': 'protein', 'start_pos': 1293, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}, 'UAZ10392': {'count': 1, 'text': 'RBD-SD1', 'type': 'protein', 'start_pos': 1096, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'abstract_count': 1, 'abstract_position_score': 4}}
+
 title protein:
-{'UAZ10341': {'count': 1, 'text': 'SARS-CoV-2 variants', 'type': 'protein', 'start_pos': 60, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+UAZ10341 SARS-CoV-2 variants  
+abstract protein:
+UAZ02535 SARS-CoV-2  P10265 protease ERVK-10 P54829 step PTPN5 UAZ10391 Kappa  UAZ10341 SARS-CoV-2 variants  UAZ10394 Iota PSMA6 UAZ10393 Lambda  UAZ10392 RBD-SD1  
 title families:
-{}
+
 abstract families:
-{'PF00661': {'count': 1, 'start_pos': 1675, 'namespace': 'pfam', 'symbol': '', 'text': 'matrix', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+PF00661 matrix  
 
 65:
-abstract protein:
-{'UAZ02535': {'count': 7, 'text': 'SARS-CoV-2', 'type': 'protein', 'start_pos': 211, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 14, 'abstract_count': 2, 'abstract_position_score': 7, 'title_count': 1, 'title_position_score': 0}, 'Q9Y2P5': {'count': 1, 'text': 'BACs', 'type': 'protein', 'start_pos': 352, 'namespace': 'uniprot', 'hgnc_id': '10999', 'entrez_id': '10998', 'symbol': 'SLC27A5', 'score': 7, 'abstract_count': 1, 'abstract_position_score': 6}, 'UAZ10400': {'count': 1, 'text': 'SARS-CoV-2 enzymes', 'type': 'protein', 'start_pos': 528, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 6, 'abstract_count': 1, 'abstract_position_score': 5}, 'UAZ10397': {'count': 1, 'text': 'Nano luciferase', 'type': 'protein', 'start_pos': 917, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'UAZ10396': {'count': 2, 'text': 'SARS-CoV-2 replicon', 'type': 'protein', 'start_pos': 744, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 6, 'abstract_count': 2, 'abstract_position_score': 4}, 'UAZ10395': {'count': 1, 'text': 'SARS-CoV-2 replication reporter genes', 'type': 'protein', 'start_pos': 878, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 4, 'abstract_count': 1, 'abstract_position_score': 3}, 'UAZ10398': {'count': 1, 'text': 'SARS-CoV-2 structural proteins', 'type': 'protein', 'start_pos': 1284, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10399': {'count': 1, 'text': 'SARS-CoV-2 genes', 'type': 'protein', 'start_pos': 1879, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{'UAZ02535': {'count': 1, 'text': 'SARS-CoV-2', 'type': 'protein', 'start_pos': 11, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}}
+UAZ02535 SARS-CoV-2  
+abstract protein:
+UAZ02535 SARS-CoV-2  Q9Y2P5 BACs SLC27A5 UAZ10400 SARS-CoV-2 enzymes  UAZ10397 Nano luciferase  UAZ10396 SARS-CoV-2 replicon  UAZ10395 SARS-CoV-2 replication reporter genes  UAZ10398 SARS-CoV-2 structural proteins  UAZ10399 SARS-CoV-2 genes  
 title families:
-{}
+
 abstract families:
-{}
+
 
 66:
-abstract protein:
-{'UAZ02535': {'count': 9, 'text': 'SARS-CoV-2', 'type': 'protein', 'start_pos': 83, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 24, 'abstract_count': 4, 'abstract_position_score': 5, 'title_count': 1, 'title_position_score': 2}, 'P03372': {'count': 7, 'text': 'ER', 'type': 'protein', 'start_pos': 501, 'namespace': 'uniprot', 'hgnc_id': '3467', 'entrez_id': '2099', 'symbol': 'ESR1', 'score': 11, 'abstract_count': 2, 'abstract_position_score': 4, 'title_count': 1, 'title_position_score': 0}, 'O75460': {'count': 12, 'text': 'IRE1', 'type': 'protein', 'start_pos': 715, 'namespace': 'uniprot', 'hgnc_id': '3449', 'entrez_id': '2081', 'symbol': 'ERN1', 'score': 20, 'abstract_count': 7, 'abstract_position_score': 3, 'title_count': 1, 'title_position_score': 1}, 'UAZ10402': {'count': 1, 'text': 'HCoV-OC43', 'type': 'protein', 'start_pos': 960, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10403': {'count': 1, 'text': 'respiratory coronavirus OC43', 'type': 'protein', 'start_pos': 930, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'P17861': {'count': 2, 'text': 'XBP1', 'type': 'protein', 'start_pos': 1155, 'namespace': 'uniprot', 'hgnc_id': '12801', 'entrez_id': '7494', 'symbol': 'XBP1', 'score': 2, 'abstract_count': 2, 'abstract_position_score': 0}}
+
 title protein:
-{'UAZ02535': {'count': 1, 'text': 'SARS-CoV-2', 'type': 'protein', 'start_pos': 0, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': ''}, 'P03372': {'count': 1, 'text': 'ER', 'type': 'protein', 'start_pos': 93, 'namespace': 'uniprot', 'hgnc_id': '3467', 'entrez_id': '2099', 'symbol': 'ESR1'}, 'O75460': {'count': 1, 'text': 'IRE1', 'type': 'protein', 'start_pos': 82, 'namespace': 'uniprot', 'hgnc_id': '3449', 'entrez_id': '2081', 'symbol': 'ERN1'}}
+UAZ02535 SARS-CoV-2  P03372 ER ESR1 O75460 IRE1 ERN1 
+abstract protein:
+UAZ02535 SARS-CoV-2  P03372 ER ESR1 O75460 IRE1 ERN1 UAZ10402 HCoV-OC43  UAZ10403 respiratory coronavirus OC43  P17861 XBP1 XBP1 
 title families:
-{}
+
 abstract families:
-{'PF13796': {'count': 1, 'start_pos': 708, 'namespace': 'pfam', 'symbol': '', 'text': 'sensor', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+PF13796 sensor  
 
 67:
-abstract protein:
-{}
+
 title protein:
-{}
+
+abstract protein:
+
 title families:
-{}
+
 abstract families:
-{}
+
 
 68:
-abstract protein:
-{'UAZ10404': {'count': 1, 'text': 'Ochlandra travancorica', 'type': 'protein', 'start_pos': 1104, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+UAZ10404 Ochlandra travancorica  
 title families:
-{}
+
 abstract families:
-{}
+
 
 69:
-abstract protein:
-{'UAZ10405': {'count': 1, 'text': 'myosin super family', 'type': 'protein', 'start_pos': 46, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'P54829': {'count': 1, 'text': 'step', 'type': 'protein', 'start_pos': 429, 'namespace': 'uniprot', 'hgnc_id': '9657', 'entrez_id': '84867', 'symbol': 'PTPN5', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'P17813': {'count': 1, 'text': 'end', 'type': 'protein', 'start_pos': 909, 'namespace': 'uniprot', 'hgnc_id': '3349', 'entrez_id': '2022', 'symbol': 'ENG', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+UAZ10405 myosin super family  P54829 step PTPN5 P17813 end ENG 
 title families:
-{}
+
 abstract families:
-{'PF00225': {'count': 2, 'start_pos': 34, 'namespace': 'pfam', 'symbol': '', 'text': 'kinesin', 'score': 4, 'abstract_count': 2, 'abstract_position_score': 2}, 'UAZ10406': {'count': 1, 'start_pos': 46, 'namespace': 'uaz', 'symbol': '', 'text': 'myosin super', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'Actin': {'count': 1, 'start_pos': 342, 'namespace': 'be', 'symbol': '', 'text': 'actin', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+PF00225 kinesin  UAZ10406 myosin super  Actin actin  
 
 70:
-abstract protein:
-{'Q16288': {'count': 1, 'text': 'NTRK3', 'type': 'protein', 'start_pos': 954, 'namespace': 'uniprot', 'hgnc_id': '8033', 'entrez_id': '4916', 'symbol': 'NTRK3', 'score': 4, 'abstract_count': 1, 'abstract_position_score': 3}, 'P24821': {'count': 1, 'text': 'TNC', 'type': 'protein', 'start_pos': 949, 'namespace': 'uniprot', 'hgnc_id': '5318', 'entrez_id': '3371', 'symbol': 'TNC', 'score': 5, 'abstract_count': 1, 'abstract_position_score': 4}, 'P35443': {'count': 1, 'text': 'THBS4', 'type': 'protein', 'start_pos': 942, 'namespace': 'uniprot', 'hgnc_id': '11788', 'entrez_id': '7060', 'symbol': 'THBS4', 'score': 6, 'abstract_count': 1, 'abstract_position_score': 5}, 'Q01105': {'count': 1, 'text': 'set', 'type': 'protein', 'start_pos': 890, 'namespace': 'uniprot', 'hgnc_id': '10760', 'entrez_id': '6418', 'symbol': 'SET', 'score': 7, 'abstract_count': 1, 'abstract_position_score': 6}, 'Q14515': {'count': 1, 'text': 'SPARCL1', 'type': 'protein', 'start_pos': 964, 'namespace': 'uniprot', 'hgnc_id': '11220', 'entrez_id': '8404', 'symbol': 'SPARCL1', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'P22303': {'count': 1, 'text': 'ACHE', 'type': 'protein', 'start_pos': 1059, 'namespace': 'uniprot', 'hgnc_id': '108', 'entrez_id': '43', 'symbol': 'ACHE', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}, 'P21397': {'count': 3, 'text': 'MAOA', 'type': 'protein', 'start_pos': 1053, 'namespace': 'uniprot', 'hgnc_id': '6833', 'entrez_id': '4128', 'symbol': 'MAOA', 'score': 4, 'abstract_count': 3, 'abstract_position_score': 1}}
+
 title protein:
-{}
+
+abstract protein:
+Q16288 NTRK3 NTRK3 P24821 TNC TNC P35443 THBS4 THBS4 Q01105 set SET Q14515 SPARCL1 SPARCL1 P22303 ACHE ACHE P21397 MAOA MAOA 
 title families:
-{}
+
 abstract families:
-{}
+
 
 71:
-abstract protein:
-{'P42345': {'count': 1, 'text': 'mTOR', 'type': 'protein', 'start_pos': 760, 'namespace': 'uniprot', 'hgnc_id': '3942', 'entrez_id': '2475', 'symbol': 'MTOR', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+P42345 mTOR MTOR 
 title families:
-{}
+
 abstract families:
-{}
+
 
 72:
-abstract protein:
-{'Q14032': {'count': 9, 'text': 'bat', 'type': 'protein', 'start_pos': 243, 'namespace': 'uniprot', 'hgnc_id': '932', 'entrez_id': '570', 'symbol': 'BAAT', 'score': 10, 'abstract_count': 4, 'abstract_position_score': 1, 'title_count': 1, 'title_position_score': 0}, 'UAZ10407': {'count': 1, 'text': 'Nipah cases', 'type': 'protein', 'start_pos': 276, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{'Q14032': {'count': 1, 'text': 'bat', 'type': 'protein', 'start_pos': 25, 'namespace': 'uniprot', 'hgnc_id': '932', 'entrez_id': '570', 'symbol': 'BAAT'}}
+Q14032 bat BAAT 
+abstract protein:
+Q14032 bat BAAT UAZ10407 Nipah cases  
 title families:
-{}
+
 abstract families:
-{'PF06968': {'count': 1, 'start_pos': 78, 'namespace': 'pfam', 'symbol': '', 'text': 'bats', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+PF06968 bats  
 
 73:
-abstract protein:
-{'Q9P2X3': {'count': 1, 'text': 'impact', 'type': 'protein', 'start_pos': 416, 'namespace': 'uniprot', 'hgnc_id': '20387', 'entrez_id': '55364', 'symbol': 'IMPACT', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+Q9P2X3 impact IMPACT 
 title families:
-{}
+
 abstract families:
-{}
+
 
 74:
-abstract protein:
-{'UAZ10412': {'count': 1, 'text': 'aka SIRH3', 'type': 'protein', 'start_pos': 112, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 4, 'abstract_count': 1, 'abstract_position_score': 3}, 'UAZ10413': {'count': 1, 'text': 'SIRH8', 'type': 'protein', 'start_pos': 94, 'namespace': 'HGNC', 'hgnc_id': '29430', 'entrez_id': '', 'symbol': 'RTL5', 'score': 6, 'abstract_count': 1, 'abstract_position_score': 5}, 'UAZ10414': {'count': 1, 'text': 'retrotransposon homolog 8', 'type': 'protein', 'start_pos': 67, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 7, 'abstract_count': 1, 'abstract_position_score': 6}, 'UAZ10408': {'count': 9, 'text': 'RTL6', 'type': 'protein', 'start_pos': 106, 'namespace': 'HGNC', 'hgnc_id': '13343', 'entrez_id': '', 'symbol': 'RTL6', 'score': 13, 'abstract_count': 4, 'abstract_position_score': 4, 'title_count': 1, 'title_position_score': 0}, 'UAZ10409': {'count': 9, 'text': 'RTL5', 'type': 'protein', 'start_pos': 28, 'namespace': 'HGNC', 'hgnc_id': '29430', 'entrez_id': '', 'symbol': 'RTL5', 'score': 21, 'abstract_count': 4, 'abstract_position_score': 7, 'title_count': 1, 'title_position_score': 1}, 'UAZ10415': {'count': 1, 'text': 'RTL5-mCherry', 'type': 'protein', 'start_pos': 692, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'UAZ10410': {'count': 1, 'text': 'RTL6-Venus fusion proteins', 'type': 'protein', 'start_pos': 709, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10411': {'count': 1, 'text': 'RTL-pathogen complexes', 'type': 'protein', 'start_pos': 1015, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{'UAZ10408': {'count': 1, 'text': 'RTL6', 'type': 'protein', 'start_pos': 44, 'namespace': 'HGNC', 'hgnc_id': '13343', 'entrez_id': '', 'symbol': 'RTL6'}, 'UAZ10409': {'count': 1, 'text': 'RTL5', 'type': 'protein', 'start_pos': 35, 'namespace': 'HGNC', 'hgnc_id': '29430', 'entrez_id': '', 'symbol': 'RTL5'}}
+UAZ10408 RTL6 RTL6 UAZ10409 RTL5 RTL5 
+abstract protein:
+UAZ10412 aka SIRH3  UAZ10413 SIRH8 RTL5 UAZ10414 retrotransposon homolog 8  UAZ10408 RTL6 RTL6 UAZ10409 RTL5 RTL5 UAZ10415 RTL5-mCherry  UAZ10410 RTL6-Venus fusion proteins  UAZ10411 RTL-pathogen complexes  
 title families:
-{}
+
 abstract families:
-{}
+
 
 75:
-abstract protein:
-{'UAZ10416': {'count': 1, 'text': 'iscR mutant E. coli', 'type': 'protein', 'start_pos': 540, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 4, 'abstract_count': 1, 'abstract_position_score': 3}, 'UAZ10417': {'count': 1, 'text': 'iscR allele fitness benefits', 'type': 'protein', 'start_pos': 737, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'UAZ10418': {'count': 1, 'text': 'iscR allele', 'type': 'protein', 'start_pos': 947, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}, 'P80188': {'count': 1, 'text': 'Lipocalin-2', 'type': 'protein', 'start_pos': 788, 'namespace': 'uniprot', 'hgnc_id': '6526', 'entrez_id': '3934', 'symbol': 'LCN2', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}}
+
 title protein:
-{}
+
+abstract protein:
+UAZ10416 iscR mutant E. coli  UAZ10417 iscR allele fitness benefits  UAZ10418 iscR allele  P80188 Lipocalin-2 LCN2 
 title families:
-{}
+
 abstract families:
-{}
+
 
 76:
-abstract protein:
-{'Q99715': {'count': 4, 'text': 'COL12A1', 'type': 'protein', 'start_pos': 159, 'namespace': 'uniprot', 'hgnc_id': '2188', 'entrez_id': '1303', 'symbol': 'COL12A1', 'score': 6, 'abstract_count': 4, 'abstract_position_score': 2}, 'UAZ00523': {'count': 1, 'text': 'RNAseq', 'type': 'protein', 'start_pos': 1071, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10420': {'count': 1, 'text': 'scRNA-seq', 'type': 'protein', 'start_pos': 1079, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}, 'Q13201': {'count': 1, 'text': 'ECM', 'type': 'protein', 'start_pos': 60, 'namespace': 'uniprot', 'hgnc_id': '7178', 'entrez_id': '22915', 'symbol': 'MMRN1', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+
 title protein:
-{'Q13201': {'count': 1, 'text': 'ECM', 'type': 'protein', 'start_pos': 60, 'namespace': 'uniprot', 'hgnc_id': '7178', 'entrez_id': '22915', 'symbol': 'MMRN1', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+Q13201 ECM MMRN1 
+abstract protein:
+Q99715 COL12A1 COL12A1 UAZ00523 RNAseq  UAZ10420 scRNA-seq  Q13201 ECM MMRN1 
 title families:
-{'PF01391': {'count': 1, 'start_pos': 22, 'namespace': 'pfam', 'symbol': '', 'text': 'collagen'}}
+PF01391 collagen  
 abstract families:
-{'PF01391': {'count': 11, 'start_pos': 0, 'namespace': 'pfam', 'symbol': '', 'text': 'Collagen', 'score': 12, 'abstract_count': 6, 'abstract_position_score': 1, 'title_count': 1, 'title_position_score': 0}, 'PF00661': {'count': 1, 'start_pos': 1228, 'namespace': 'pfam', 'symbol': '', 'text': 'matrix', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+PF01391 Collagen  PF00661 matrix  
 
 77:
-abstract protein:
-{'UAZ10422': {'count': 1, 'text': 'Single-nuclei RNA-Seq', 'type': 'protein', 'start_pos': 0, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'P35858': {'count': 1, 'text': 'ALS', 'type': 'protein', 'start_pos': 717, 'namespace': 'uniprot', 'hgnc_id': '5468', 'entrez_id': '3483', 'symbol': 'IGFALS', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10421': {'count': 1, 'text': 'SnISOr-Seq', 'type': 'protein', 'start_pos': 1361, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+UAZ10422 Single-nuclei RNA-Seq  P35858 ALS IGFALS UAZ10421 SnISOr-Seq  
 title families:
-{}
+
 abstract families:
-{}
+
 
 78:
-abstract protein:
-{'O75781': {'count': 14, 'text': 'palm', 'type': 'protein', 'start_pos': 9, 'namespace': 'uniprot', 'hgnc_id': '8594', 'entrez_id': '5064', 'symbol': 'PALM', 'score': 15, 'abstract_count': 9, 'abstract_position_score': 1, 'title_count': 1, 'title_position_score': 0}, 'UAZ10423': {'count': 1, 'text': 'Metroxylon sagu Rottboll', 'type': 'protein', 'start_pos': 15, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{'O75781': {'count': 1, 'text': 'palm', 'type': 'protein', 'start_pos': 48, 'namespace': 'uniprot', 'hgnc_id': '8594', 'entrez_id': '5064', 'symbol': 'PALM'}}
+O75781 palm PALM 
+abstract protein:
+O75781 palm PALM UAZ10423 Metroxylon sagu Rottboll  
 title families:
-{}
+
 abstract families:
-{}
+
 
 79:
-abstract protein:
-{'UAZ10424': {'count': 1, 'text': 'rheology', 'type': 'protein', 'start_pos': 7, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+UAZ10424 rheology  
 title families:
-{}
+
 abstract families:
-{}
+
 
 80:
-abstract protein:
-{'UAZ10428': {'count': 3, 'text': 'CD206+ TAMs', 'type': 'protein', 'start_pos': 308, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 9, 'abstract_count': 3, 'abstract_position_score': 6}, 'UAZ10429': {'count': 1, 'text': 'CD206-targeting peptide mUNO', 'type': 'protein', 'start_pos': 474, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'abstract_count': 1, 'abstract_position_score': 4}, 'P25092': {'count': 6, 'text': 'star', 'type': 'protein', 'start_pos': 420, 'namespace': 'uniprot', 'hgnc_id': '4688', 'entrez_id': '2984', 'symbol': 'GUCY2C', 'score': 16, 'abstract_count': 1, 'abstract_position_score': 5, 'title_count': 1, 'title_position_score': 1}, 'UAZ10427': {'count': 1, 'text': 'St-PGA', 'type': 'protein', 'start_pos': 617, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 4, 'abstract_count': 1, 'abstract_position_score': 3}, 'B7ZLG1': {'count': 1, 'text': 'FOXP3', 'type': 'protein', 'start_pos': 917, 'namespace': 'uniprot', 'hgnc_id': None, 'entrez_id': None, 'symbol': 'FOXP3', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'UAZ10426': {'count': 1, 'text': 'OximUNO', 'type': 'protein', 'start_pos': 1021, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ01102': {'count': 1, 'text': 'TNBC', 'type': 'protein', 'start_pos': 1058, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}, 'UAZ10425': {'count': 1, 'text': 'Models', 'type': 'protein', 'start_pos': 164, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+
 title protein:
-{'P25092': {'count': 1, 'text': 'Star', 'type': 'protein', 'start_pos': 62, 'namespace': 'uniprot', 'hgnc_id': '4688', 'entrez_id': '2984', 'symbol': 'GUCY2C'}, 'UAZ10425': {'count': 1, 'text': 'Models', 'type': 'protein', 'start_pos': 164, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+P25092 Star GUCY2C UAZ10425 Models  
+abstract protein:
+UAZ10428 CD206+ TAMs  UAZ10429 CD206-targeting peptide mUNO  P25092 star GUCY2C UAZ10427 St-PGA  B7ZLG1 FOXP3 FOXP3 UAZ10426 OximUNO  UAZ01102 TNBC  UAZ10425 Models  
 title families:
-{}
+
 abstract families:
-{'CD8': {'count': 1, 'start_pos': 913, 'namespace': 'be', 'symbol': '', 'text': 'CD8', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+CD8 CD8  
 
 81:
-abstract protein:
-{'Q03403': {'count': 6, 'text': 'sp', 'type': 'protein', 'start_pos': 22, 'namespace': 'uniprot', 'hgnc_id': '11756', 'entrez_id': '7032', 'symbol': 'TFF2', 'score': 19, 'abstract_count': 1, 'abstract_position_score': 8, 'title_count': 1, 'title_position_score': 1}, 'O95232': {'count': 1, 'text': 'crop', 'type': 'protein', 'start_pos': 148, 'namespace': 'uniprot', 'hgnc_id': '24309', 'entrez_id': '51747', 'symbol': 'LUC7L3', 'score': 8, 'abstract_count': 1, 'abstract_position_score': 7}, 'P49116': {'count': 8, 'text': 'TR4', 'type': 'protein', 'start_pos': 541, 'namespace': 'uniprot', 'hgnc_id': '7972', 'entrez_id': '7182', 'symbol': 'NR2C2', 'score': 12, 'abstract_count': 3, 'abstract_position_score': 4, 'title_count': 1, 'title_position_score': 0}, 'UAZ10435': {'count': 1, 'text': 'Race 1', 'type': 'protein', 'start_pos': 500, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 7, 'abstract_count': 1, 'abstract_position_score': 6}, 'UAZ10434': {'count': 1, 'text': 'race 4', 'type': 'protein', 'start_pos': 529, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 6, 'abstract_count': 1, 'abstract_position_score': 5}, 'P01298': {'count': 1, 'text': 'pH', 'type': 'protein', 'start_pos': 809, 'namespace': 'uniprot', 'hgnc_id': '9327', 'entrez_id': '5539', 'symbol': 'PPY', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10436': {'count': 1, 'text': 'NAD-ALDH', 'type': 'protein', 'start_pos': 784, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'UAZ10432': {'count': 1, 'text': 'NAD-aldehyde dehydrogenase', 'type': 'protein', 'start_pos': 756, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 4, 'abstract_count': 1, 'abstract_position_score': 3}, 'UAZ10433': {'count': 1, 'text': 'Foc TR4', 'type': 'protein', 'start_pos': 1752, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{'Q03403': {'count': 1, 'text': 'sp', 'type': 'protein', 'start_pos': 56, 'namespace': 'uniprot', 'hgnc_id': '11756', 'entrez_id': '7032', 'symbol': 'TFF2'}, 'P49116': {'count': 1, 'text': 'TR4', 'type': 'protein', 'start_pos': 92, 'namespace': 'uniprot', 'hgnc_id': '7972', 'entrez_id': '7182', 'symbol': 'NR2C2'}}
+Q03403 sp TFF2 P49116 TR4 NR2C2 
+abstract protein:
+Q03403 sp TFF2 O95232 crop LUC7L3 P49116 TR4 NR2C2 UAZ10435 Race 1  UAZ10434 race 4  P01298 pH PPY UAZ10436 NAD-ALDH  UAZ10432 NAD-aldehyde dehydrogenase  UAZ10433 Foc TR4  
 title families:
-{}
+
 abstract families:
-{'IPR007122': {'count': 1, 'start_pos': 633, 'namespace': 'interpro', 'symbol': '', 'text': 'gel', 'score': 4, 'abstract_count': 1, 'abstract_position_score': 3}, 'ERK': {'count': 1, 'start_pos': 795, 'namespace': 'be', 'symbol': '', 'text': 'MAPK', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'PRDX': {'count': 1, 'start_pos': 740, 'namespace': 'be', 'symbol': '', 'text': 'peroxiredoxins', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'PF01081': {'count': 1, 'start_pos': 1443, 'namespace': 'pfam', 'symbol': '', 'text': 'aldolase', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+IPR007122 gel  ERK MAPK  PRDX peroxiredoxins  PF01081 aldolase  
 
 82:
-abstract protein:
-{'P23560': {'count': 22, 'text': 'brain-derived neurotrophic factor', 'type': 'protein', 'start_pos': 9, 'namespace': 'uniprot', 'hgnc_id': '1033', 'entrez_id': '627', 'symbol': 'BDNF', 'score': 27, 'abstract_count': 12, 'abstract_position_score': 5, 'title_count': 2, 'title_position_score': 0}, 'Q16620': {'count': 2, 'text': 'TrkB', 'type': 'protein', 'start_pos': 99, 'namespace': 'uniprot', 'hgnc_id': '8032', 'entrez_id': '4915', 'symbol': 'NTRK2', 'score': 5, 'abstract_count': 2, 'abstract_position_score': 3}, 'UAZ10439': {'count': 1, 'text': 'Tropomyosin receptor', 'type': 'protein', 'start_pos': 68, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'abstract_count': 1, 'abstract_position_score': 4}, 'P49901': {'count': 1, 'text': 'MCs', 'type': 'protein', 'start_pos': 346, 'namespace': 'uniprot', 'hgnc_id': '6962', 'entrez_id': '4184', 'symbol': 'SMCP', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'UAZ10437': {'count': 1, 'text': 'presynaptic type-1 cannabinoid receptors', 'type': 'protein', 'start_pos': 718, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10438': {'count': 1, 'text': 'MC-GC LTP', 'type': 'protein', 'start_pos': 883, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{'P23560': {'count': 2, 'text': 'BDNF', 'type': 'protein', 'start_pos': 0, 'namespace': 'uniprot', 'hgnc_id': '1033', 'entrez_id': '627', 'symbol': 'BDNF'}}
+P23560 BDNF BDNF 
+abstract protein:
+P23560 brain-derived neurotrophic factor BDNF Q16620 TrkB NTRK2 UAZ10439 Tropomyosin receptor  P49901 MCs SMCP UAZ10437 presynaptic type-1 cannabinoid receptors  UAZ10438 MC-GC LTP  
 title families:
-{}
+
 abstract families:
-{'PF00261': {'count': 1, 'start_pos': 68, 'namespace': 'pfam', 'symbol': '', 'text': 'Tropomyosin', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+PF00261 Tropomyosin  
 
 83:
-abstract protein:
-{'UAZ10440': {'count': 1, 'text': 'dCA3', 'type': 'protein', 'start_pos': 382, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'UAZ00595': {'count': 1, 'text': 'c-Fos', 'type': 'protein', 'start_pos': 1172, 'namespace': 'HGNC', 'hgnc_id': '3796', 'entrez_id': '', 'symbol': 'FOS', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'Q03403': {'count': 4, 'text': 'SP', 'type': 'protein', 'start_pos': 1280, 'namespace': 'uniprot', 'hgnc_id': '11756', 'entrez_id': '7032', 'symbol': 'TFF2', 'score': 4, 'abstract_count': 4, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+UAZ10440 dCA3  UAZ00595 c-Fos FOS Q03403 SP TFF2 
 title families:
-{}
+
 abstract families:
-{}
+
 
 84:
-abstract protein:
-{'UAZ09196': {'count': 1, 'text': 'type I and III interferons', 'type': 'protein', 'start_pos': 70, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 11, 'abstract_count': 1, 'abstract_position_score': 10}, 'UAZ00786': {'count': 3, 'text': 'IFNs', 'type': 'protein', 'start_pos': 98, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 12, 'abstract_count': 3, 'abstract_position_score': 9}, 'UAZ07240': {'count': 2, 'text': 'ISGs', 'type': 'protein', 'start_pos': 169, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 10, 'abstract_count': 2, 'abstract_position_score': 8}, 'UAZ09639': {'count': 1, 'text': 'H1N1', 'type': 'protein', 'start_pos': 614, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 7, 'abstract_count': 1, 'abstract_position_score': 6}, 'UAZ10444': {'count': 1, 'text': 'A/Texas/50/12', 'type': 'protein', 'start_pos': 621, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 6, 'abstract_count': 1, 'abstract_position_score': 5}, 'UAZ10442': {'count': 1, 'text': 'A/California/07/09pdm', 'type': 'protein', 'start_pos': 591, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 8, 'abstract_count': 1, 'abstract_position_score': 7}, 'UAZ10443': {'count': 1, 'text': 'ISGs mRNA', 'type': 'protein', 'start_pos': 911, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'abstract_count': 1, 'abstract_position_score': 4}, 'O15524': {'count': 1, 'text': 'SOCS1', 'type': 'protein', 'start_pos': 1086, 'namespace': 'uniprot', 'hgnc_id': '19383', 'entrez_id': '8651', 'symbol': 'SOCS1', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'P05231': {'count': 1, 'text': 'IL-6', 'type': 'protein', 'start_pos': 1050, 'namespace': 'uniprot', 'hgnc_id': '6018', 'entrez_id': '3569', 'symbol': 'IL6', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'UAZ10441': {'count': 1, 'text': 'IFN-, IFN-{beta}', 'type': 'protein', 'start_pos': 1032, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 4, 'abstract_count': 1, 'abstract_position_score': 3}, 'Q8IU57': {'count': 1, 'text': 'IFNLR1', 'type': 'protein', 'start_pos': 1141, 'namespace': 'uniprot', 'hgnc_id': '18584', 'entrez_id': '163702', 'symbol': 'IFNLR1', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+UAZ09196 type I and III interferons  UAZ00786 IFNs  UAZ07240 ISGs  UAZ09639 H1N1  UAZ10444 A/Texas/50/12  UAZ10442 A/California/07/09pdm  UAZ10443 ISGs mRNA  O15524 SOCS1 SOCS1 P05231 IL-6 IL6 UAZ10441 IFN-, IFN-{beta}  Q8IU57 IFNLR1 IFNLR1 
 title families:
-{}
+
 abstract families:
-{'Interferon': {'count': 3, 'start_pos': 147, 'namespace': 'be', 'symbol': '', 'text': 'IFN', 'score': 3, 'abstract_count': 3, 'abstract_position_score': 0}}
+Interferon IFN  
 
 85:
-abstract protein:
-{'O00170': {'count': 5, 'text': 'AIP', 'type': 'protein', 'start_pos': 275, 'namespace': 'uniprot', 'hgnc_id': '358', 'entrez_id': '9049', 'symbol': 'AIP', 'score': 8, 'abstract_count': 5, 'abstract_position_score': 3}, 'P10265': {'count': 8, 'text': 'protease', 'type': 'protein', 'start_pos': 454, 'namespace': 'uniprot', 'hgnc_id': '39004', 'entrez_id': '100616101', 'symbol': 'ERVK-10', 'score': 10, 'abstract_count': 3, 'abstract_position_score': 2, 'title_count': 1, 'title_position_score': 0}, 'UAZ10445': {'count': 2, 'text': 'MroQ', 'type': 'protein', 'start_pos': 751, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 2, 'abstract_position_score': 1}, 'Q9ULH0': {'count': 1, 'text': 'arms', 'type': 'protein', 'start_pos': 1111, 'namespace': 'uniprot', 'hgnc_id': '29508', 'entrez_id': '57498', 'symbol': 'KIDINS220', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{'P10265': {'count': 1, 'text': 'protease', 'type': 'protein', 'start_pos': 107, 'namespace': 'uniprot', 'hgnc_id': '39004', 'entrez_id': '100616101', 'symbol': 'ERVK-10'}}
+P10265 protease ERVK-10 
+abstract protein:
+O00170 AIP AIP P10265 protease ERVK-10 UAZ10445 MroQ  Q9ULH0 arms KIDINS220 
 title families:
-{'PF08015': {'count': 1, 'start_pos': 124, 'namespace': 'pfam', 'symbol': '', 'text': 'pheromone'}}
+PF08015 pheromone  
 abstract families:
-{'PF08015': {'count': 6, 'start_pos': 238, 'namespace': 'pfam', 'symbol': '', 'text': 'pheromone', 'score': 8, 'abstract_count': 1, 'abstract_position_score': 2, 'title_count': 1, 'title_position_score': 0}, 'PF05931': {'count': 2, 'start_pos': 389, 'namespace': 'pfam', 'symbol': '', 'text': 'AgrD', 'score': 3, 'abstract_count': 2, 'abstract_position_score': 1}, 'PF04647': {'count': 1, 'start_pos': 463, 'namespace': 'pfam', 'symbol': '', 'text': 'AgrB', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+PF08015 pheromone  PF05931 AgrD  PF04647 AgrB  
 
 86:
-abstract protein:
-{'Q01860': {'count': 1, 'text': 'OCT4', 'type': 'protein', 'start_pos': 840, 'namespace': 'uniprot', 'hgnc_id': '9221', 'entrez_id': '5460', 'symbol': 'POU5F1', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}, 'UAZ10446': {'count': 1, 'text': 'TET enzyme catalytic domain', 'type': 'protein', 'start_pos': 39, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+
 title protein:
-{'UAZ10446': {'count': 1, 'text': 'TET enzyme catalytic domain', 'type': 'protein', 'start_pos': 39, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+UAZ10446 TET enzyme catalytic domain  
+abstract protein:
+Q01860 OCT4 POU5F1 UAZ10446 TET enzyme catalytic domain  
 title families:
-{}
+
 abstract families:
-{'PF00170': {'count': 2, 'start_pos': 249, 'namespace': 'pfam', 'symbol': '', 'text': 'bZIP transcription factor', 'score': 2, 'abstract_count': 2, 'abstract_position_score': 0}}
+PF00170 bZIP transcription factor  
 
 87:
-abstract protein:
-{'UAZ10447': {'count': 1, 'text': '~10 s)', 'type': 'protein', 'start_pos': 797, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 11, 'abstract_count': 1, 'abstract_position_score': 10}, 'UAZ00238': {'count': 1, 'text': 'RTKs', 'type': 'protein', 'start_pos': 956, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 8, 'abstract_count': 1, 'abstract_position_score': 7}, 'UAZ10449': {'count': 1, 'text': 'GPI-ARs', 'type': 'protein', 'start_pos': 914, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 9, 'abstract_count': 1, 'abstract_position_score': 8}, 'UAZ10448': {'count': 1, 'text': 'GPI-anchored receptors', 'type': 'protein', 'start_pos': 890, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 10, 'abstract_count': 1, 'abstract_position_score': 9}, 'P50552': {'count': 1, 'text': 'VASP', 'type': 'protein', 'start_pos': 1022, 'namespace': 'uniprot', 'hgnc_id': '12652', 'entrez_id': '7408', 'symbol': 'VASP', 'score': 4, 'abstract_count': 1, 'abstract_position_score': 3}, 'P08648': {'count': 1, 'text': 'integrin', 'type': 'protein', 'start_pos': 999, 'namespace': 'uniprot', 'hgnc_id': '6141', 'entrez_id': '3678', 'symbol': 'ITGA5', 'score': 7, 'abstract_count': 1, 'abstract_position_score': 6}, 'Q15942': {'count': 1, 'text': 'zyxin', 'type': 'protein', 'start_pos': 1032, 'namespace': 'uniprot', 'hgnc_id': '13200', 'entrez_id': '7791', 'symbol': 'ZYX', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'UAZ00723': {'count': 1, 'text': 'talin', 'type': 'protein', 'start_pos': 1009, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 6, 'abstract_count': 1, 'abstract_position_score': 5}, 'Q7Z5R6': {'count': 1, 'text': 'RIAM', 'type': 'protein', 'start_pos': 1016, 'namespace': 'uniprot', 'hgnc_id': '17379', 'entrez_id': '54518', 'symbol': 'APBB1IP', 'score': 5, 'abstract_count': 1, 'abstract_position_score': 4}, 'P18206': {'count': 1, 'text': 'vinculin', 'type': 'protein', 'start_pos': 1230, 'namespace': 'uniprot', 'hgnc_id': '12665', 'entrez_id': '7414', 'symbol': 'VCL', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10450': {'count': 1, 'text': 'GPI-AR', 'type': 'protein', 'start_pos': 1449, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+UAZ10447 ~10 s)  UAZ00238 RTKs  UAZ10449 GPI-ARs  UAZ10448 GPI-anchored receptors  P50552 VASP VASP P08648 integrin ITGA5 Q15942 zyxin ZYX UAZ00723 talin  Q7Z5R6 RIAM APBB1IP P18206 vinculin VCL UAZ10450 GPI-AR  
 title families:
-{}
+
 abstract families:
-{'PF10342': {'count': 1, 'start_pos': 890, 'namespace': 'pfam', 'symbol': '', 'text': 'GPI-anchored', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'Actin': {'count': 1, 'start_pos': 1366, 'namespace': 'be', 'symbol': '', 'text': 'actin', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'PF07670': {'count': 1, 'start_pos': 1531, 'namespace': 'pfam', 'symbol': '', 'text': 'gate', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+PF10342 GPI-anchored  Actin actin  PF07670 gate  
 
 88:
-abstract protein:
-{}
+
 title protein:
-{}
+
+abstract protein:
+
 title families:
-{'Histone': {'count': 1, 'start_pos': 13, 'namespace': 'be', 'symbol': '', 'text': 'histone'}, 'PF06495': {'count': 1, 'start_pos': 124, 'namespace': 'pfam', 'symbol': '', 'text': 'transformer'}}
+Histone histone  PF06495 transformer  
 abstract families:
-{'Histone': {'count': 8, 'start_pos': 68, 'namespace': 'be', 'symbol': '', 'text': 'histone', 'score': 15, 'abstract_count': 3, 'abstract_position_score': 2, 'title_count': 1, 'title_position_score': 1}, 'PF06495': {'count': 6, 'start_pos': 315, 'namespace': 'pfam', 'symbol': '', 'text': 'transformer', 'score': 7, 'abstract_count': 1, 'abstract_position_score': 1, 'title_count': 1, 'title_position_score': 0}, 'PF06725': {'count': 2, 'start_pos': 646, 'namespace': 'pfam', 'symbol': '', 'text': '3D', 'score': 2, 'abstract_count': 2, 'abstract_position_score': 0}}
+Histone histone  PF06495 transformer  PF06725 3D  
 
 89:
-abstract protein:
-{'Q9H4M9': {'count': 1, 'text': 'past', 'type': 'protein', 'start_pos': 1615, 'namespace': 'uniprot', 'hgnc_id': '3242', 'entrez_id': '10938', 'symbol': 'EHD1', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+Q9H4M9 past EHD1 
 title families:
-{}
+
 abstract families:
-{}
+
 
 90:
-abstract protein:
-{'Q86TU7': {'count': 11, 'text': 'SETD3', 'type': 'protein', 'start_pos': 28, 'namespace': 'uniprot', 'hgnc_id': '20493', 'entrez_id': '84193', 'symbol': 'SETD3', 'score': 13, 'abstract_count': 6, 'abstract_position_score': 2, 'title_count': 1, 'title_position_score': 0}, 'UAZ10453': {'count': 1, 'text': 'beta}-actin', 'type': 'protein', 'start_pos': 167, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10451': {'count': 1, 'text': 'beta}-actin peptides', 'type': 'protein', 'start_pos': 340, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{'Q86TU7': {'count': 1, 'text': 'SETD3', 'type': 'protein', 'start_pos': 60, 'namespace': 'uniprot', 'hgnc_id': '20493', 'entrez_id': '84193', 'symbol': 'SETD3'}}
+Q86TU7 SETD3 SETD3 
+abstract protein:
+Q86TU7 SETD3 SETD3 UAZ10453 beta}-actin  UAZ10451 beta}-actin peptides  
 title families:
-{}
+
 abstract families:
-{'PF12252': {'count': 1, 'start_pos': 614, 'namespace': 'pfam', 'symbol': '', 'text': 'side', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+PF12252 side  
 
 91:
-abstract protein:
-{'UAZ10456': {'count': 1, 'text': 'acyl carrier proteins', 'type': 'protein', 'start_pos': 256, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 9, 'abstract_count': 1, 'abstract_position_score': 8}, 'O14561': {'count': 2, 'text': 'ACP', 'type': 'protein', 'start_pos': 707, 'namespace': 'uniprot', 'hgnc_id': '7694', 'entrez_id': '4706', 'symbol': 'NDUFAB1', 'score': 9, 'abstract_count': 2, 'abstract_position_score': 7}, 'P49327': {'count': 1, 'text': 'fatty acid synthase', 'type': 'protein', 'start_pos': 736, 'namespace': 'uniprot', 'hgnc_id': '3594', 'entrez_id': '2194', 'symbol': 'FASN', 'score': 7, 'abstract_count': 1, 'abstract_position_score': 6}, 'P25445': {'count': 2, 'text': 'FAS', 'type': 'protein', 'start_pos': 757, 'namespace': 'uniprot', 'hgnc_id': '11920', 'entrez_id': '355', 'symbol': 'FAS', 'score': 7, 'abstract_count': 2, 'abstract_position_score': 5}, 'P15309': {'count': 3, 'text': 'AcpP', 'type': 'protein', 'start_pos': 767, 'namespace': 'uniprot', 'hgnc_id': '125', 'entrez_id': '55', 'symbol': 'ACP3', 'score': 7, 'abstract_count': 3, 'abstract_position_score': 4}, 'UAZ10457': {'count': 1, 'text': 'synthase', 'type': 'protein', 'start_pos': 952, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 4, 'abstract_count': 1, 'abstract_position_score': 3}, 'UAZ10455': {'count': 1, 'text': 'ACT-FabF', 'type': 'protein', 'start_pos': 1407, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10458': {'count': 1, 'text': 'AcpP-FabF compatibility', 'type': 'protein', 'start_pos': 1379, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'P54829': {'count': 1, 'text': 'step', 'type': 'protein', 'start_pos': 1650, 'namespace': 'uniprot', 'hgnc_id': '9657', 'entrez_id': '84867', 'symbol': 'PTPN5', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}, 'UAZ10454': {'count': 1, 'text': 'polyketide synthase acyl carrier proteins', 'type': 'protein', 'start_pos': 72, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+
 title protein:
-{'UAZ10454': {'count': 1, 'text': 'polyketide synthase acyl carrier proteins', 'type': 'protein', 'start_pos': 72, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+UAZ10454 polyketide synthase acyl carrier proteins  
+abstract protein:
+UAZ10456 acyl carrier proteins  O14561 ACP NDUFAB1 P49327 fatty acid synthase FASN P25445 FAS FAS P15309 AcpP ACP3 UAZ10457 synthase  UAZ10455 ACT-FabF  UAZ10458 AcpP-FabF compatibility  P54829 step PTPN5 UAZ10454 polyketide synthase acyl carrier proteins  
 title families:
-{}
+
 abstract families:
-{'PF01648': {'count': 5, 'start_pos': 279, 'namespace': 'pfam', 'symbol': '', 'text': 'ACPs', 'score': 7, 'abstract_count': 5, 'abstract_position_score': 2}, 'PF01842': {'count': 3, 'start_pos': 712, 'namespace': 'pfam', 'symbol': '', 'text': 'ACT', 'score': 4, 'abstract_count': 3, 'abstract_position_score': 1}, 'IPR017568': {'count': 4, 'start_pos': 865, 'namespace': 'interpro', 'symbol': '', 'text': 'FabF', 'score': 4, 'abstract_count': 4, 'abstract_position_score': 0}}
+PF01648 ACPs  PF01842 ACT  IPR017568 FabF  
 
 92:
-abstract protein:
-{'P02144': {'count': 2, 'text': 'myoglobin', 'type': 'protein', 'start_pos': 181, 'namespace': 'uniprot', 'hgnc_id': '6915', 'entrez_id': '4151', 'symbol': 'MB', 'score': 4, 'abstract_count': 2, 'abstract_position_score': 2}, 'P02768': {'count': 1, 'text': 'serum albumin', 'type': 'protein', 'start_pos': 139, 'namespace': 'uniprot', 'hgnc_id': '399', 'entrez_id': '213', 'symbol': 'ALB', 'score': 4, 'abstract_count': 1, 'abstract_position_score': 3}, 'P42345': {'count': 1, 'text': 'FRAP', 'type': 'protein', 'start_pos': 446, 'namespace': 'uniprot', 'hgnc_id': '3942', 'entrez_id': '2475', 'symbol': 'MTOR', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ00039': {'count': 1, 'text': 'SB216763', 'type': 'protein', 'start_pos': 864, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+P02144 myoglobin MB P02768 serum albumin ALB P42345 FRAP MTOR UAZ00039 SB216763  
 title families:
-{}
+
 abstract families:
-{'IPR000974': {'count': 2, 'start_pos': 168, 'namespace': 'interpro', 'symbol': '', 'text': 'lysozyme', 'score': 4, 'abstract_count': 2, 'abstract_position_score': 2}, 'GYS': {'count': 1, 'start_pos': 315, 'namespace': 'be', 'symbol': '', 'text': 'glycogen synthase', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'PF08990': {'count': 1, 'start_pos': 497, 'namespace': 'pfam', 'symbol': '', 'text': 'docking', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+IPR000974 lysozyme  GYS glycogen synthase  PF08990 docking  
 
 93:
-abstract protein:
-{'Q86VQ6': {'count': 15, 'text': 'Thioredoxin/glutathione reductase', 'type': 'protein', 'start_pos': 0, 'namespace': 'uniprot', 'hgnc_id': '20667', 'entrez_id': '114112', 'symbol': 'TXNRD3', 'score': 18, 'abstract_count': 10, 'abstract_position_score': 3, 'title_count': 1, 'title_position_score': 0}, 'P30044': {'count': 1, 'text': 'thioredoxin reductase', 'type': 'protein', 'start_pos': 106, 'namespace': 'uniprot', 'hgnc_id': '9355', 'entrez_id': '25824', 'symbol': 'PRDX5', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10460': {'count': 1, 'text': 'thiol oxidoreductase', 'type': 'protein', 'start_pos': 53, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'P10599': {'count': 1, 'text': 'thioredoxin', 'type': 'protein', 'start_pos': 282, 'namespace': 'uniprot', 'hgnc_id': '12435', 'entrez_id': '7295', 'symbol': 'TXN', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{'Q86VQ6': {'count': 1, 'text': 'TXNRD3', 'type': 'protein', 'start_pos': 0, 'namespace': 'uniprot', 'hgnc_id': '20667', 'entrez_id': '114112', 'symbol': 'TXNRD3'}}
+Q86VQ6 TXNRD3 TXNRD3 
+abstract protein:
+Q86VQ6 Thioredoxin/glutathione reductase TXNRD3 P30044 thioredoxin reductase PRDX5 UAZ10460 thiol oxidoreductase  P10599 thioredoxin TXN 
 title families:
-{}
+
 abstract families:
-{'PF00462': {'count': 1, 'start_pos': 132, 'namespace': 'pfam', 'symbol': '', 'text': 'glutaredoxin', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'TXNRD': {'count': 1, 'start_pos': 221, 'namespace': 'be', 'symbol': '', 'text': 'Txnrd', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+PF00462 glutaredoxin  TXNRD Txnrd  
 
 94:
-abstract protein:
-{'UAZ10461': {'count': 2, 'text': 'cfChPs', 'type': 'protein', 'start_pos': 599, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'abstract_count': 2, 'abstract_position_score': 3}, 'UAZ01355': {'count': 1, 'text': 'gamma-H2AX', 'type': 'protein', 'start_pos': 1004, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'P00441': {'count': 1, 'text': 'superoxide dismutase-1', 'type': 'protein', 'start_pos': 1236, 'namespace': 'uniprot', 'hgnc_id': '11179', 'entrez_id': '6647', 'symbol': 'SOD1', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}, 'Q13123': {'count': 1, 'text': 'Red', 'type': 'protein', 'start_pos': 1176, 'namespace': 'uniprot', 'hgnc_id': '5958', 'entrez_id': '3550', 'symbol': 'IK', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}}
+
 title protein:
-{}
+
+abstract protein:
+UAZ10461 cfChPs  UAZ01355 gamma-H2AX  P00441 superoxide dismutase-1 SOD1 Q13123 Red IK 
 title families:
-{}
+
 abstract families:
-{}
+
 
 95:
-abstract protein:
-{}
+
 title protein:
-{}
+
+abstract protein:
+
 title families:
-{'PF06725': {'count': 1, 'start_pos': 84, 'namespace': 'pfam', 'symbol': '', 'text': '3D'}}
+PF06725 3D  
 abstract families:
-{'PF06725': {'count': 7, 'start_pos': 47, 'namespace': 'pfam', 'symbol': '', 'text': '3D', 'score': 7, 'abstract_count': 2, 'abstract_position_score': 0, 'title_count': 1, 'title_position_score': 0}}
+PF06725 3D  
 
 96:
-abstract protein:
-{}
+
 title protein:
-{}
+
+abstract protein:
+
 title families:
-{}
+
 abstract families:
-{}
+
 
 97:
-abstract protein:
-{'UAZ10465': {'count': 1, 'text': 'SCARLET', 'type': 'protein', 'start_pos': 487, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10463': {'count': 1, 'text': 'miCLIP', 'type': 'protein', 'start_pos': 376, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'UAZ10464': {'count': 1, 'text': 'fip37-4', 'type': 'protein', 'start_pos': 624, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+UAZ10465 SCARLET  UAZ10463 miCLIP  UAZ10464 fip37-4  
 title families:
-{}
+
 abstract families:
-{}
+
 
 98:
-abstract protein:
-{'O94761': {'count': 10, 'text': 'RTS', 'type': 'protein', 'start_pos': 34, 'namespace': 'uniprot', 'hgnc_id': '9949', 'entrez_id': '9401', 'symbol': 'RECQL4', 'score': 30, 'abstract_count': 5, 'abstract_position_score': 15, 'title_count': 1, 'title_position_score': 1}, 'P04234': {'count': 2, 'text': 'TCR', 'type': 'protein', 'start_pos': 349, 'namespace': 'uniprot', 'hgnc_id': '1673', 'entrez_id': '915', 'symbol': 'CD3D', 'score': 14, 'abstract_count': 2, 'abstract_position_score': 12}, 'UAZ01074': {'count': 1, 'text': 'receptors', 'type': 'protein', 'start_pos': 338, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 14, 'abstract_count': 1, 'abstract_position_score': 13}, 'UA-BP-GGP-00007': {'count': 1, 'text': 'antigen', 'type': 'protein', 'start_pos': 313, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 15, 'abstract_count': 1, 'abstract_position_score': 14}, 'O42043': {'count': 1, 'text': 'surface protein', 'type': 'protein', 'start_pos': 481, 'namespace': 'uniprot', 'hgnc_id': '39025', 'entrez_id': '100775105', 'symbol': 'ERVK-18', 'score': 12, 'abstract_count': 1, 'abstract_position_score': 11}, 'UAZ10473': {'count': 2, 'text': 'PfMSP1', 'type': 'protein', 'start_pos': 500, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 12, 'abstract_count': 2, 'abstract_position_score': 10}, 'UAZ10474': {'count': 1, 'text': 'PfMSP1 variants', 'type': 'protein', 'start_pos': 721, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 10, 'abstract_count': 1, 'abstract_position_score': 9}, 'UAZ02450': {'count': 1, 'text': 'HADDOCK', 'type': 'protein', 'start_pos': 782, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 9, 'abstract_count': 1, 'abstract_position_score': 8}, 'UAZ10470': {'count': 1, 'text': 'Anti-CSP IgG', 'type': 'protein', 'start_pos': 803, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 8, 'abstract_count': 1, 'abstract_position_score': 7}, 'Q9H3Z4': {'count': 3, 'text': 'CSP', 'type': 'protein', 'start_pos': 948, 'namespace': 'uniprot', 'hgnc_id': '16235', 'entrez_id': '80331', 'symbol': 'DNAJC5', 'score': 9, 'abstract_count': 3, 'abstract_position_score': 6}, 'P26927': {'count': 1, 'text': 'MSP', 'type': 'protein', 'start_pos': 1051, 'namespace': 'uniprot', 'hgnc_id': '7380', 'entrez_id': '4485', 'symbol': 'MST1', 'score': 6, 'abstract_count': 1, 'abstract_position_score': 5}, 'UAZ10469': {'count': 1, 'text': 'PfCSP', 'type': 'protein', 'start_pos': 1195, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'abstract_count': 1, 'abstract_position_score': 4}, 'UAZ00145': {'count': 1, 'text': 'IgG', 'type': 'protein', 'start_pos': 1302, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 4, 'abstract_count': 1, 'abstract_position_score': 3}, 'UAZ10471': {'count': 1, 'text': 'PfCSP peptide length', 'type': 'protein', 'start_pos': 1328, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'Q9P2X3': {'count': 1, 'text': 'impact', 'type': 'protein', 'start_pos': 1506, 'namespace': 'uniprot', 'hgnc_id': '20387', 'entrez_id': '55364', 'symbol': 'IMPACT', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10472': {'count': 1, 'text': 'PfCSP peptides', 'type': 'protein', 'start_pos': 1548, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}, 'UAZ10466': {'count': 1, 'text': 'circumsporozoite protein variants', 'type': 'protein', 'start_pos': 54, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 20, 'title_count': 1, 'title_position_score': 3}, 'UAZ10467': {'count': 1, 'text': 'S vaccine', 'type': 'protein', 'start_pos': 127, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'title_count': 1, 'title_position_score': 0}, 'UAZ10468': {'count': 1, 'text': 'immunoproteins', 'type': 'protein', 'start_pos': 99, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 15, 'title_count': 1, 'title_position_score': 2}}
+
 title protein:
-{'UAZ10466': {'count': 1, 'text': 'circumsporozoite protein variants', 'type': 'protein', 'start_pos': 54, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 20, 'title_count': 1, 'title_position_score': 3}, 'UAZ10467': {'count': 1, 'text': 'S vaccine', 'type': 'protein', 'start_pos': 127, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 5, 'title_count': 1, 'title_position_score': 0}, 'UAZ10468': {'count': 1, 'text': 'immunoproteins', 'type': 'protein', 'start_pos': 99, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 15, 'title_count': 1, 'title_position_score': 2}, 'O94761': {'count': 1, 'text': 'RTS', 'type': 'protein', 'start_pos': 123, 'namespace': 'uniprot', 'hgnc_id': '9949', 'entrez_id': '9401', 'symbol': 'RECQL4'}}
+UAZ10466 circumsporozoite protein variants  UAZ10467 S vaccine  UAZ10468 immunoproteins  O94761 RTS RECQL4 
+abstract protein:
+O94761 RTS RECQL4 P04234 TCR CD3D UAZ01074 receptors  UA-BP-GGP-00007 antigen  O42043 surface protein ERVK-18 UAZ10473 PfMSP1  UAZ10474 PfMSP1 variants  UAZ02450 HADDOCK  UAZ10470 Anti-CSP IgG  Q9H3Z4 CSP DNAJC5 P26927 MSP MST1 UAZ10469 PfCSP  UAZ00145 IgG  UAZ10471 PfCSP peptide length  Q9P2X3 impact IMPACT UAZ10472 PfCSP peptides  UAZ10466 circumsporozoite protein variants  UAZ10467 S vaccine  UAZ10468 immunoproteins  
 title families:
-{}
+
 abstract families:
-{}
+
 
 99:
-abstract protein:
-{'P02768': {'count': 1, 'text': 'serum albumin', 'type': 'protein', 'start_pos': 530, 'namespace': 'uniprot', 'hgnc_id': '399', 'entrez_id': '213', 'symbol': 'ALB', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'O42043': {'count': 1, 'text': 'Tm', 'type': 'protein', 'start_pos': 621, 'namespace': 'uniprot', 'hgnc_id': '39025', 'entrez_id': '100775105', 'symbol': 'ERVK-18', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'Q86YQ2': {'count': 1, 'text': 'base', 'type': 'protein', 'start_pos': 1208, 'namespace': 'uniprot', 'hgnc_id': '20469', 'entrez_id': '317716', 'symbol': 'BPIFA4P', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+P02768 serum albumin ALB O42043 Tm ERVK-18 Q86YQ2 base BPIFA4P 
 title families:
-{'PF02985': {'count': 1, 'start_pos': 30, 'namespace': 'pfam', 'symbol': '', 'text': 'Heat'}}
+PF02985 Heat  
 abstract families:
-{'PF02893': {'count': 2, 'start_pos': 99, 'namespace': 'pfam', 'symbol': '', 'text': 'gram', 'score': 3, 'abstract_count': 2, 'abstract_position_score': 1}, 'PF02985': {'count': 13, 'start_pos': 64, 'namespace': 'pfam', 'symbol': '', 'text': 'heat', 'score': 15, 'abstract_count': 8, 'abstract_position_score': 2, 'title_count': 1, 'title_position_score': 0}, 'IPR000974': {'count': 1, 'start_pos': 548, 'namespace': 'interpro', 'symbol': '', 'text': 'lysozyme', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+PF02893 gram  PF02985 heat  IPR000974 lysozyme  
 
 100:
-abstract protein:
-{'Q8TAX7': {'count': 2, 'text': 'Mg2', 'type': 'protein', 'start_pos': 10, 'namespace': 'uniprot', 'hgnc_id': '7518', 'entrez_id': '4589', 'symbol': 'MUC7', 'score': 4, 'abstract_count': 2, 'abstract_position_score': 2}, 'UAZ10477': {'count': 3, 'text': 'Mg2+', 'type': 'protein', 'start_pos': 302, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 4, 'abstract_count': 3, 'abstract_position_score': 1}, 'P00918': {'count': 1, 'text': 'Ca2', 'type': 'protein', 'start_pos': 494, 'namespace': 'uniprot', 'hgnc_id': '1373', 'entrez_id': '760', 'symbol': 'CA2', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+Q8TAX7 Mg2 MUC7 UAZ10477 Mg2+  P00918 Ca2 CA2 
 title families:
-{'PF01769': {'count': 1, 'start_pos': 52, 'namespace': 'pfam', 'symbol': '', 'text': 'MgtE'}}
+PF01769 MgtE  
 abstract families:
-{'PF01769': {'count': 14, 'start_pos': 0, 'namespace': 'pfam', 'symbol': '', 'text': 'MgtE', 'score': 15, 'abstract_count': 9, 'abstract_position_score': 1, 'title_count': 1, 'title_position_score': 0}, 'PF07885': {'count': 1, 'start_pos': 25, 'namespace': 'pfam', 'symbol': '', 'text': 'ion channel', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+PF01769 MgtE  PF07885 ion channel  
 
 101:
-abstract protein:
-{'UAZ01649': {'count': 3, 'text': 'dynein', 'type': 'protein', 'start_pos': 152, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 3, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+UAZ01649 dynein  
 title families:
-{}
+
 abstract families:
-{'PF00225': {'count': 3, 'start_pos': 140, 'namespace': 'pfam', 'symbol': '', 'text': 'kinesin', 'score': 3, 'abstract_count': 3, 'abstract_position_score': 0}}
+PF00225 kinesin  
 
 102:
-abstract protein:
-{'UAZ10478': {'count': 1, 'text': 'HKs', 'type': 'protein', 'start_pos': 867, 'namespace': 'HGNC', 'hgnc_id': '13816', 'entrez_id': '', 'symbol': 'ATP12A', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+UAZ10478 HKs ATP12A 
 title families:
-{}
+
 abstract families:
-{'PF02110': {'count': 1, 'start_pos': 848, 'namespace': 'pfam', 'symbol': '', 'text': 'HK', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+PF02110 HK  
 
 103:
-abstract protein:
-{'O14804': {'count': 6, 'text': 'trace amine-associated receptor 5', 'type': 'protein', 'start_pos': 341, 'namespace': 'uniprot', 'hgnc_id': '30236', 'entrez_id': '9038', 'symbol': 'TAAR5', 'score': 6, 'abstract_count': 6, 'abstract_position_score': 0}, 'P12872': {'count': 1, 'text': 'Map', 'type': 'protein', 'start_pos': 0, 'namespace': 'uniprot', 'hgnc_id': '7141', 'entrez_id': '4295', 'symbol': 'MLN', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+
 title protein:
-{'P12872': {'count': 1, 'text': 'Map', 'type': 'protein', 'start_pos': 0, 'namespace': 'uniprot', 'hgnc_id': '7141', 'entrez_id': '4295', 'symbol': 'MLN', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+P12872 Map MLN 
+abstract protein:
+O14804 trace amine-associated receptor 5 TAAR5 P12872 Map MLN 
 title families:
-{'PF02845': {'count': 1, 'start_pos': 65, 'namespace': 'pfam', 'symbol': '', 'text': 'cue', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+PF02845 cue  
 abstract families:
-{'PF02845': {'count': 1, 'start_pos': 65, 'namespace': 'pfam', 'symbol': '', 'text': 'cue', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+PF02845 cue  
 
 104:
-abstract protein:
-{'P03372': {'count': 3, 'text': 'ER', 'type': 'protein', 'start_pos': 56, 'namespace': 'uniprot', 'hgnc_id': '3467', 'entrez_id': '2099', 'symbol': 'ESR1', 'score': 5, 'abstract_count': 3, 'abstract_position_score': 2}, 'Q8N3V7': {'count': 11, 'text': 'Synaptopodin', 'type': 'protein', 'start_pos': 156, 'namespace': 'uniprot', 'hgnc_id': '30672', 'entrez_id': '11346', 'symbol': 'SYNPO', 'score': 12, 'abstract_count': 6, 'abstract_position_score': 1, 'title_count': 1, 'title_position_score': 0}, 'Q9NR12': {'count': 1, 'text': 'Pdlim7', 'type': 'protein', 'start_pos': 718, 'namespace': 'uniprot', 'hgnc_id': '22958', 'entrez_id': '9260', 'symbol': 'PDLIM7', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{'Q8N3V7': {'count': 1, 'text': 'synaptopodin', 'type': 'protein', 'start_pos': 39, 'namespace': 'uniprot', 'hgnc_id': '30672', 'entrez_id': '11346', 'symbol': 'SYNPO'}}
+Q8N3V7 synaptopodin SYNPO 
+abstract protein:
+P03372 ER ESR1 Q8N3V7 Synaptopodin SYNPO Q9NR12 Pdlim7 PDLIM7 
 title families:
-{}
+
 abstract families:
-{'PF00661': {'count': 2, 'start_pos': 148, 'namespace': 'pfam', 'symbol': '', 'text': 'matrix', 'score': 3, 'abstract_count': 2, 'abstract_position_score': 1}, 'Actin': {'count': 3, 'start_pos': 181, 'namespace': 'be', 'symbol': '', 'text': 'actin', 'score': 3, 'abstract_count': 3, 'abstract_position_score': 0}}
+PF00661 matrix  Actin actin  
 
 105:
-abstract protein:
-{}
+
 title protein:
-{}
+
+abstract protein:
+
 title families:
-{}
+
 abstract families:
-{}
+
 
 106:
-abstract protein:
-{}
+
 title protein:
-{}
+
+abstract protein:
+
 title families:
-{}
+
 abstract families:
-{}
+
 
 107:
-abstract protein:
-{'Q8IWZ3': {'count': 1, 'text': 'mask', 'type': 'protein', 'start_pos': 396, 'namespace': 'uniprot', 'hgnc_id': '24714', 'entrez_id': '54882', 'symbol': 'ANKHD1', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'UAZ10479': {'count': 1, 'text': 'pixOL DSF', 'type': 'protein', 'start_pos': 504, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'O76070': {'count': 1, 'text': 'sr', 'type': 'protein', 'start_pos': 663, 'namespace': 'uniprot', 'hgnc_id': '11141', 'entrez_id': '6623', 'symbol': 'SNCG', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+Q8IWZ3 mask ANKHD1 UAZ10479 pixOL DSF  O76070 sr SNCG 
 title families:
-{'PF06725': {'count': 2, 'start_pos': 86, 'namespace': 'pfam', 'symbol': '', 'text': '3D'}}
+PF06725 3D  
 abstract families:
-{'PF06725': {'count': 14, 'start_pos': 574, 'namespace': 'pfam', 'symbol': '', 'text': '3D', 'score': 14, 'abstract_count': 4, 'abstract_position_score': 0, 'title_count': 2, 'title_position_score': 0}}
+PF06725 3D  
 
 108:
-abstract protein:
-{'Q5H8A3': {'count': 1, 'text': 'NMs', 'type': 'protein', 'start_pos': 257, 'namespace': 'uniprot', 'hgnc_id': '32203', 'entrez_id': '129521', 'symbol': 'NMS', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+Q5H8A3 NMs NMS 
 title families:
-{}
+
 abstract families:
-{}
+
 
 109:
-abstract protein:
-{'P01298': {'count': 14, 'text': 'pH', 'type': 'protein', 'start_pos': 94, 'namespace': 'uniprot', 'hgnc_id': '9327', 'entrez_id': '5539', 'symbol': 'PPY', 'score': 14, 'abstract_count': 9, 'abstract_position_score': 0, 'title_count': 1, 'title_position_score': 0}}
+
 title protein:
-{'P01298': {'count': 1, 'text': 'pH', 'type': 'protein', 'start_pos': 130, 'namespace': 'uniprot', 'hgnc_id': '9327', 'entrez_id': '5539', 'symbol': 'PPY'}}
+P01298 pH PPY 
+abstract protein:
+P01298 pH PPY 
 title families:
-{}
+
 abstract families:
-{}
+
 
 110:
-abstract protein:
-{'UAZ10482': {'count': 1, 'text': 'DSD circuits', 'type': 'protein', 'start_pos': 338, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'UAZ10481': {'count': 1, 'text': 'DSD circuit', 'type': 'protein', 'start_pos': 777, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'UAZ10480': {'count': 1, 'text': 'DSD output bandwidth', 'type': 'protein', 'start_pos': 1261, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+UAZ10482 DSD circuits  UAZ10481 DSD circuit  UAZ10480 DSD output bandwidth  
 title families:
-{}
+
 abstract families:
-{'PF13796': {'count': 1, 'start_pos': 882, 'namespace': 'pfam', 'symbol': '', 'text': 'sensor', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+PF13796 sensor  
 
 111:
-abstract protein:
-{'P51805': {'count': 1, 'text': 'sex', 'type': 'protein', 'start_pos': 284, 'namespace': 'uniprot', 'hgnc_id': '9101', 'entrez_id': '55558', 'symbol': 'PLXNA3', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'P51606': {'count': 1, 'text': 'age', 'type': 'protein', 'start_pos': 289, 'namespace': 'uniprot', 'hgnc_id': '9959', 'entrez_id': '5973', 'symbol': 'RENBP', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}}
+
 title protein:
-{}
+
+abstract protein:
+P51805 sex PLXNA3 P51606 age RENBP 
 title families:
-{}
+
 abstract families:
-{}
+
 
 112:
-abstract protein:
-{'P00390': {'count': 2, 'text': 'GR', 'type': 'protein', 'start_pos': 390, 'namespace': 'uniprot', 'hgnc_id': '4623', 'entrez_id': '2936', 'symbol': 'GSR', 'score': 3, 'abstract_count': 2, 'abstract_position_score': 1}, 'P04150': {'count': 1, 'text': 'glucocorticoid receptor', 'type': 'protein', 'start_pos': 365, 'namespace': 'uniprot', 'hgnc_id': '7978', 'entrez_id': '2908', 'symbol': 'NR3C1', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}, 'O15516': {'count': 1, 'text': 'clock', 'type': 'protein', 'start_pos': 1295, 'namespace': 'uniprot', 'hgnc_id': '2082', 'entrez_id': '9575', 'symbol': 'CLOCK', 'score': 1, 'abstract_count': 1, 'abstract_position_score': 0}, 'Q9P2X3': {'count': 1, 'text': 'Impact', 'type': 'protein', 'start_pos': 0, 'namespace': 'uniprot', 'hgnc_id': '20387', 'entrez_id': '55364', 'symbol': 'IMPACT', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+
 title protein:
-{'Q9P2X3': {'count': 1, 'text': 'Impact', 'type': 'protein', 'start_pos': 0, 'namespace': 'uniprot', 'hgnc_id': '20387', 'entrez_id': '55364', 'symbol': 'IMPACT', 'score': 5, 'title_count': 1, 'title_position_score': 0}}
+Q9P2X3 Impact IMPACT 
+abstract protein:
+P00390 GR GSR P04150 glucocorticoid receptor NR3C1 O15516 clock CLOCK Q9P2X3 Impact IMPACT 
 title families:
-{}
+
 abstract families:
-{}
+
 
 113:
-abstract protein:
-{}
+
 title protein:
-{}
+
+abstract protein:
+
 title families:
-{}
+
 abstract families:
-{}
+
 
 114:
-abstract protein:
-{'UAZ02480': {'count': 2, 'text': 'blebbistatin', 'type': 'protein', 'start_pos': 672, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 7, 'abstract_count': 2, 'abstract_position_score': 5}, 'P99999': {'count': 2, 'text': 'cytochrome c', 'type': 'protein', 'start_pos': 696, 'namespace': 'uniprot', 'hgnc_id': '19986', 'entrez_id': '54205', 'symbol': 'CYCS', 'score': 6, 'abstract_count': 2, 'abstract_position_score': 4}, 'P01298': {'count': 2, 'text': 'PP', 'type': 'protein', 'start_pos': 811, 'namespace': 'uniprot', 'hgnc_id': '9327', 'entrez_id': '5539', 'symbol': 'PPY', 'score': 5, 'abstract_count': 2, 'abstract_position_score': 3}, 'Q8IVS2': {'count': 2, 'text': 'MCT-PH', 'type': 'protein', 'start_pos': 1688, 'namespace': 'uniprot', 'hgnc_id': '29622', 'entrez_id': '27349', 'symbol': 'MCAT', 'score': 2, 'abstract_count': 2, 'abstract_position_score': 0}, 'UAZ10483': {'count': 1, 'text': 'PG/CL', 'type': 'protein', 'start_pos': 1654, 'namespace': 'uaz', 'hgnc_id': '', 'entrez_id': '', 'symbol': '', 'score': 2, 'abstract_count': 1, 'abstract_position_score': 1}, 'P21397': {'count': 1, 'text': 'MAO-A', 'type': 'protein', 'start_pos': 1644, 'namespace': 'uniprot', 'hgnc_id': '6833', 'entrez_id': '4128', 'symbol': 'MAOA', 'score': 3, 'abstract_count': 1, 'abstract_position_score': 2}}
+
 title protein:
-{}
+
+abstract protein:
+UAZ02480 blebbistatin  P99999 cytochrome c CYCS P01298 PP PPY Q8IVS2 MCT-PH MCAT UAZ10483 PG/CL  P21397 MAO-A MAOA 
 title families:
-{}
+
 abstract families:
-{'PF02985': {'count': 2, 'start_pos': 434, 'namespace': 'pfam', 'symbol': '', 'text': 'heat', 'score': 2, 'abstract_count': 2, 'abstract_position_score': 0}}
+PF02985 heat  
 
 115:
-abstract protein:
-{'P05067': {'count': 11, 'text': 'APP', 'type': 'protein', 'start_pos': 240, 'namespace': 'uniprot', 'hgnc_id': '620', 'entrez_id': '351', 'symbol': 'APP', 'score': 11, 'abstract_count': 6, 'abstract_position_score': 0, 'title_count': 1, 'title_position_score': 0}}
+
 title protein:
-{'P05067': {'count': 1, 'text': 'APP', 'type': 'protein', 'start_pos': 24, 'namespace': 'uniprot', 'hgnc_id': '620', 'entrez_id': '351', 'symbol': 'APP'}}
+P05067 APP APP 
+abstract protein:
+P05067 APP APP 
 title families:
-{}
+
 abstract families:
-{}
+
 

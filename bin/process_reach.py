@@ -1,8 +1,10 @@
 import os
+import sys
 import json
 import logging
 import operator
 
+sys.path.append("../")
 from GTT.Model import Model
 from GTT.Recognise.Reach import Reach
 
@@ -173,7 +175,7 @@ class Document(Model):
 
 def process_ingest_dataset():
     path = os.path.join("C:/Users/sieni/biobert-service/outputs/reach_predictions.txt")
-    with open('../gtt_docker/ingest/ingestDataset.json') as f:
+    with open('C:/Users/sieni/gtt_docker/ingest/ingestDataset.json') as f:
         input_data_list = json.loads("[" + f.read().replace("}{", "},{") +  "]")
 
     for idx, data in enumerate(input_data_list):
@@ -182,9 +184,31 @@ def process_ingest_dataset():
         print(f"NER finished for {id} with {n} entities recognised")
         
         with open(path, 'a', encoding="utf-8") as wf:
-            entry = str(idx + 1) + ":\n" + "abstract protein:\n" + str(doc.abstractEntities.proteins) + "\ntitle protein:\n" + \
-                str(doc.titleEntities.proteins) + "\ntitle families:\n" + str(doc.titleEntities.families) + "\nabstract families:\n" + \
-                str(doc.abstractEntities.families)
+            entry = str(idx + 1) + ":\n"
+            entry = entry + "\ntitle protein:\n"
+            for k, v in doc.titleEntities.proteins.items():
+                entry = entry + str(k) + " "
+                entry = entry + str(v["text"]) + " "
+                entry = entry + str(v["symbol"]) + " "
+
+            entry = entry + "\nabstract protein:\n"
+            for k, v in doc.abstractEntities.proteins.items():
+                entry = entry + str(k) + " "
+                entry = entry + str(v["text"]) + " "
+                entry = entry + str(v["symbol"]) + " "
+
+            entry = entry + "\ntitle families:\n"
+            for k, v in doc.titleEntities.families.items():
+                entry = entry + str(k) + " "
+                entry = entry + str(v["text"]) + " "
+                entry = entry + str(v["symbol"]) + " "
+            
+            entry = entry + "\nabstract families:\n"
+            for k, v in doc.abstractEntities.families.items():
+                entry = entry + str(k) + " "
+                entry = entry + str(v["text"]) + " "
+                entry = entry + str(v["symbol"]) + " "
+
             wf.write(entry+'\n\n')
             wf.close()
 

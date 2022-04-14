@@ -48,24 +48,25 @@ class BiobertService(Service):
 
                 if mode == "title":
                     for prediction in input.title_entities:
-                        line += prediction + " "
+                        line += prediction + ", "
                 else:
                     for prediction in input.abstract_entities:
-                        line += prediction + " "
+                        line += prediction + ", "
                 
                 wf.write(line+'\n')
                 wf.close()
                 
     def process_ingest_dataset(self):
         models = []
-        with open('../gtt_docker/ingest/ingestDataset.json') as f:
+        with open('C:/Users/sieni/gtt_docker/ingest/ingestDataset.json') as f:
             input_data_list = json.loads("[" + f.read().replace("}{", "},{") +  "]")
         
         for data in input_data_list:
             model = BiobertModel(data)
             models.append(model)
 
-        for input in models:
+        path = os.path.join("C:/Users/sieni/biobert-service/outputs/biobert_predictions.txt")
+        for idx, input in enumerate(models):
             self.biobert.load_data(input)
 
             # run prediction for input data
@@ -73,10 +74,36 @@ class BiobertService(Service):
             input.get_biobert_output(self.biobert.index, self.biobert.ntokens_title[-1], 
                 self.biobert.ntokens_abstract[-1], self.biobert.output_title[-1], self.biobert.output_abstract[-1])
             input.recognize()
+            input.get_proteins()
+            input.get_families()
+
+            # with open(path, 'a', encoding="utf-8") as wf:
+            #     entry = str(idx + 1) + ":\n"
+            #     entry = entry + "\ntitle protein:\n"
+            #     for k, v in input.title_proteins.items():
+            #         entry = entry + str(k) + " "
+            #         entry = entry + str(v["symbol"]) + " "
+
+            #     entry = entry + "\nabstract protein:\n"
+            #     for k, v in input.abstract_proteins.items():
+            #         entry = entry + str(k) + " "
+            #         entry = entry + str(v["symbol"]) + " "
+
+            #     entry = entry + "\ntitle families:\n"
+            #     for k, v in input.title_families.items():
+            #         entry = entry + str(k) + " "
+            #         entry = entry + str(v["symbol"]) + " "
+                
+            #     entry = entry + "\nabstract families:\n"
+            #     for k, v in input.abstract_families.items():
+            #         entry = entry + str(k) + " "
+            #         entry = entry + str(v["symbol"]) + " "
+
+            #     wf.write(entry+'\n\n')
 
             # log predictions
             self.write_predictions(input)
-            self.pubHandler(input)
+            # self.pubHandler(input)
 
     def post_biobert(self, handlers=[]):
         for posthandler in filter(callable, (self.posthandlers + handlers)):

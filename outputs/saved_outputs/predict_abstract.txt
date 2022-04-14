@@ -1,115 +1,115 @@
-1: p300 
-2: Gi/o G{beta},{gamma} SNAREcomplexes synaptotagmin SNARE 5-HT1B GABABreceptors GABABreceptors 5-HT1Breceptors SNAREcomplexes GABABreceptorsreceptors 5-HT1Breceptors AMPAandNMDAreceptor iGluSnFR glutamatereceptor 
-3: 5-HT2Areceptor 5-HT2AR 5-HT2AR 
-4: opsinmolecules 
+1: p300, 
+2: Gi / o, G { beta } , { gamma }, SNARE complexes, synaptotagmin, SNARE, 5 - HT1B, GABAB receptors, GABAB receptors, 5 - HT1B receptors, SNARE complexes, GABAB receptors receptors, 5 - HT1B receptors, AMPA and NMDA receptor, iGluSnFR, glutamate receptor, 
+3: 5 - HT2A receptor, 5 - HT2AR, 5 - HT2AR, 
+4: opsin molecules, 
 5: 
 6: 
-7: lead-lagR2 
+7: lead - lag R2, 
 8: 
-9: Cytochromecoxidasesubunit1 COI internaltranscribedspacer ITS1 
+9: Cytochrome c oxidase subunit 1, COI, internal transcribed spacer, ITS1, 
 10: 
-11: E2 E1 E2 E1 E2 E1 E1' E2 E1 E2protein E2protein 
+11: E2, E1, E2, E1, E2, E1, E1 ', E2, E1, E2 protein, E2 protein, 
 12: 
-13: bicyclegenes bicyclehomologs bicyclegenes bicyclehomologs bicyclegenes bicyclegenes bicyclegenes 
-14: RAFkinase RAFmonomers RAS RAFdimers full-lengthBRAFcomplexes BRAF 14-3-32 MEK BRAF 14-3-32 BRAF2 14-3-32complex RASbindingdomain BRAF MEK 14-3-3protomer BRAFC-terminalsite RAS RAF RBD 14-3-3 
+13: bicycle genes, bicycle homologs, bicycle genes, bicycle homologs, bicycle genes, bicycle genes, bicycle genes, 
+14: RAF kinase, RAF monomers, RAS, RAF dimers, full - length BRAF complexes, BRAF, 14 - 3 - 32, MEK, BRAF, 14 - 3 - 32, BRAF2, 14 - 3 - 32 complex, RAS binding domain, BRAF, MEK, 14 - 3 - 3 protomer, BRAF C - terminal site, RAS, RAF, RBD, 14 - 3 - 3, 
 15: 
-16: interferon 
+16: interferon, 
 17: 
 18: 
-19: sulfitereductase DsrAB DsrAB DsrAB DsrAB DsrAB Eury DsrAB Eury 
+19: sulfite reductase, DsrAB, DsrAB, DsrAB, DsrAB, DsrAB, Eury, DsrAB, Eury, 
 20: 
-21: Omicron spikeglycoprotein 
+21: Omicron, spike glycoprotein, 
 22: 
-23: Omicron Omicronspiketrimer ACE2 anti-Omicronantibody spikeprotein ACE2 Omicronspiketrimer spiker RBD RBD ACE2 spike Omicron ACE2 Omicron JMB2002 
-24: LacI 
+23: Omicron, Omicron spike trimer, ACE2, anti - Omicron antibody, spike protein, ACE2, Omicron spike trimer, spiker, RBD, RBD, ACE2, spike, Omicron, ACE2, Omicron, JMB2002, 
+24: LacI, 
 25: 
-26: EBVnuclearantigen(EBNA)2 DNAbindingproteinCBF1 EBNA2 earlyBcellfactor(EBF)1 EBNA2 EBF1 ENDdomain EBF1 EBNA2 MYC 
-27: CD4+ 
+26: EBV nuclear antigen ( EBNA ) 2, DNA binding protein CBF1, EBNA2, early B cell factor ( EBF ) 1, EBNA2, EBF1, END domain, EBF1, EBNA2, MYC, 
+27: CD4 +, 
 28: 
 29: 
-30: ChimericantigenreceptorT CAR-T CAR interferon-gamma IFNgamma interleukin-2 IL-2 CAR-T CAR-T CAR-T 
+30: Chimeric antigen receptor T, CAR - T, CAR, interferon - gamma, IFNgamma, interleukin - 2, IL - 2, CAR - T, CAR - T, CAR - T, 
 31: 
-32: Omicron Omicron OmicronSpike(S)protein S Omicron Omicron Omicron 
+32: Omicron, Omicron, Omicron Spike ( S ) protein, S, Omicron, Omicron, Omicron, 
 33: 
 34: 
 35: 
-36: N-nicotinamidemethyltransferase NNMT NNMT-encodinggene NNMT NNMTgene 
-37: hsa-mir-363 hsa-mir-429 hsa-mir-141 hsa-mir-93 hsa-mir-203b hsa-mir-18a PTEN MYC 
+36: N - nicotinamide methyltransferase, NNMT, NNMT - encoding gene, NNMT, NNMT gene, 
+37: hsa - mir - 363, hsa - mir - 429, hsa - mir - 141, hsa - mir - 93, hsa - mir - 203b, hsa - mir - 18a, PTEN, MYC, 
 38: 
-39: OmpWfamilyprotein OmpWfamilyprotein MHCIepitopes MHCII MHCIIalleles 
-40: hypocretin Hcrt Hcrt Hcrt Hcrt 
+39: OmpW family protein, OmpW family protein, MHC I epitopes, MHC II, MHC II alleles, 
+40: hypocretin, Hcrt, Hcrt, Hcrt, Hcrt, 
 41: 
 42: 
 43: 
-44: CP110 CEP97 CEP97 CP110 CP110 CP110 CPAP SAS-4 CP110 CPAP 
-45: Ryanodinereceptortype-1 RYR1 RYR1gene 
+44: CP110, CEP97, CEP97, CP110, CP110, CP110, CPAP, SAS - 4, CP110, CPAP, 
+45: Ryanodine receptor type - 1, RYR1, RYR1 gene, 
 46: 
 47: 
-48: RRM2 CDC6 CDC45 UHRF1 ASF1B ZWINT PCNA ASPM MYC TK1 
-49: Spike S NTD-andRBD-antibodies RBD-antibodies S humanACE2 ACE2bindingregion 
+48: RRM2, CDC6, CDC45, UHRF1, ASF1B, ZWINT, PCNA, ASPM, MYC, TK1, 
+49: Spike, S3, NTD - and RBD - antibodies, RBD - antibodies, S, human ACE2, ACE2 binding region, 
 50: 
 51: 
-52: CRISPR Cas9 Vaccinia-RelatedKinase1 VRK1 VRK1 VRK2 VRK2 VRK1 VRK2 VRK1 VRK2promoter VRK2 VRK1 Barrier-to-AutointegrationFactor BAF 
-53: OmicronvariantRBD OmicronvariantRBD 
+52: CRISPR, Cas9, Vaccinia - Related Kinase 1, VRK1, VRK1, VRK2, VRK2, VRK1, VRK2, VRK1, VRK2 promoter, VRK2, VRK1, Barrier - to - Autointegration Factor, BAF, 
+53: Omicron variant RBD, Omicron variant RBD, 
 54: 
-55: Omicron Omicronspikeprotein LY-CoV555andLY-CoV016 
-56: spikeprotein spikeprotein 
+55: Omicron, Omicron spike protein, LY - CoV555 and LY - CoV016, 
+56: spike protein, spike protein, 
 57: 
 58: 
-59: Elastin-likepolypeptides ELPs ELPs 
-60: Clair3 Clair3 
+59: Elastin - like polypeptides, ELPs, ELPs, 
+60: Clair3, Clair3, 
 61: 
-62: prolactin c-fos Prlr IRES Cre tdtomato prolactin prolactin prolactinreceptor Prlr CaMKII Prlr CaMKII 
-63: Spikeprotein spikeprotein 
-64: SARS-CoV-2spike SARS-CoV-2spikes biotinligase 
-65: Nanoluciferase enhancedgreenfluorescentprotein eGFP 
-66: IRE1kinase RNase XBP1s IRE1 
+62: prolactin, c - fos, Prlr, IRES, Cre, tdtomato, prolactin, prolactin, prolactin receptor, Prlr, CaMKII, Prlr, CaMKII, 
+63: Spike protein, spike protein, 
+64: SARS - CoV - 2 spike, SARS - CoV - 2 spikes, biotin ligase, 
+65: Nano luciferase, enhanced green fluorescent protein, eGFP, 
+66: IRE1 kinase, RNase, XBP1s, IRE1, 
 67: 
 68: 
-69: kinesin myosinsuperfamily actin kinesinmotors kinesin-1 
-70: THBS4 TNC NTRK3 SPARCL1 MAOA ACHE 
-71: mTOR 
+69: kinesin, myosin super family, actin, kinesin motors, kinesin - 1, 
+70: THBS4, TNC, NTRK3, SPARCL1, MAOA, ACHE, 
+71: mTOR, 
 72: 
 73: 
-74: RetrotransposonGag-like5 RTL5 sushi-ichi-relatedretrotransposonhomolog8 SIRH8 RTL6 SIRH3 RTL5 RTL6 RTL5 RTL6 Venus mCherry RTL5 mCherry RTL6 Venus 
-75: iscR iscRmutantE.coli iscRallele Lipocalin-2 iscRallele 
-76: CollagenXII fibril-associatedcollagenswithinterruptedtriplehelix FACIT COL12A1gene NC3domains collagentriplehelix CollagenXII COL12A1gene collagenXII Col12a1-/- Col12a1 
-77: TSS 
+74: Retrotransposon Gag - like 5, RTL5, sushi - ichi - related retrotransposon homolog 8, SIRH8, RTL6, SIRH3, RTL5, RTL6, RTL5, RTL6, Venus, mCherry, RTL5, mCherry, RTL6, Venus, 
+75: iscR, iscR mutant E . coli, iscR allele, Lipocalin - 2, iscR allele, 
+76: Collagen XII, fibril - associated collagens with interrupted triple helix, FACIT, COL12A1 gene, NC3 domains, collagen triple helix, Collagen XII, COL12A1 gene, collagen XII, Col12a1 - / -, Col12a1, 
+77: TSS, 
 78: 
-79: actomyosin actomyosin 
-80: CD206+TAMs mUNO mUNO CD206+ CD206+ CD8 FOXP3 
-81: peroxiredoxins NAD-aldehydedehydrogenase NAD-ALDH MAPKprotein palA rim-20 isotrichoderminC15hydroxylase 
-82: brain-derivedneurotrophicfactor BDNF TropomyosinreceptorkinaseB TrkB BDNF BDNF TrkB BDNF BDNF TrkB BDNF BDNF BDNF type-1cannabinoidreceptors BDNF 
+79: actomyosin, actomyosin, 
+80: CD206 + TAMs, mUNO, mUNO, CD206 +, CD206 +, CD8, FOXP3, 
+81: peroxiredoxins, NAD - aldehyde dehydrogenase, NAD - ALDH, MAPK protein, palA, rim - 20, isotrichodermin C15 hydroxylase, 
+82: brain - derived neurotrophic factor, BDNF, Tropomyosin receptor kinase B, TrkB, BDNF, BDNF, TrkB, BDNF, BDNF, TrkB, BDNF, BDNF, BDNF, type - 1 cannabinoid receptors, BDNF, 
 83: 
-84: typeIandIIIinterferons IFNs IFNs IFN-stimulatedgenes ISGs IFN IFNs ISGs IFNL ISGs IFNL ISGsmRNA 
-85: accessorygeneregulator agr AIP AgrD integralmembraneproteaseAgrB AIP AgrD MroQ integralmembraneprotease agr AIP MroQ AIP 
-86: TET ten-eleventranslocation) mammalianTETenzymes bHLHandbZIPtranscriptionfactorbindingsites TET TET TETmotifs immediate-earlytranscriptionfactors OCT4 TET bHLH 
-87: GPI-anchoredreceptors GPI-ARs receptor-typetyrosinekinases RTKs GPCRs integrin talin RIAM VASP zyxin 
-88: histone histone histone 
+84: type I and III interferons, IFNs, IFNs, IFN - stimulated genes, ISGs, IFN, IFNs, ISGs, IFNL, ISGs, IFNL, ISGs mRNA, 
+85: accessory gene regulator, agr, AIP, AgrD, integral membrane protease AgrB, AIP, AgrD, MroQ, integral membrane protease, agr, AIP, MroQ, AIP, 
+86: TET, ten - eleven translocation ), mammalian TET enzymes, bHLH and bZIP transcription factor binding sites, TET, TET, TET motifs, immediate - early transcription factors, OCT4, TET, bHLH, 
+87: GPI - anchored receptors, GPI - ARs, receptor - type tyrosine kinases, RTKs, GPCRs, integrin, talin, RIAM, VASP, zyxin, 
+88: histone, histone, histone, 
 89: 
-90: HistidinemethyltransferaseSETD3 SETD3 {beta}-actin humanSETD3 {beta}-actinpeptides SETD3 SETD3 humanSETD3 
-91: acylcarrierproteins ACPs ACP-enzyme ACPs actinorhodinpolyketidesynthaseACP ACT E.colifattyacidsynthase FAS)ACP AcpP chimericACPs E.coliFASketosynthaseFabF AcpP FabF ACT 
-92: bovineserumalbumin henegg-whitelysozyme myoglobin glycogensynthasekinase-3 BSA myoglobin lysozyme 
-93: Thioredoxin/glutathionereductase TGR TXNRD3 thioloxidoreductase thioredoxinreductase glutaredoxindomains Txnrdfamily thioredoxin TXNRD3 Txnrd3gene Txnrd3 TXNRD3 Txnrd3 TXNRD3 TXNRD3 
-94: mitochondrialoutermembraneproteinTOM20 gamma-H2AX p-ATM 
+90: Histidine methyltransferase SETD3, SETD3, { beta } - actin, human SETD3, { beta } - actin peptides, SETD3, SETD3, human SETD3, 
+91: acyl carrier proteins, ACPs, ACP - enzyme, ACPs, actinorhodin polyketide synthase ACP, ACT, E . coli fatty acid synthase, FAS ) ACP, AcpP, chimeric ACPs, E . coli FAS ketosynthase FabF, AcpP, FabF, ACT, 
+92: bovine serum albumin, hen egg - white lysozyme, myoglobin, glycogen synthase kinase - 3, BSA, myoglobin, lysozyme, 
+93: Thioredoxin / glutathione reductase, TGR, TXNRD3, thiol oxidoreductase, thioredoxin reductase, glutaredoxin domains, Txnrd family, thioredoxin, TXNRD3, Txnrd3 gene, Txnrd3, TXNRD3, Txnrd3, TXNRD3, TXNRD3, 
+94: mitochondrial outer membrane protein TOM20, gamma - H2AX, p - ATM, 
 95: 
-96: mel 
-97: m6Aresidues m6A miCLIP m6Asites m6A mtb fip37-4 m6A 
-98: humanleukocyteantigen HLA Tcellreceptors TCR merozoitesurfaceprotein1 PfMSP1 C-terminalofcircumsporozoiteprotein PfMSP1 PfMSP1variants HLA TCR HADDOCK Anti-CSPIgG CSPhaplotypes 
-99: humanserumalbumin lysozyme 
-100: MgtE MgtE MgtEtransmembrane MgtE MgtETMdomain MgtE MgtETMdomain MgtETMdomain 
-101: kinesin dynein kinesin dynein kinesin dynein 
-102: histidinekinase HK responseregulator RR HKs RRs HKs RR RR HK HKs RRs 
-103: amine-associatedreceptor5 TAAR5 TAAR5 TAAR5 TAAR5 TAAR5 
-104: Synaptopodin actinbindingprotein synaptopodin actin synaptopodin synaptopodin synaptopodin Pdlim7 actinbindingprotein synaptopodin 
+96: mel, 
+97: m6A residues, m6A, miCLIP, m6A sites, m6A, mtb, fip37 - 4, m6A, 
+98: human leukocyte antigen, HLA, T cell receptors, TCR, merozoite surface protein 1, PfMSP1, C - terminal of circumsporozoite protein, PfMSP1, PfMSP1 variants, HLA, TCR, HADDOCK, Anti - CSP IgG, CSP haplotypes, 
+99: human serum albumin, lysozyme, 
+100: MgtE, MgtE, MgtE transmembrane, MgtE, MgtE TM domain, MgtE, MgtE TM domain, MgtE TM domain, 
+101: kinesin, dynein, kinesin, dynein, kinesin, dynein, 
+102: histidine kinase, HK, response regulator, RR, HKs, RRs, HKs, RR, RR, HK, HKs, RRs, 
+103: amine - associated receptor 5, TAAR5, TAAR5, TAAR5, TAAR5, TAAR5, 
+104: Synaptopodin, actin binding protein, synaptopodin, actin, synaptopodin, synaptopodin, synaptopodin, Pdlim7, actin binding protein, synaptopodin, 
 105: 
 106: 
 107: 
-108: pLLn 
+108: pLLn, 
 109: 
 110: 
 111: 
-112: glucocorticoidreceptor GR 
+112: glucocorticoid receptor, GR, 
 113: 
-114: cytochromec monoamineoxidase(MAO)-A glucose6-phosphatedehydrogenase G-6-PDH 
-115: amyloidprecursorprotein APPgene APP APP APP App 
+114: cytochrome c, monoamine oxidase ( MAO ) - A, glucose 6 - phosphate dehydrogenase, G - 6 - PDH, 
+115: amyloid precursor protein, APP gene, APP, APP, APP, App, 

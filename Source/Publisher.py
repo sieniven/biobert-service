@@ -2,7 +2,7 @@ import tweepy
 import yaml
 
 def initialize_twitter_api():
-    with open('twitter_config.yaml', "r") as f:
+    with open('../twitter_config.yaml', "r") as f:
         config = yaml.safe_load(f)
 
     api_key = config["consumer_api_key"]

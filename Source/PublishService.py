@@ -1,8 +1,11 @@
 import os
+import sys
 import json
 import logging
 
-from Publisher import initialize_twitter_api 
+from Publisher import initialize_twitter_api
+
+sys.path.append("../")
 from GTT.Model import Model
 from GTT.Service import Service
 

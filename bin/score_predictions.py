@@ -1,4 +1,7 @@
 import os
+import sys
+
+sys.path.append("../Source/")
 from BiobertModel import BiobertModel
 
 predicted_titles = []
@@ -40,16 +43,33 @@ for idx in range(len(predicted_titles)):
 
 
 path = os.path.join("C:/Users/sieni/biobert-service/outputs/biobert_predictions.txt")
-with open(path, 'a', encoding="utf-8") as wf:
-    count = 1
-    for model in models:
-        model.get_proteins()
-        model.get_families()
-        print("I love denise beh")
+count = 1
+for idx, model in enumerate(models):
+    model.get_proteins()
+    model.get_families()
+    print("I love denise beh")
+    
+    with open(path, 'a', encoding="utf-8") as wf:
+        entry = str(idx + 1) + ":\n"
+        entry = entry + "\ntitle protein:\n"
+        for k, v in model.title_proteins.items():
+            entry = entry + str(k) + " "
+            entry = entry + str(v["symbol"]) + " "
+
+        entry = entry + "\nabstract protein:\n"
+        for k, v in model.abstract_proteins.items():
+            entry = entry + str(k) + " "
+            entry = entry + str(v["symbol"]) + " "
+
+        entry = entry + "\ntitle families:\n"
+        for k, v in model.title_families.items():
+            entry = entry + str(k) + " "
+            entry = entry + str(v["symbol"]) + " "
         
-        entry = str(count) + ":\n" + "abstract protein:\n" + str(model.abstract_proteins) + "\ntitle protein:\n" + \
-            str(model.title_proteins) + "\ntitle families:\n" + str(model.title_families) + "\nabstract families:\n" + \
-            str(model.abstract_families)
+        entry = entry + "\nabstract families:\n"
+        for k, v in model.abstract_families.items():
+            entry = entry + str(k) + " "
+            entry = entry + str(v["symbol"]) + " "
+
         wf.write(entry+'\n\n')
-        count += 1    
-    wf.close()
+    count += 1    

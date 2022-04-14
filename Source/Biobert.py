@@ -4,11 +4,13 @@ from __future__ import print_function
 from lib2to3.pytree import convert
 
 import os
+import sys
 import yaml
 import pickle
 import logging
 import collections
 
+sys.path.append("../")
 import biobert.modeling
 import biobert.tf_metrics
 import biobert.optimization
@@ -17,7 +19,7 @@ import biobert.tokenization
 import tensorflow as tf
 from tensorflow.python.ops import math_ops
 
-with open('./config.yaml', "r") as f:
+with open('../config.yaml', "r") as f:
     config = yaml.safe_load(f)
 
 # initialize tf flags

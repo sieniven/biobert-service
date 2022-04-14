@@ -3,7 +3,10 @@ import falcon
 import logging
 import waitress
 
+sys.path.append("../")
 from GTT.Service import Service
+
+sys.path.append("../Source/")
 from PublishService import PublishService
 
 def main():
